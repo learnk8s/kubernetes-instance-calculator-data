@@ -1,4 +1,4 @@
 .idea
 .vscode
-*.json
+instances.json
 node_modules
