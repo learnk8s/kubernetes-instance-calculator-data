@@ -15,8 +15,8 @@ let input = getData();
 let instances = [];
 
 for (let i = 0; i < input.length; i++) {
-  let totalMemory = GB2MB(input[i].memory_gb);
-  let totalCpu = input[i].cpus;
+  let totalMemory = GB2MB(parseInt(input[i].memory_gb, 10));
+  let totalCpu = parseInt(input[i].cpus, 10);
 
   instances.push([
     {
@@ -24,7 +24,14 @@ for (let i = 0; i < input.length; i++) {
       name: input[i].name,
       os: { memory: { value: 100, type: memType }, cpu: 100 },
       kubelet: {
-        memory: reservedKubeletMemory({ value: totalMemory, type: memType }),
+        memory: {
+          value: Math.round(
+            binary2si(
+              reservedKubeletMemory({ value: totalMemory, type: memType })
+            )
+          ),
+          type: "si",
+        },
         cpu: reservedFromCores(totalCpu),
       },
       evictionThreshold: {
@@ -96,12 +103,14 @@ function GB2MB(GB) {
 }
 
 function getData() {
-  const textToArray = readFile(inputFile).split("\n");
+  const textToArray = readFile(inputFile)
+    .split("\n")
+    .filter((it) => it.trim().length > 0);
   const headers = convertStrToArray(textToArray[0]).map((header) =>
     header.toLowerCase()
   );
   const output = [];
-  for (const data of textToArray.splice(1)) {
+  for (const data of textToArray.slice(1)) {
     const dataToArray = convertStrToArray(data);
     output.push(
       headers.reduce(
@@ -111,7 +120,7 @@ function getData() {
       )
     );
   }
-  return output.filter(it => it.deprecated === '');
+  return output.filter((it) => it.deprecated === "");
 }
 
 function binary2si(value) {
