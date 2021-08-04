@@ -54,16 +54,18 @@ if (fs.existsSync(outputFile)) {
 }
 
 function reservedFromCores(cores) {
-    let brackets = [
-        {lower: 0, upper: 1, prev: 0, percent: 60},
-        {lower: 1, upper: 2, prev: 60, percent: 10},
-        {lower: 2, upper: 4, prev: 70, percent: 5},
-        {lower: 4, upper: Infinity, prev: 80, percent: 2.5}
-    ];
-
-    for (let bracket of brackets) {
-        if (cores<=bracket.upper){
-            return (cores - bracket.lower) * bracket.percent + bracket.prev;
-        }
+    if (cores < 1) {
+        return 0;
     }
+    let reservedCpu = 1000 * 0.06;
+    if (cores > 1) {
+        reservedCpu += 1000 * 0.01;
+    }
+    if (cores > 2) {
+        reservedCpu += Math.min(cores - 2, 4) * 1000 * 0.005;
+    }
+    if (cores > 4) {
+        reservedCpu += (cores - 4) * 1000 * 0.0025;
+    }
+    return reservedCpu;
 }

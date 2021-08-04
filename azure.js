@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const region = "eastus";
-const cloud = "azure"
+const cloudProvider = "azure"
 const inputFile = "./az.json";
 const outputFile = "instances.json";
 const memType = "binary"
@@ -11,30 +11,38 @@ let input = JSON.parse(fs.readFileSync(inputFile, 'utf8'));
 
 let instances = [];
 let maxPodCount=110;
-let totalMem,kubeletMem,osMem,evictionMem;
-let totalCpu;
+let totalCpu,totalMemory;
 
 for (let i = 0; i < input.length; i++) {
 
-    totalMem = input[i].memoryInMb;
-    kubeletMem = totalMem * 0.23;
-    evictionMem = totalMem * 0.09;
-    osMem = totalMem * 0.01;
+    totalMemory = input[i].memoryInMb;
     totalCpu = input[i].numberOfCores;
 
     instances.push([
         {
             id: input[i].name,
             name: input[i].name,
-            os: { memory: { value: osMem, type: memType }, cpu: 100 },
-            kubelet: { memory: { value: kubeletMem, type: memType }, cpu: reservedFromCores[totalCpu] },
-            evictionThreshold: { memory: { value: evictionMem, type: memType }, cpu: 100 },
-            totalMemory: { value: totalMem, type: memType },
-            totalCpu: totalCpu,
-            costPerHour: 0.0949995,//TODO find
-            provisioningTime: 12000,
-            maxPodCount: maxPodCount,
-            cloudProvider: cloud,
+            os: { memory: { value: 100, type: memType }, cpu: 100 },
+            kubelet: {
+                memory: {
+                    value: Math.round(
+                        si2binary(
+                            reservedKubeletMemory({ value: totalMemory, type: memType })
+                        )
+                    ),
+                    type: memType,
+                },
+                cpu: reservedFromCores(totalCpu),
+            },
+            evictionThreshold: {
+                memory: { value: 100, type: memType },
+                cpu: 0,
+            },
+            totalMemory: { value: totalMemory, type: memType },
+            totalCpu,
+            costPerHour: 0.0949995, //TODO find
+            maxPodCount,
+            cloudProvider,
         }
     ]);
 }
@@ -54,4 +62,43 @@ if (fs.existsSync(outputFile)) {
 function reservedFromCores(cores) {
     let map = {'1':60, '2':100, '4':140, '8':180, '16':260, '32':420, '64':740};
     return map[cores];
+}
+
+function reservedKubeletMemory(memory) {
+    if (memory < 1) {
+        return { value: 0, type: "binary" };
+    }
+    const memoryInBinaryNotation = si2binary(memory);
+    let reservedMemory = 255;
+    if (memoryInBinaryNotation > 1000) {
+        reservedMemory += 0.25 * Math.min(memoryInBinaryNotation, 4000);
+    }
+    if (memoryInBinaryNotation > 4000) {
+        reservedMemory += 0.2 * Math.min(memoryInBinaryNotation - 4000, 8000);
+    }
+    if (memoryInBinaryNotation > 8000) {
+        reservedMemory += 0.1 * Math.min(memoryInBinaryNotation - 8000, 16000);
+    }
+    if (memoryInBinaryNotation > 16000) {
+        reservedMemory += 0.06 * Math.min(memoryInBinaryNotation - 16000, 128000);
+    }
+    if (memoryInBinaryNotation > 128000) {
+        reservedMemory += 0.02 * (memoryInBinaryNotation - 128000);
+    }
+    return { value: reservedMemory, type: "binary" };
+}
+
+
+function binary2si(value) {
+    if (typeof value === "number") {
+        return 1.024 * value;
+    }
+    return value.type === "binary" ? binary2si(value.value) : value.value;
+}
+
+function si2binary(value) {
+    if (typeof value === "number") {
+        return value / 1.024;
+    }
+    return value.type === "si" ? si2binary(value.value) : value.value;
 }
