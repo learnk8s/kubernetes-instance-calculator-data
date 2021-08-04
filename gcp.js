@@ -111,7 +111,7 @@ function getData() {
       )
     );
   }
-  return output;
+  return output.filter(it => it.deprecated === '');
 }
 
 function binary2si(value) {
