@@ -10,8 +10,8 @@ module.exports = function getAzureInstances(input) {
   const maxPodCount = 110;
 
   for (let i = 0; i < input.length; i++) {
-    let totalMemory = input[i].memoryInMb;
-    let totalCpu = input[i].numberOfCores;
+    const totalMemory = input[i].memoryInMb;
+    const totalCpuCores = input[i].numberOfCores;
 
     instances.push({
       id: hash(input[i].name),
@@ -26,14 +26,14 @@ module.exports = function getAzureInstances(input) {
           ),
           type: memType,
         },
-        cpu: reservedFromCores(totalCpu),
+        cpu: reservedFromCores(totalCpuCores),
       },
       evictionThreshold: {
         memory: { value: 100, type: memType },
         cpu: 0,
       },
       totalMemory: { value: totalMemory, type: memType },
-      totalCpu,
+      totalCpu: totalCpuCores * 1000,
       costPerHour: 0.0949995, //TODO find
       maxPodCount,
       cloudProvider,

@@ -19,7 +19,7 @@ module.exports = function getAWSInstances(input) {
       10
     );
     const totalMem = input[i].MemoryInfo.SizeInMiB;
-    const totalCpu = input[i].VCpuInfo.DefaultVCpus;
+    const totalCpuCores = input[i].VCpuInfo.DefaultVCpus;
 
     if (isNaN(maxPodCount)) {
       console.log(
@@ -33,15 +33,15 @@ module.exports = function getAWSInstances(input) {
       name: input[i].InstanceType,
       os: { memory: { value: 100, type: memType }, cpu: 100 },
       kubelet: {
-        memory: { value: computeKubeletMemory(maxPodCount), type: memType },
-        cpu: reservedFromCores(totalCpu),
+        memory: computeKubeletMemory(maxPodCount),
+        cpu: reservedFromCores(totalCpuCores),
       },
       evictionThreshold: {
         memory: { value: 100, type: memType },
         cpu: 0,
       },
       totalMemory: { value: totalMem, type: memType },
-      totalCpu,
+      totalCpu: totalCpuCores * 1000,
       costPerHour: 0.0949995, //TODO find
       maxPodCount,
       cloudProvider,

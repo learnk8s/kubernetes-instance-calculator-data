@@ -20,7 +20,7 @@ module.exports = function getGCPInstances(inputFile) {
 
   for (let i = 0; i < input.length; i++) {
     const totalMemory = GB2MB(parseInt(input[i].memory_gb, 10));
-    const totalCpu = parseInt(input[i].cpus, 10);
+    const totalCpuCores = parseInt(input[i].cpus, 10);
 
     instances.push({
       id: hash(input[i].name),
@@ -35,14 +35,14 @@ module.exports = function getGCPInstances(inputFile) {
           ),
           type: "si",
         },
-        cpu: reservedFromCores(totalCpu),
+        cpu: reservedFromCores(totalCpuCores),
       },
       evictionThreshold: {
         memory: { value: 100, type: "si" },
         cpu: 0,
       },
       totalMemory: { value: totalMemory, type: memType },
-      totalCpu,
+      totalCpu: totalCpuCores * 1000,
       costPerHour: 0.0949995, //TODO find
       maxPodCount,
       cloudProvider,

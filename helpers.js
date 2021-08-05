@@ -66,20 +66,19 @@ function GB2MB(GB) {
   return GB * 1000;
 }
 
-function hash(s) {
-  return s
-  var a = 1,
-    c = 0,
-    h,
-    o;
-  if (s) {
-    a = 0;
-    for (h = s.length - 1; h >= 0; h--) {
-      o = s.charCodeAt(h);
-      a = ((a << 6) & 268435455) + o + (o << 14);
-      c = a & 266338304;
-      a = c !== 0 ? a ^ (c >> 21) : a;
-    }
+function hash(str, seed = 0) {
+  let h1 = 0xdeadbeef ^ seed,
+    h2 = 0x41c6ce57 ^ seed;
+  for (let i = 0, ch; i < str.length; i++) {
+    ch = str.charCodeAt(i);
+    h1 = Math.imul(h1 ^ ch, 2654435761);
+    h2 = Math.imul(h2 ^ ch, 1597334677);
   }
-  return a.toString(32);
+  h1 =
+    Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^
+    Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 =
+    Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^
+    Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return (4294967296 * (2097151 & h2) + (h1 >>> 0)).toString(32);
 }

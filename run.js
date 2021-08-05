@@ -15,34 +15,37 @@ const args = process.argv
 const cloudProviders =
   args.length === 0 || args.includes("all") ? ["aws", "gcp", "azure"] : args;
 
-const instances = cloudProviders.reduce((acc, it) => {
-  switch (it) {
-    case "gcp":
-      return [
-        ...acc,
-        ...getGCPInstances(fs.readFileSync("./gcp.txt", "utf-8")),
-      ];
-    case "aws":
-      return [...acc, ...getAWSInstances(awsInstances.InstanceTypes)];
-    case "azure":
-      return [...acc, ...getAzureInstances(azureInstances)];
-    default:
-      return acc;
-  }
-}, []);
+const instances = cloudProviders
+  .reduce((acc, it) => {
+    switch (it) {
+      case "gcp":
+        return [
+          ...acc,
+          ...getGCPInstances(fs.readFileSync("./gcp.txt", "utf-8")),
+        ];
+      case "aws":
+        return [...acc, ...getAWSInstances(awsInstances.InstanceTypes)];
+      case "azure":
+        return [...acc, ...getAzureInstances(azureInstances)];
+      default:
+        return acc;
+    }
+  }, [])
+  .reduce((acc, it) => {
+    acc[it.id] = it;
+    return acc;
+  }, {});
 
 if (
-  instances.map((it) => it.id).filter(onlyUnique).length !== instances.length
+  Object.values(instances)
+    .map((it) => it.id)
+    .filter(onlyUnique).length !== Object.values(instances).length
 ) {
-  console.log("Collision in IDs");
+  console.log("Collisions in the IDs");
 }
 
-if (instances.length > 0) {
-  fs.writeFileSync(
-    "instances.json",
-    JSON.stringify(instances, null, 2),
-    "utf8"
-  );
+if (Object.values(instances).length > 0) {
+  fs.writeFileSync("instances.json", JSON.stringify(instances), "utf8");
 } else {
   console.log("No instances exported.");
 }
