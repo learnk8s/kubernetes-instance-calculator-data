@@ -1,4 +1,10 @@
-## k8s data feed 
+## k8s data feed
+
+Export a list of instances with:
+
+```bash
+node run.js [aws|gcp|azure|all]
+```
 
 #### generate the input files
 ````bash
