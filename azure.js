@@ -21,7 +21,7 @@ const invalidSKUs = [
   "Standard_DS1_v2",
 ].map((it) => it.toLowerCase());
 
-module.exports = function getAzureInstances(input) {
+module.exports = function getAzureInstances(input,pricing) {
   //get the input data which generate by  az vm list-sizes --location eastus > az.json
   const instances = [];
   const maxPodCount = 110;
@@ -60,7 +60,7 @@ module.exports = function getAzureInstances(input) {
       },
       totalMemory: { value: totalMemory, type: memType },
       totalCpu: totalCpuCores * 1000,
-      costPerHour: 0.0949995, //TODO find
+      costPerHour: getPrice(pricing,input[i].name),
       maxPodCount,
       cloudProvider,
     });
@@ -68,6 +68,15 @@ module.exports = function getAzureInstances(input) {
 
   return instances;
 };
+
+function getPrice(pricing,instanceName) {
+  for (let i = 0; i < pricing.length; i++) {
+    if (pricing[i]["VM name"] === instanceName) {
+      return pricing[i]["Linux $"];
+    }
+  }
+  return 0; //TODO change the default value
+}
 
 function reservedFromCores(cores) {
   const map = { 1: 60, 2: 100, 4: 140, 8: 180, 16: 260, 32: 420, 64: 740 };

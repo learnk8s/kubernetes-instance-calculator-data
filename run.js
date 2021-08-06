@@ -6,6 +6,8 @@ const getGCPInstances = require("./gcp");
 const azureInstances = require("./az.json");
 const awsInstances = require("./aws.json");
 
+const azurePricing = require('./azure-pricing.json');
+
 const args = process.argv
   .slice(2)
   .map((it) => it.trim().toLowerCase())
@@ -26,7 +28,7 @@ const instances = cloudProviders
       case "aws":
         return [...acc, ...getAWSInstances(awsInstances.InstanceTypes)];
       case "azure":
-        return [...acc, ...getAzureInstances(azureInstances)];
+        return [...acc, ...getAzureInstances(azureInstances,azurePricing.data)];
       default:
         return acc;
     }
