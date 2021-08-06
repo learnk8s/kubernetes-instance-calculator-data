@@ -50,6 +50,12 @@ if (Object.values(instances).length > 0) {
   console.log("No instances exported.");
 }
 
+const longestName = Math.max.apply(
+  null,
+  Object.values(instances).map((it) => it.name.length)
+);
+console.log(`The longest instance name has ${longestName} characters`);
+
 function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
 }

@@ -4,6 +4,23 @@ const region = "eastus";
 const cloudProvider = "azure";
 const memType = "binary";
 
+// source: https://docs.microsoft.com/en-us/azure/aks/quotas-skus-regions#restricted-vm-sizes
+const invalidSKUs = [
+  "Standard_A0",
+  "Standard_A1",
+  "Standard_A1_v2",
+  "Standard_B1ls",
+  "Standard_B1s",
+  "Standard_B1ms",
+  "Standard_F1",
+  "Standard_F1s",
+  "Standard_A2",
+  "Standard_D1",
+  "Standard_D1_v2",
+  "Standard_DS1",
+  "Standard_DS1_v2",
+].map((it) => it.toLowerCase());
+
 module.exports = function getAzureInstances(input) {
   //get the input data which generate by  az vm list-sizes --location eastus > az.json
   const instances = [];
@@ -12,10 +29,19 @@ module.exports = function getAzureInstances(input) {
   for (let i = 0; i < input.length; i++) {
     const totalMemory = input[i].memoryInMb;
     const totalCpuCores = input[i].numberOfCores;
+    const name = input[i].name;
+
+    if (invalidSKUs.includes(name.toLowerCase())) {
+      continue;
+    }
+
+    if (name.toLowerCase().endsWith("promo")) {
+      continue;
+    }
 
     instances.push({
       id: hash(input[i].name),
-      name: input[i].name,
+      name: input[i].name.replace(/_/g, " ").replace(/Standard /, ""),
       os: { memory: { value: 100, type: memType }, cpu: 100 },
       kubelet: {
         memory: {

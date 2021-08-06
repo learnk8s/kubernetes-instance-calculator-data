@@ -18,8 +18,13 @@ module.exports = function getAWSInstances(input) {
         .data?.trim(),
       10
     );
-    const totalMem = input[i].MemoryInfo.SizeInMiB;
+    const totalMemory = input[i].MemoryInfo.SizeInMiB;
     const totalCpuCores = input[i].VCpuInfo.DefaultVCpus;
+
+    // Source: https://cloudgeometry.io/blog/amazon-eks/#:~:text=EKS%20supports%20many%20EC2%20instance,and%20OS%20under%20some%20load.
+    if (totalMemory >= 2000) {
+      continue;
+    }
 
     if (isNaN(maxPodCount)) {
       console.log(
@@ -40,7 +45,7 @@ module.exports = function getAWSInstances(input) {
         memory: { value: 100, type: memType },
         cpu: 0,
       },
-      totalMemory: { value: totalMem, type: memType },
+      totalMemory: { value: totalMemory, type: memType },
       totalCpu: totalCpuCores * 1000,
       costPerHour: 0.0949995, //TODO find
       maxPodCount,

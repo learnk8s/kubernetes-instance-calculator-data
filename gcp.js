@@ -22,6 +22,10 @@ module.exports = function getGCPInstances(inputFile) {
     const totalMemory = GB2MB(parseInt(input[i].memory_gb, 10));
     const totalCpuCores = parseInt(input[i].cpus, 10);
 
+    if (totalMemory >= 2000) {
+      continue;
+    }
+
     instances.push({
       id: hash(input[i].name),
       name: input[i].name,
