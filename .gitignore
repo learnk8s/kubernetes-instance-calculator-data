@@ -1,4 +1,5 @@
 .idea
+aws-pricing.json
 .vscode
 instances.json
 node_modules

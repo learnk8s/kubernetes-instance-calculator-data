@@ -5,7 +5,7 @@ const region = "us-east-1";
 const cloudProvider = "aws";
 const memType = "binary";
 
-module.exports = function getAWSInstances(input) {
+module.exports = function getAWSInstances(input,pricingFile) {
   //get the input data which generate by aws cli aws ec2 describe-instance-types --instance-types > aws.json
   const instances = [];
 
@@ -47,7 +47,7 @@ module.exports = function getAWSInstances(input) {
       },
       totalMemory: { value: totalMemory, type: memType },
       totalCpu: totalCpuCores * 1000,
-      costPerHour: 0.0949995, //TODO find
+      costPerHour: getPrice(pricingFile,input[i].InstanceType),
       maxPodCount,
       cloudProvider,
     });
@@ -58,4 +58,10 @@ module.exports = function getAWSInstances(input) {
 
 function computeKubeletMemory(maxPodCount) {
   return { value: 255 + 11 * maxPodCount, type: "binary" };
+}
+
+function getPrice(pricingFile,instanceName) {
+  let txt = `${instanceName} Instance Hour`;
+  let desc = cmd.runSync(`grep '${txt}' ${pricingFile} | head -n 1`).data?.trim(); //TODO put extra patterns for grep
+  return desc.split('$')[1].split(' ')[0];
 }
