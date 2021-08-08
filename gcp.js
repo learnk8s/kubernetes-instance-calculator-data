@@ -6,7 +6,7 @@ const {
   hash,
 } = require("./helpers");
 
-const region = "us-east1-b";
+const region = "us-east1";
 const cloudProvider = "gcp";
 const memType = "si";
 let maxPodCount = 110;
@@ -14,7 +14,7 @@ let maxPodCount = 110;
 //get the input data which generate by  gcloud compute machine-types list  --filter="zone:us-east1-b" > gcp.txt
 const convertStrToArray = (str) => str.split(" ").filter((word) => word);
 
-module.exports = function getGCPInstances(inputFile) {
+module.exports = function getGCPInstances(inputFile,pricing) {
   const input = getData(inputFile);
   const instances = [];
 
@@ -47,7 +47,7 @@ module.exports = function getGCPInstances(inputFile) {
       },
       totalMemory: { value: totalMemory, type: memType },
       totalCpu: totalCpuCores * 1000,
-      costPerHour: 0.0949995, //TODO find
+      costPerHour: getPrice(pricing,input[i].name),
       maxPodCount,
       cloudProvider,
     });
@@ -75,4 +75,10 @@ function getData(inputFile) {
     );
   }
   return output.filter((it) => it.deprecated === "");
+}
+
+
+function getPrice(pricing,instanceName) {
+  let name = `CP-COMPUTEENGINE-VMIMAGE-${instanceName.toUpperCase()}`;
+  return pricing[name][region] ?? null;
 }

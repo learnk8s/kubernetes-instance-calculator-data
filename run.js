@@ -7,6 +7,7 @@ const azureInstances = require("./az.json");
 const awsInstances = require("./aws.json");
 
 const azurePricing = require('./azure-pricing.json');
+const gcpPricing = require('./gcp-pricing.json');
 
 const args = process.argv
   .slice(2)
@@ -23,7 +24,7 @@ const instances = cloudProviders
       case "gcp":
         return [
           ...acc,
-          ...getGCPInstances(fs.readFileSync("./gcp.txt", "utf-8")),
+          ...getGCPInstances(fs.readFileSync("./gcp.txt", "utf-8"),gcpPricing.gcp_price_list),
         ];
       case "aws":
         return [...acc, ...getAWSInstances(awsInstances.InstanceTypes)];
