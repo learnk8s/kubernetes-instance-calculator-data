@@ -24,5 +24,5 @@ wget https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/u
 wget https://cloudpricingcalculator.appspot.com/static/data/pricelist.json -O gcp-pricing.json
 ````
 ````bash
-export json from https://azureprice.net/
+download json from https://azureprice.net/
 ````
