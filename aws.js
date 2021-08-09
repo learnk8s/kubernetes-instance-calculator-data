@@ -61,7 +61,7 @@ function computeKubeletMemory(maxPodCount) {
 }
 
 function getPrice(pricingFile,instanceName) {
-  let txt = `${instanceName} Instance Hour`;
-  let desc = cmd.runSync(`grep '${txt}' ${pricingFile} | head -n 1`).data?.trim(); //TODO put extra patterns for grep
+  let txt = `per On Demand Linux ${instanceName} Instance Hour`;
+  let desc = cmd.runSync(`grep '${txt}' ${pricingFile} | head -n 1`).data?.trim();
   return desc.split('$')[1].split(' ')[0];
 }
