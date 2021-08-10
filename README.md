@@ -18,7 +18,7 @@ az vm list-sizes --location eastus > az.json
 ````
 #### generate the pricing files
 ````bash
-wget https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/us-east-1/index.json -O aws-pricing.json
+download csv from https://instances.vantage.sh/ and convert to json file 
 ````
 ````bash
 wget https://cloudpricingcalculator.appspot.com/static/data/pricelist.json -O gcp-pricing.json

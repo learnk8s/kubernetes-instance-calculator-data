@@ -5,7 +5,7 @@ const region = "us-east-1";
 const cloudProvider = "aws";
 const memType = "binary";
 
-module.exports = function getAWSInstances(input,pricingFile) {
+module.exports = function getAWSInstances(input,pricing) {
   //get the input data which generate by aws cli aws ec2 describe-instance-types --instance-types > aws.json
   const instances = [];
 
@@ -47,7 +47,7 @@ module.exports = function getAWSInstances(input,pricingFile) {
       },
       totalMemory: { value: totalMemory, type: memType },
       totalCpu: totalCpuCores * 1000,
-      costPerHour: getPrice(pricingFile,input[i].InstanceType),
+      costPerHour: getPrice(pricing,input[i].InstanceType),
       maxPodCount,
       cloudProvider,
     });
@@ -60,8 +60,11 @@ function computeKubeletMemory(maxPodCount) {
   return { value: 255 + 11 * maxPodCount, type: "binary" };
 }
 
-function getPrice(pricingFile,instanceName) {
-  let txt = `per On Demand Linux ${instanceName} Instance Hour`;
-  let desc = cmd.runSync(`grep '${txt}' ${pricingFile} | head -n 1`).data?.trim();
-  return desc.split('$')[1].split(' ')[0];
+function getPrice(pricing,instanceName) {
+  for (let i = 0; i < pricing.length; i++) {
+    if (pricing[i]["API Name"] === instanceName) {
+      return pricing[i]["Linux On Demand cost"]?.replace("$","").replace(" hourly","");
+    }
+  }
+  return 0; //TODO change the default value
 }
