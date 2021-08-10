@@ -16,17 +16,13 @@ gcloud compute machine-types list  --filter="zone:us-east1-b" > gcp.txt
 ````bash
 az vm list-sizes --location eastus > az.json
 ````
-
-#### run the scripts:
-
+#### generate the pricing files
 ````bash
-node aws.js
+wget https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/us-east-1/index.json -O aws-pricing.json
 ````
-
 ````bash
-node gcp.js
+wget https://cloudpricingcalculator.appspot.com/static/data/pricelist.json -O gcp-pricing.json
 ````
-
 ````bash
-node azure.js
+download json from https://azureprice.net/
 ````
