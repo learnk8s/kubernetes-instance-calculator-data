@@ -6,9 +6,9 @@ const getGCPInstances = require("./gcp");
 const azureInstances = require("./az.json");
 const awsInstances = require("./aws.json");
 
-const azurePricing = require('./azure-pricing.json');
-const gcpPricing = require('./gcp-pricing.json');
-const awsPricing = require('./aws-pricing.json');
+const azurePricing = require("./azure-pricing.json");
+const gcpPricing = require("./gcp-pricing.json");
+const awsPricing = require("./aws-pricing.json");
 
 const args = process.argv
   .slice(2)
@@ -25,12 +25,21 @@ const instances = cloudProviders
       case "gcp":
         return [
           ...acc,
-          ...getGCPInstances(fs.readFileSync("./gcp.txt", "utf-8"),gcpPricing.gcp_price_list),
+          ...getGCPInstances(
+            fs.readFileSync("./gcp.txt", "utf-8"),
+            gcpPricing.gcp_price_list
+          ),
         ];
       case "aws":
-        return [...acc, ...getAWSInstances(awsInstances.InstanceTypes,awsPricing)];
+        return [
+          ...acc,
+          ...getAWSInstances(awsInstances.InstanceTypes, awsPricing),
+        ];
       case "azure":
-        return [...acc, ...getAzureInstances(azureInstances,azurePricing.data)];
+        return [
+          ...acc,
+          ...getAzureInstances(azureInstances, azurePricing.data),
+        ];
       default:
         return acc;
     }
@@ -39,6 +48,15 @@ const instances = cloudProviders
     acc[it.id] = it;
     return acc;
   }, {});
+
+if (Object.values(instances).some((it) => isNull(it.costPerHour))) {
+  console.log(
+    `Invalid prices for:\n${Object.values(instances)
+      .filter((it) => isNull(it.costPerHour))
+      .map((it) => `- ${it.name} (${it.cloudProvider})`)
+      .join("\n")}`
+  );
+}
 
 if (
   Object.values(instances)
@@ -49,7 +67,13 @@ if (
 }
 
 if (Object.values(instances).length > 0) {
-  fs.writeFileSync("instances.json", JSON.stringify(instances), "utf8");
+  const content = Object.values(instances).reduce((acc, it) => {
+    if (!isNull(it.costPerHour)) {
+      acc[it.id] = it;
+    }
+    return acc;
+  }, {});
+  fs.writeFileSync("instances.json", JSON.stringify(content), "utf8");
 } else {
   console.log("No instances exported.");
 }
@@ -62,4 +86,8 @@ console.log(`The longest instance name has ${longestName} characters`);
 
 function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
+}
+
+function isNull(value) {
+  return {}.toString.call(value) === "[object Null]";
 }

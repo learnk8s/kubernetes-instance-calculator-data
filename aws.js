@@ -5,7 +5,7 @@ const region = "us-east-1";
 const cloudProvider = "aws";
 const memType = "binary";
 
-module.exports = function getAWSInstances(input,pricing) {
+module.exports = function getAWSInstances(input, pricing) {
   //get the input data which generate by aws cli aws ec2 describe-instance-types --instance-types > aws.json
   const instances = [];
 
@@ -22,7 +22,7 @@ module.exports = function getAWSInstances(input,pricing) {
     const totalCpuCores = input[i].VCpuInfo.DefaultVCpus;
 
     // Source: https://cloudgeometry.io/blog/amazon-eks/#:~:text=EKS%20supports%20many%20EC2%20instance,and%20OS%20under%20some%20load.
-    if (totalMemory >= 2000) {
+    if (totalMemory <= 2000) {
       continue;
     }
 
@@ -32,6 +32,13 @@ module.exports = function getAWSInstances(input,pricing) {
       );
       continue;
     }
+
+    const costPerHour = parseFloat(
+      pricing
+        .find((it) => it["API Name"] === input[i].InstanceType)
+        ?.["Linux On Demand cost"].replace("$", "")
+        .replace(" hourly", "")
+    );
 
     instances.push({
       id: hash(input[i].InstanceType),
@@ -47,7 +54,7 @@ module.exports = function getAWSInstances(input,pricing) {
       },
       totalMemory: { value: totalMemory, type: memType },
       totalCpu: totalCpuCores * 1000,
-      costPerHour: getPrice(pricing,input[i].InstanceType),
+      costPerHour: isNaN(costPerHour) ? null : costPerHour,
       maxPodCount,
       cloudProvider,
     });
@@ -58,13 +65,4 @@ module.exports = function getAWSInstances(input,pricing) {
 
 function computeKubeletMemory(maxPodCount) {
   return { value: 255 + 11 * maxPodCount, type: "binary" };
-}
-
-function getPrice(pricing,instanceName) {
-  for (let i = 0; i < pricing.length; i++) {
-    if (pricing[i]["API Name"] === instanceName) {
-      return pricing[i]["Linux On Demand cost"]?.replace("$","").replace(" hourly","");
-    }
-  }
-  return 0; //TODO change the default value
 }

@@ -9,12 +9,12 @@ const {
 const region = "us-east1";
 const cloudProvider = "gcp";
 const memType = "si";
-let maxPodCount = 110;
+const maxPodCount = 110;
 
-//get the input data which generate by  gcloud compute machine-types list  --filter="zone:us-east1-b" > gcp.txt
+//get the input data which generate by  gcloud compute machine-types list --filter="zone:us-east1-b" > gcp.txt
 const convertStrToArray = (str) => str.split(" ").filter((word) => word);
 
-module.exports = function getGCPInstances(inputFile,pricing) {
+module.exports = function getGCPInstances(inputFile, pricing) {
   const input = getData(inputFile);
   const instances = [];
 
@@ -22,9 +22,14 @@ module.exports = function getGCPInstances(inputFile,pricing) {
     const totalMemory = GB2MB(parseInt(input[i].memory_gb, 10));
     const totalCpuCores = parseInt(input[i].cpus, 10);
 
-    if (totalMemory >= 2000) {
+    if (totalMemory <= 2000) {
       continue;
     }
+
+    const costPerHour =
+      pricing[`CP-COMPUTEENGINE-VMIMAGE-${input[i].name.toUpperCase()}`]?.[
+        region
+      ] ?? null;
 
     instances.push({
       id: hash(input[i].name),
@@ -47,7 +52,7 @@ module.exports = function getGCPInstances(inputFile,pricing) {
       },
       totalMemory: { value: totalMemory, type: memType },
       totalCpu: totalCpuCores * 1000,
-      costPerHour: getPrice(pricing,input[i].name),
+      costPerHour,
       maxPodCount,
       cloudProvider,
     });
@@ -75,10 +80,4 @@ function getData(inputFile) {
     );
   }
   return output.filter((it) => it.deprecated === "");
-}
-
-
-function getPrice(pricing,instanceName) {
-  let name = `CP-COMPUTEENGINE-VMIMAGE-${instanceName.toUpperCase()}`;
-  return pricing[name][region] ?? null;
 }
