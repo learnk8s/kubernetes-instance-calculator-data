@@ -47,7 +47,6 @@ module.exports = function getAzureInstances(input, pricing) {
       name: input[i].name
         .replace(/_/g, " ")
         .replace(/Standard /, "")
-        .replace("Basic", "")
         .trim(),
       os: { memory: { value: 100, type: memType }, cpu: 100 },
       kubelet: {
