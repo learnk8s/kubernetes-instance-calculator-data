@@ -3,12 +3,15 @@ const getAzureInstances = require("./azure");
 const getAWSInstances = require("./aws");
 const getGCPInstances = require("./gcp");
 
-const azureInstances = require("./az.json");
-const awsInstances = require("./aws.json");
+const azureInstances = require("./input/azure.json");
+const awsInstances = require("./input/aws.json");
+const gcpInstances = "./input/gcp.txt";
 
-const azurePricing = require("./azure-pricing.json");
-const gcpPricing = require("./gcp-pricing.json");
-const awsPricing = require("./aws-pricing.json");
+const azurePricing = require("./input/azure-pricing.json");
+const gcpPricing = require("./input/gcp-pricing.json");
+const awsPricing = require("./input/aws-pricing.json");
+
+const output="instances.json";
 
 const args = process.argv
   .slice(2)
@@ -26,7 +29,7 @@ const instances = cloudProviders
         return [
           ...acc,
           ...getGCPInstances(
-            fs.readFileSync("./gcp.txt", "utf-8"),
+            fs.readFileSync(gcpInstances, "utf-8"),
             gcpPricing.gcp_price_list
           ),
         ];
@@ -73,7 +76,7 @@ if (Object.values(instances).length > 0) {
     }
     return acc;
   }, {});
-  fs.writeFileSync("instances.json", JSON.stringify(content), "utf8");
+  fs.writeFileSync(output, JSON.stringify(content), "utf8");
 } else {
   console.log("No instances exported.");
 }

@@ -8,20 +8,20 @@ node run.js [aws|gcp|azure|all]
 
 #### generate the input files
 ````bash
-aws ec2 describe-instance-types --instance-types > aws.json
+aws ec2 describe-instance-types --instance-types > input/aws.json
 ````
 ````bash
-gcloud compute machine-types list  --filter="zone:us-east1-b" > gcp.txt
+gcloud compute machine-types list  --filter="zone:us-east1-b" > input/gcp.txt
 ````
 ````bash
-az vm list-sizes --location eastus > az.json
+az vm list-sizes --location eastus > input/azure.json
 ````
 #### generate the pricing files
 ````bash
 download csv from https://instances.vantage.sh/ and convert to json file 
 ````
 ````bash
-wget https://cloudpricingcalculator.appspot.com/static/data/pricelist.json -O gcp-pricing.json
+wget https://cloudpricingcalculator.appspot.com/static/data/pricelist.json -O input/gcp-pricing.json
 ````
 ````bash
 download json from https://azureprice.net/

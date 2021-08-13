@@ -23,7 +23,7 @@ const invalidSKUs = [
 ].map((it) => it.toLowerCase());
 
 module.exports = function getAzureInstances(input, pricing) {
-  //get the input data which generate by az vm list-sizes --location eastus > az.json
+  //get the input data which generate by az vm list-sizes --location eastus > azure.json
   const instances = [];
 
   for (let i = 0; i < input.length; i++) {
