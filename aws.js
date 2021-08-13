@@ -4,6 +4,8 @@ const { reservedFromCores, hash } = require("./helpers");
 const region = "us-east-1";
 const cloudProvider = "aws";
 const memType = "binary";
+const maxPodScript = "./scripts/max-pods-calculator.sh";
+const provisioningTimeScript = "./scripts/aws.launcher.sh";
 
 module.exports = function getAWSInstances(input, pricing) {
   //get the input data which generate by aws cli aws ec2 describe-instance-types --instance-types > aws.json
@@ -13,7 +15,7 @@ module.exports = function getAWSInstances(input, pricing) {
     const maxPodCount = parseInt(
       cmd
         .runSync(
-          `bash max-pods-calculator.sh --cni-version 1.9.0 --instance-type ${input[i].InstanceType}`
+          `bash ${maxPodScript} --cni-version 1.9.0 --instance-type ${input[i].InstanceType}`
         )
         .data?.trim(),
       10
