@@ -20,6 +20,14 @@ module.exports = function getAWSInstances(input, pricing) {
         .data?.trim(),
       10
     );
+    const provisioningTime = parseInt(
+      cmd
+        .runSync(
+          `bash ${provisioningTimeScript} ${input[i].InstanceType}`
+        )
+        .data?.trim(),
+      10
+    );
     const totalMemory = input[i].MemoryInfo.SizeInMiB;
     const totalCpuCores = input[i].VCpuInfo.DefaultVCpus;
 
@@ -58,6 +66,7 @@ module.exports = function getAWSInstances(input, pricing) {
       totalCpu: totalCpuCores * 1000,
       costPerHour: isNaN(costPerHour) ? null : costPerHour,
       maxPodCount,
+      provisioningTime,
       cloudProvider,
     });
   }

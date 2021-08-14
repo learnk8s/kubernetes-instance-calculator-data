@@ -1,9 +1,11 @@
 const { reservedKubeletMemory, si2binary, hash } = require("./helpers");
+const cmd = require("node-cmd");
 
 const region = "eastus";
 const cloudProvider = "azure";
 const memType = "binary";
 const maxPodCount = 250;
+const provisioningTimeScript = "./scripts/azure.launcher.sh";
 
 // source: https://docs.microsoft.com/en-us/azure/aks/quotas-skus-regions#restricted-vm-sizes
 const invalidSKUs = [
@@ -41,7 +43,14 @@ module.exports = function getAzureInstances(input, pricing) {
 
     const costPerHour =
       pricing.find((it) => it["VM name"] === name)?.["Linux $"] ?? null;
-
+    const provisioningTime = parseInt(
+        cmd
+            .runSync(
+                `bash ${provisioningTimeScript} ${input[i].name}`
+            )
+            .data?.trim(),
+        10
+    );
     instances.push({
       id: hash(input[i].name),
       name: input[i].name
@@ -68,6 +77,7 @@ module.exports = function getAzureInstances(input, pricing) {
       totalCpu: totalCpuCores * 1000,
       costPerHour,
       maxPodCount,
+      provisioningTime,
       cloudProvider,
     });
   }

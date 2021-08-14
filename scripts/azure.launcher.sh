@@ -17,7 +17,6 @@ az vm create --name $name --resource-group $resource_group  --image $image  --si
 end_time=$(date +%s)
 # get the used time
 time=$(($end_time-$start_time))
-time=$(date --date=@$time -u +%M:%S) # for macos time=$(date -r $time -u +%M:%S)
 # return time
 echo $time
 
