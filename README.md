@@ -26,3 +26,7 @@ wget https://cloudpricingcalculator.appspot.com/static/data/pricelist.json -O in
 ````bash
 download json from https://azureprice.net/
 ````
+
+#### Calculator
+
+Please check our artical https://learnk8s.io/kubernetes-instance-calculator 
