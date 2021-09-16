@@ -15,7 +15,7 @@ module.exports = function getAWSInstances(input, pricing) {
     const maxPodCount = parseInt(
       cmd
         .runSync(
-          `bash ${maxPodScript} --cni-version 1.9.0 --instance-type ${input[i].InstanceType}`
+          `bash ${maxPodScript} --cni-version 1.9.0 --cni-prefix-delegation-enabled --instance-type ${input[i].InstanceType}`
         )
         .data?.trim(),
       10
