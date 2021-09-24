@@ -16,11 +16,20 @@ const output="instances.json";
 const args = process.argv
   .slice(2)
   .map((it) => it.trim().toLowerCase())
-  .filter((it) => ["aws", "gcp", "azure", "all"].includes(it))
+  .filter((it) => ['aws', 'gcp', 'azure', 'all-cloud', 'data', 'time', 'pricing', 'all-tasks'].includes(it))
   .filter(onlyUnique);
 
+const allowedCloudProviders = ['aws', 'gcp', 'azure'];
 const cloudProviders =
-  args.length === 0 || args.includes("all") ? ["aws", "gcp", "azure"] : args;
+    args.length === 0 || args.includes('all-cloud')
+        ? allowedCloudProviders
+        : args.filter((cloud) => allowedCloudProviders.includes(cloud));
+
+const allowedTasks = ['data', 'time', 'pricing'];
+const tasks =
+    args.length === 0 || args.includes('all-tasks')
+        ? allowedTasks
+        : args.filter((cloud) => allowedTasks.includes(cloud));
 
 const instances = cloudProviders
   .reduce((acc, it) => {
@@ -30,18 +39,19 @@ const instances = cloudProviders
           ...acc,
           ...getGCPInstances(
             fs.readFileSync(gcpInstances, "utf-8"),
-            gcpPricing.gcp_price_list
+            gcpPricing.gcp_price_list,
+            tasks
           ),
         ];
       case "aws":
         return [
           ...acc,
-          ...getAWSInstances(awsInstances.InstanceTypes, awsPricing),
+          ...getAWSInstances(awsInstances.InstanceTypes, awsPricing,tasks),
         ];
       case "azure":
         return [
           ...acc,
-          ...getAzureInstances(azureInstances, azurePricing.data),
+          ...getAzureInstances(azureInstances, azurePricing.data,tasks),
         ];
       default:
         return acc;
@@ -52,7 +62,7 @@ const instances = cloudProviders
     return acc;
   }, {});
 
-if (Object.values(instances).some((it) => isNull(it.costPerHour))) {
+if (Object.values(instances).some((it) => isNull(it.costPerHour)) && tasks.includes('pricing')) {
   console.log(
     `Invalid prices for:\n${Object.values(instances)
       .filter((it) => isNull(it.costPerHour))
@@ -71,12 +81,13 @@ if (
 
 if (Object.values(instances).length > 0) {
   const content = Object.values(instances).reduce((acc, it) => {
-    if (!isNull(it.costPerHour)) {
+    if (!isNull(it.costPerHour) && tasks.includes('pricing')) {
       acc[it.id] = it;
     }
     return acc;
   }, {});
   fs.writeFileSync(output, JSON.stringify(content), "utf8");
+  console.log(`output has been written to ${output}`)
 } else {
   console.log("No instances exported.");
 }
