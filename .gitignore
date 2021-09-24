@@ -2,3 +2,5 @@
 .vscode
 instances.json
 node_modules
+package-lock.json
+*.log
