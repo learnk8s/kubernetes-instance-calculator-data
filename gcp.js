@@ -16,8 +16,11 @@ const provisioningTimeScript = "./scripts/azure.launcher.sh";
 //get the input data which generate by  gcloud compute machine-types list --filter="zone:us-east1-b" > gcp.txt
 const convertStrToArray = (str) => str.split(" ").filter((word) => word);
 
-module.exports = function getGCPInstances(inputFile, pricingInput,tasks) {
-  console.log(`getting ${tasks} for ${cloudProvider}`)
+module.exports = function getGCPInstances(
+  inputFile,
+  pricingInput,
+  includeTime
+) {
   const input = getData(inputFile);
   const instances = [];
 
@@ -29,20 +32,19 @@ module.exports = function getGCPInstances(inputFile, pricingInput,tasks) {
       continue;
     }
 
-    const costPerHour =  !tasks.includes('pricing')? null :
-        pricingInput[`CP-COMPUTEENGINE-VMIMAGE-${input[i].name.toUpperCase()}`]?.[
+    const costPerHour =
+      pricingInput[`CP-COMPUTEENGINE-VMIMAGE-${input[i].name.toUpperCase()}`]?.[
         region
-      ] ?? null;
+      ];
 
-    const provisioningTime = !tasks.includes('time')? null :
-        parseInt(
-        cmd
-            .runSync(
-                `bash ${provisioningTimeScript} ${input[i].name}`
-            )
+    const provisioningTime = includeTime
+      ? parseInt(
+          cmd
+            .runSync(`bash ${provisioningTimeScript} ${input[i].name}`)
             .data?.trim(),
-        10
-    );
+          10
+        )
+      : undefined;
     instances.push({
       id: hash(input[i].name),
       name: input[i].name,

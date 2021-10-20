@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "aws-sdk": "^2.958.0",
+    "commander": "^8.2.0",
     "node-cmd": "^5.0.0"
   }
 }

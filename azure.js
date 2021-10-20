@@ -24,8 +24,7 @@ const invalidSKUs = [
   "Standard_DS1_v2",
 ].map((it) => it.toLowerCase());
 
-module.exports = function getAzureInstances(input, pricingInput,tasks) {
-  console.log(`getting ${tasks} for ${cloudProvider}`)
+module.exports = function getAzureInstances(input, pricingInput, includeTime) {
   //get the input data which generate by az vm list-sizes --location eastus > azure.json
   const instances = [];
 
@@ -42,18 +41,18 @@ module.exports = function getAzureInstances(input, pricingInput,tasks) {
       continue;
     }
 
-    const costPerHour = !tasks.includes('pricing')? null :
-        pricingInput.find((it) => it["VM name"] === name)?.["Linux $"] ?? null;
+    const costPerHour = pricingInput.find((it) => it["VM name"] === name)?.[
+      "Linux $"
+    ];
 
-    const provisioningTime = !tasks.includes('time')? null :
-        parseInt(
-        cmd
-            .runSync(
-                `bash ${provisioningTimeScript} ${input[i].name}`
-            )
+    const provisioningTime = includeTime
+      ? parseInt(
+          cmd
+            .runSync(`bash ${provisioningTimeScript} ${input[i].name}`)
             .data?.trim(),
-        10
-    );
+          10
+        )
+      : undefined;
     instances.push({
       id: hash(input[i].name),
       name: input[i].name

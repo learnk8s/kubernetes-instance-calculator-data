@@ -7,8 +7,7 @@ const memType = "binary";
 const maxPodScript = "./scripts/max-pods-calculator.sh";
 const provisioningTimeScript = "./scripts/aws.launcher.sh";
 
-module.exports = function getAWSInstances(input, pricingInput,tasks) {
-  console.log(`getting ${tasks} for ${cloudProvider}`)
+module.exports = function getAWSInstances(input, pricingInput, includeTime) {
   //get the input data which generate by aws cli aws ec2 describe-instance-types --instance-types > aws.json
   const instances = [];
 
@@ -21,15 +20,14 @@ module.exports = function getAWSInstances(input, pricingInput,tasks) {
         .data?.trim(),
       10
     );
-    const provisioningTime = !tasks.includes('time')? null :
-        parseInt(
-        cmd
-          .runSync(
-            `bash ${provisioningTimeScript} ${input[i].InstanceType}`
-          )
-        .data?.trim(),
-      10
-    );
+    const provisioningTime = includeTime
+      ? parseInt(
+          cmd
+            .runSync(`bash ${provisioningTimeScript} ${input[i].InstanceType}`)
+            .data?.trim(),
+          10
+        )
+      : undefined;
     const totalMemory = input[i].MemoryInfo.SizeInMiB;
     const totalCpuCores = input[i].VCpuInfo.DefaultVCpus;
 
@@ -45,13 +43,12 @@ module.exports = function getAWSInstances(input, pricingInput,tasks) {
       continue;
     }
 
-    const costPerHour = !tasks.includes('pricing')? null :
-        parseFloat(
-          pricingInput
-          .find((it) => it["API Name"] === input[i].InstanceType)
-          ?.["Linux On Demand cost"].replace("$", "")
-          .replace(" hourly", "")
-      );
+    const costPerHour = parseFloat(
+      pricingInput
+        .find((it) => it["API Name"] === input[i].InstanceType)
+        ?.["Linux On Demand cost"].replace("$", "")
+        .replace(" hourly", "")
+    );
 
     instances.push({
       id: hash(input[i].InstanceType),
