@@ -72,10 +72,14 @@ program
         return acc;
       }, {});
 
-    if (Object.values(instances).some((it) => isNull(it.costPerHour))) {
+    if (
+      Object.values(instances).some(
+        (it) => typeof it.costPerHour === "undefined"
+      )
+    ) {
       console.log(
         `Invalid prices for:\n${Object.values(instances)
-          .filter((it) => isNull(it.costPerHour))
+          .filter((it) => typeof it.costPerHour !== "undefined")
           .map((it) => `- ${it.name} (${it.cloudProvider})`)
           .join("\n")}`
       );
@@ -91,7 +95,7 @@ program
 
     if (Object.values(instances).length > 0) {
       const content = Object.values(instances).reduce((acc, it) => {
-        if (!isNull(it.costPerHour)) {
+        if (typeof it.costPerHour !== undefined) {
           acc[it.id] = it;
         }
         return acc;
@@ -114,8 +118,4 @@ program.parse(process.argv);
 
 function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
-}
-
-function isNull(value) {
-  return {}.toString.call(value) === "[object Null]";
 }
