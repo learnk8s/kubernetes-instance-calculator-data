@@ -15,19 +15,19 @@
         "0.25": 1.0,
         "0.50": 0.8678,
         "0.75": 0.733,
-        "1.0": 0.60
+        "1.0": 0.6
       },
       "c2": {
         "0.25": 1.0,
         "0.50": 0.8678,
         "0.75": 0.733,
-        "1.0": 0.60
+        "1.0": 0.6
       },
       "n2d": {
         "0.25": 1.0,
         "0.50": 0.8678,
         "0.75": 0.733,
-        "1.0": 0.60
+        "1.0": 0.6
       },
       "m1": {
         "0.25": 1.0,
@@ -100,9 +100,7 @@
       "gceu": "Shared CPU, not guaranteed",
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0
-      ],
+      "ssd": [0],
       "asia-southeast2": 0.010028
     },
     "CP-COMPUTEENGINE-VMIMAGE-G1-SMALL": {
@@ -145,9 +143,7 @@
       "gceu": 1.38,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0
-      ],
+      "ssd": [0],
       "asia-southeast2": 0.033899
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1": {
@@ -190,17 +186,7 @@
       "gceu": 2.75,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.063874
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2": {
@@ -243,17 +229,7 @@
       "gceu": 5.5,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.127748
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4": {
@@ -296,17 +272,7 @@
       "gceu": 11,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.255496
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8": {
@@ -349,17 +315,7 @@
       "gceu": 22,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.510992
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16": {
@@ -402,17 +358,7 @@
       "gceu": 44,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 1.021984
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32": {
@@ -455,17 +401,7 @@
       "gceu": 88,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 2.043968
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64": {
@@ -508,17 +444,7 @@
       "gceu": 176,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 4.087936
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-96": {
@@ -561,17 +487,7 @@
       "gceu": 264,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 6.131904
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2": {
@@ -614,17 +530,7 @@
       "gceu": 5.5,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.15914
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4": {
@@ -667,17 +573,7 @@
       "gceu": 11,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.31828
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8": {
@@ -720,17 +616,7 @@
       "gceu": 22,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.63656
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16": {
@@ -773,17 +659,7 @@
       "gceu": 44,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 1.27312
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32": {
@@ -826,17 +702,7 @@
       "gceu": 88,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 2.54624
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64": {
@@ -879,17 +745,7 @@
       "gceu": 176,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 5.09248
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-96": {
@@ -932,17 +788,7 @@
       "gceu": 264,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 7.63872
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2": {
@@ -985,17 +831,7 @@
       "gceu": 5.5,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.095266
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4": {
@@ -1038,17 +874,7 @@
       "gceu": 11,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.190532
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8": {
@@ -1091,17 +917,7 @@
       "gceu": 22,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.381064
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16": {
@@ -1144,17 +960,7 @@
       "gceu": 44,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.762128
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32": {
@@ -1197,17 +1003,7 @@
       "gceu": 88,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 1.524256
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64": {
@@ -1250,17 +1046,7 @@
       "gceu": 176,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 3.048512
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-96": {
@@ -1303,17 +1089,7 @@
       "gceu": 264,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 4.572768
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-MEGAMEM-96": {
@@ -1356,17 +1132,7 @@
       "gceu": 264,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 13.675794
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-ULTRAMEM-40": {
@@ -1409,17 +1175,7 @@
       "gceu": 110,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 8.080497
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-ULTRAMEM-80": {
@@ -1462,17 +1218,7 @@
       "gceu": 220,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 16.161103
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-ULTRAMEM-160": {
@@ -1515,17 +1261,7 @@
       "gceu": 440,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 32.322206
     },
     "CP-COMPUTEENGINE-VMIMAGE-F1-MICRO-PREEMPTIBLE": {
@@ -1565,9 +1301,7 @@
       "asia-south2": 0.0042,
       "cores": "shared",
       "memory": "0.6",
-      "ssd": [
-        0
-      ],
+      "ssd": [0],
       "asia-southeast2": 0.00436
     },
     "CP-COMPUTEENGINE-VMIMAGE-G1-SMALL-PREEMPTIBLE": {
@@ -1607,9 +1341,7 @@
       "asia-south2": 0.0084,
       "cores": "shared",
       "memory": "1.7",
-      "ssd": [
-        0
-      ],
+      "ssd": [0],
       "asia-southeast2": 0.008829
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-1-PREEMPTIBLE": {
@@ -1649,17 +1381,7 @@
       "asia-south2": 0.01203,
       "cores": "1",
       "memory": "3.75",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.012862
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-2-PREEMPTIBLE": {
@@ -1699,17 +1421,7 @@
       "asia-south2": 0.02405,
       "cores": "2",
       "memory": "7.5",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.025724
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-4-PREEMPTIBLE": {
@@ -1749,17 +1461,7 @@
       "asia-south2": 0.04811,
       "cores": "4",
       "memory": "15",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.051448
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8-PREEMPTIBLE": {
@@ -1799,17 +1501,7 @@
       "asia-south2": 0.09622,
       "cores": "8",
       "memory": "30",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.102896
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-16-PREEMPTIBLE": {
@@ -1849,17 +1541,7 @@
       "asia-south2": 0.19243,
       "cores": "16",
       "memory": "60",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.205792
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-32-PREEMPTIBLE": {
@@ -1899,17 +1581,7 @@
       "asia-south2": 0.38486,
       "cores": "32",
       "memory": "120",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.411584
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-64-PREEMPTIBLE": {
@@ -1949,17 +1621,7 @@
       "asia-south2": 0.76973,
       "cores": "64",
       "memory": "240",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.823168
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-96-PREEMPTIBLE": {
@@ -1999,17 +1661,7 @@
       "asia-south2": 0.96,
       "cores": "96",
       "memory": "360",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 1.234752
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-2-PREEMPTIBLE": {
@@ -2049,17 +1701,7 @@
       "asia-south2": 0.02997,
       "cores": "2",
       "memory": "13",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.031828
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-4-PREEMPTIBLE": {
@@ -2099,17 +1741,7 @@
       "asia-south2": 0.05994,
       "cores": "4",
       "memory": "26",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.063656
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-8-PREEMPTIBLE": {
@@ -2149,17 +1781,7 @@
       "asia-south2": 0.11989,
       "cores": "8",
       "memory": "52",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.127312
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-16-PREEMPTIBLE": {
@@ -2199,17 +1821,7 @@
       "asia-south2": 0.23978,
       "cores": "16",
       "memory": "104",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.254624
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-32-PREEMPTIBLE": {
@@ -2249,17 +1861,7 @@
       "asia-south2": 0.47955,
       "cores": "32",
       "memory": "208",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.509248
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-64-PREEMPTIBLE": {
@@ -2299,17 +1901,7 @@
       "asia-south2": 0.9591,
       "cores": "64",
       "memory": "416",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 1.018496
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHMEM-96-PREEMPTIBLE": {
@@ -2349,17 +1941,7 @@
       "asia-south2": 1.2,
       "cores": "96",
       "memory": "624",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 1.527744
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-2-PREEMPTIBLE": {
@@ -2399,17 +1981,7 @@
       "asia-south2": 0.01792,
       "cores": "2",
       "memory": "1.8",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.019075
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-4-PREEMPTIBLE": {
@@ -2449,17 +2021,7 @@
       "asia-south2": 0.03584,
       "cores": "4",
       "memory": "3.6",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.03815
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-8-PREEMPTIBLE": {
@@ -2499,17 +2061,7 @@
       "asia-south2": 0.07168,
       "cores": "8",
       "memory": "7.2",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.0763
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-16-PREEMPTIBLE": {
@@ -2549,17 +2101,7 @@
       "asia-south2": 0.14337,
       "cores": "16",
       "memory": "14.40",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.1526
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-32-PREEMPTIBLE": {
@@ -2599,17 +2141,7 @@
       "asia-south2": 0.28673,
       "cores": "32",
       "memory": "28.80",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.3052
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-64-PREEMPTIBLE": {
@@ -2649,17 +2181,7 @@
       "asia-south2": 0.57347,
       "cores": "64",
       "memory": "57.6",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.6104
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-HIGHCPU-96-PREEMPTIBLE": {
@@ -2699,17 +2221,7 @@
       "asia-south2": 0.72,
       "cores": "96",
       "memory": "86.4",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 0.9156
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-MEGAMEM-96-PREEMPTIBLE": {
@@ -2749,17 +2261,7 @@
       "asia-south2": 0,
       "cores": "96",
       "memory": "1433.6",
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 2.732194
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-ULTRAMEM-40-PREEMPTIBLE": {
@@ -2802,17 +2304,7 @@
       "gceu": 110,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 1.614072
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-ULTRAMEM-80-PREEMPTIBLE": {
@@ -2855,17 +2347,7 @@
       "gceu": 220,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 3.228144
     },
     "CP-COMPUTEENGINE-VMIMAGE-N1-ULTRAMEM-160-PREEMPTIBLE": {
@@ -2908,17 +2390,7 @@
       "gceu": 440,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 6.456288
     },
     "CP-COMPUTEENGINE-LOCAL-SSD": {
@@ -3081,7 +2553,7 @@
           "78": "0.060548",
           "96": "0.077871",
           "222": "0.102401",
-          "1024":"0.122063"
+          "1024": "0.122063"
         },
         "ram": "0.000127",
         "gpu": {
@@ -3107,7 +2579,7 @@
         "percore": false
       },
       "rhel-sap-ha": {
-        "low": 0.10,
+        "low": 0.1,
         "high": 0.225,
         "cores": "4",
         "percore": false
@@ -3265,12 +2737,12 @@
       "us-east4": 0.138,
       "us-west4": 0.138,
       "us-west1": 0.125,
-      "us-west2": 0.150,
-      "us-west3": 0.150,
+      "us-west2": 0.15,
+      "us-west3": 0.15,
       "europe": 0.125,
       "europe-west1": 0.125,
-      "europe-west2": 0.150,
-      "europe-west3": 0.150,
+      "europe-west2": 0.15,
+      "europe-west3": 0.15,
       "europe-central2": 0.163,
       "europe-west4": 0.138,
       "europe-west6": 0.163,
@@ -3290,8 +2762,8 @@
       "australia-southeast2": 0.169,
       "australia": 0.169,
       "southamerica-east1": 0.188,
-      "asia-south1": 0.150,
-      "asia-south2": 0.150,
+      "asia-south1": 0.15,
+      "asia-south2": 0.15,
       "asia-southeast2": 0.163
     },
     "CP-COMPUTEENGINE-STORAGE-PD-EXTREME-IOPS": {
@@ -3403,76 +2875,76 @@
       "asia-southeast2": 0.442
     },
     "CP-COMPUTEENGINE-ZONAL-BALANCED-PD": {
-      "us": 0.100,
-      "us-central1": 0.100,
-      "us-east1": 0.100,
-      "us-east4": 0.110,
-      "us-west4": 0.110,
-      "us-west1": 0.100,
-      "us-west2": 0.120,
-      "us-west3": 0.120,
-      "europe": 0.100,
-      "europe-west1": 0.100,
-      "europe-west2": 0.120,
-      "europe-west3": 0.120,
-      "europe-central2": 0.120,
-      "europe-west4": 0.110,
-      "europe-west6": 0.130,
-      "europe-north1": 0.110,
-      "northamerica-northeast1": 0.110,
-      "northamerica-northeast2": 0.110,
-      "asia-east": 0.100,
-      "asia-east1": 0.100,
-      "asia-east2": 0.110,
-      "asia-northeast": 0.130,
-      "asia-northeast1": 0.130,
-      "asia-northeast2": 0.130,
-      "asia-northeast3": 0.130,
-      "asia-southeast": 0.110,
-      "asia-southeast1": 0.110,
+      "us": 0.1,
+      "us-central1": 0.1,
+      "us-east1": 0.1,
+      "us-east4": 0.11,
+      "us-west4": 0.11,
+      "us-west1": 0.1,
+      "us-west2": 0.12,
+      "us-west3": 0.12,
+      "europe": 0.1,
+      "europe-west1": 0.1,
+      "europe-west2": 0.12,
+      "europe-west3": 0.12,
+      "europe-central2": 0.12,
+      "europe-west4": 0.11,
+      "europe-west6": 0.13,
+      "europe-north1": 0.11,
+      "northamerica-northeast1": 0.11,
+      "northamerica-northeast2": 0.11,
+      "asia-east": 0.1,
+      "asia-east1": 0.1,
+      "asia-east2": 0.11,
+      "asia-northeast": 0.13,
+      "asia-northeast1": 0.13,
+      "asia-northeast2": 0.13,
+      "asia-northeast3": 0.13,
+      "asia-southeast": 0.11,
+      "asia-southeast1": 0.11,
       "australia-southeast1": 0.135,
       "australia-southeast2": 0.135,
       "australia": 0.135,
-      "southamerica-east1": 0.150,
-      "asia-south1": 0.120,
-      "asia-south2": 0.120,
-      "asia-southeast2": 0.130
+      "southamerica-east1": 0.15,
+      "asia-south1": 0.12,
+      "asia-south2": 0.12,
+      "asia-southeast2": 0.13
     },
     "CP-COMPUTEENGINE-REGIONAL-BALANCED-PD": {
-      "us": 0.200,
-      "us-central1": 0.200,
-      "us-east1": 0.200,
-      "us-east4": 0.220,
-      "us-west4": 0.220,
-      "us-west1": 0.200,
-      "us-west2": 0.240,
-      "us-west3": 0.240,
-      "europe": 0.200,
-      "europe-west1": 0.200,
-      "europe-west2": 0.240,
-      "europe-west3": 0.260,
-      "europe-central2": 0.260,
-      "europe-west4": 0.220,
-      "europe-west6": 0.260,
-      "europe-north1": 0.220,
-      "northamerica-northeast1": 0.220,
-      "northamerica-northeast2": 0.220,
-      "asia-east": 0.200,
-      "asia-east1": 0.200,
-      "asia-east2": 0.220,
-      "asia-northeast": 0.260,
-      "asia-northeast1": 0.260,
-      "asia-northeast2": 0.260,
-      "asia-northeast3": 0.260,
-      "asia-southeast": 0.220,
-      "asia-southeast1": 0.220,
-      "australia-southeast1": 0.270,
-      "australia-southeast2": 0.270,
-      "australia": 0.270,
-      "southamerica-east1": 0.300,
-      "asia-south1": 0.240,
-      "asia-south2": 0.240,
-      "asia-southeast2": 0.260
+      "us": 0.2,
+      "us-central1": 0.2,
+      "us-east1": 0.2,
+      "us-east4": 0.22,
+      "us-west4": 0.22,
+      "us-west1": 0.2,
+      "us-west2": 0.24,
+      "us-west3": 0.24,
+      "europe": 0.2,
+      "europe-west1": 0.2,
+      "europe-west2": 0.24,
+      "europe-west3": 0.26,
+      "europe-central2": 0.26,
+      "europe-west4": 0.22,
+      "europe-west6": 0.26,
+      "europe-north1": 0.22,
+      "northamerica-northeast1": 0.22,
+      "northamerica-northeast2": 0.22,
+      "asia-east": 0.2,
+      "asia-east1": 0.2,
+      "asia-east2": 0.22,
+      "asia-northeast": 0.26,
+      "asia-northeast1": 0.26,
+      "asia-northeast2": 0.26,
+      "asia-northeast3": 0.26,
+      "asia-southeast": 0.22,
+      "asia-southeast1": 0.22,
+      "australia-southeast1": 0.27,
+      "australia-southeast2": 0.27,
+      "australia": 0.27,
+      "southamerica-east1": 0.3,
+      "asia-south1": 0.24,
+      "asia-south2": 0.24,
+      "asia-southeast2": 0.26
     },
     "CP-COMPUTEENGINE-PD-IO-REQUEST": {
       "us": 0.0
@@ -3620,39 +3092,39 @@
       "nam4": 0.004
     },
     "CP-BIGSTORE-NEARLINE-CLASS-A-REQUEST": {
-      "us-central1": 0.10,
-      "us-east1": 0.10,
-      "us-east4": 0.10,
-      "us-west4": 0.10,
-      "us-west1": 0.10,
-      "us-west2": 0.10,
-      "us-west3": 0.10,
-      "europe-west1": 0.10,
-      "europe-west2": 0.10,
-      "europe-west3": 0.10,
-      "europe-central2": 0.10,
-      "europe-west4": 0.10,
-      "europe-west6": 0.10,
-      "europe-north1": 0.10,
-      "northamerica-northeast1": 0.10,
-      "northamerica-northeast2": 0.10,
-      "asia-east1": 0.10,
-      "asia-east2": 0.10,
-      "asia-northeast1": 0.10,
-      "asia-northeast2": 0.10,
-      "asia-northeast3": 0.10,
-      "asia-southeast1": 0.10,
-      "asia-southeast2": 0.10,
-      "australia-southeast1": 0.10,
-      "australia-southeast2": 0.10,
-      "southamerica-east1": 0.10,
-      "asia-south1": 0.10,
-      "asia-south2": 0.10,
-      "us": 0.10,
-      "europe": 0.10,
-      "asia": 0.10,
-      "eur4": 0.10,
-      "nam4": 0.10
+      "us-central1": 0.1,
+      "us-east1": 0.1,
+      "us-east4": 0.1,
+      "us-west4": 0.1,
+      "us-west1": 0.1,
+      "us-west2": 0.1,
+      "us-west3": 0.1,
+      "europe-west1": 0.1,
+      "europe-west2": 0.1,
+      "europe-west3": 0.1,
+      "europe-central2": 0.1,
+      "europe-west4": 0.1,
+      "europe-west6": 0.1,
+      "europe-north1": 0.1,
+      "northamerica-northeast1": 0.1,
+      "northamerica-northeast2": 0.1,
+      "asia-east1": 0.1,
+      "asia-east2": 0.1,
+      "asia-northeast1": 0.1,
+      "asia-northeast2": 0.1,
+      "asia-northeast3": 0.1,
+      "asia-southeast1": 0.1,
+      "asia-southeast2": 0.1,
+      "australia-southeast1": 0.1,
+      "australia-southeast2": 0.1,
+      "southamerica-east1": 0.1,
+      "asia-south1": 0.1,
+      "asia-south2": 0.1,
+      "us": 0.1,
+      "europe": 0.1,
+      "asia": 0.1,
+      "eur4": 0.1,
+      "nam4": 0.1
     },
     "CP-BIGSTORE-NEARLINE-CLASS-B-REQUEST": {
       "us-central1": 0.01,
@@ -3690,39 +3162,39 @@
       "nam4": 0.01
     },
     "CP-BIGSTORE-COLDLINE-CLASS-A-REQUEST": {
-      "us-central1": 0.10,
-      "us-east1": 0.10,
-      "us-east4": 0.10,
-      "us-west4": 0.10,
-      "us-west1": 0.10,
-      "us-west2": 0.10,
-      "us-west3": 0.10,
-      "europe-west1": 0.10,
-      "europe-west2": 0.10,
-      "europe-west3": 0.10,
-      "europe-central2": 0.10,
-      "europe-west4": 0.10,
-      "europe-west6": 0.10,
-      "europe-north1": 0.10,
-      "northamerica-northeast1": 0.10,
-      "northamerica-northeast2": 0.10,
-      "asia-east1": 0.10,
-      "asia-east2": 0.10,
-      "asia-northeast1": 0.10,
-      "asia-northeast2": 0.10,
-      "asia-northeast3": 0.10,
-      "asia-southeast1": 0.10,
-      "asia-southeast2": 0.10,
-      "australia-southeast1": 0.10,
-      "australia-southeast2": 0.10,
-      "southamerica-east1": 0.10,
-      "asia-south1": 0.10,
-      "asia-south2": 0.10,
-      "us": 0.10,
-      "europe": 0.10,
-      "asia": 0.10,
-      "eur4": 0.10,
-      "nam4": 0.10
+      "us-central1": 0.1,
+      "us-east1": 0.1,
+      "us-east4": 0.1,
+      "us-west4": 0.1,
+      "us-west1": 0.1,
+      "us-west2": 0.1,
+      "us-west3": 0.1,
+      "europe-west1": 0.1,
+      "europe-west2": 0.1,
+      "europe-west3": 0.1,
+      "europe-central2": 0.1,
+      "europe-west4": 0.1,
+      "europe-west6": 0.1,
+      "europe-north1": 0.1,
+      "northamerica-northeast1": 0.1,
+      "northamerica-northeast2": 0.1,
+      "asia-east1": 0.1,
+      "asia-east2": 0.1,
+      "asia-northeast1": 0.1,
+      "asia-northeast2": 0.1,
+      "asia-northeast3": 0.1,
+      "asia-southeast1": 0.1,
+      "asia-southeast2": 0.1,
+      "australia-southeast1": 0.1,
+      "australia-southeast2": 0.1,
+      "southamerica-east1": 0.1,
+      "asia-south1": 0.1,
+      "asia-south2": 0.1,
+      "us": 0.1,
+      "europe": 0.1,
+      "asia": 0.1,
+      "eur4": 0.1,
+      "nam4": 0.1
     },
     "CP-BIGSTORE-COLDLINE-CLASS-B-REQUEST": {
       "us-central1": 0.05,
@@ -3760,74 +3232,74 @@
       "nam4": 0.05
     },
     "CP-BIGSTORE-ARCHIVE-CLASS-A-REQUEST": {
-      "us-central1": 0.50,
-      "us-east1": 0.50,
-      "us-east4": 0.50,
-      "us-west4": 0.50,
-      "us-west1": 0.50,
-      "us-west2": 0.50,
-      "us-west3": 0.50,
-      "europe-west1": 0.50,
-      "europe-west2": 0.50,
-      "europe-west3": 0.50,
-      "europe-central2": 0.50,
-      "europe-west4": 0.50,
-      "europe-west6": 0.50,
-      "europe-north1": 0.50,
-      "northamerica-northeast1": 0.50,
-      "northamerica-northeast2": 0.50,
-      "asia-east1": 0.50,
-      "asia-east2": 0.50,
-      "asia-northeast1": 0.50,
-      "asia-northeast2": 0.50,
-      "asia-northeast3": 0.50,
-      "asia-southeast1": 0.50,
-      "asia-southeast2": 0.50,
-      "australia-southeast1": 0.50,
-      "australia-southeast2": 0.50,
-      "southamerica-east1": 0.50,
-      "asia-south1": 0.50,
-      "asia-south2": 0.50,
-      "us": 0.50,
-      "europe": 0.50,
-      "asia": 0.50,
-      "eur4": 0.50,
-      "nam4": 0.50
+      "us-central1": 0.5,
+      "us-east1": 0.5,
+      "us-east4": 0.5,
+      "us-west4": 0.5,
+      "us-west1": 0.5,
+      "us-west2": 0.5,
+      "us-west3": 0.5,
+      "europe-west1": 0.5,
+      "europe-west2": 0.5,
+      "europe-west3": 0.5,
+      "europe-central2": 0.5,
+      "europe-west4": 0.5,
+      "europe-west6": 0.5,
+      "europe-north1": 0.5,
+      "northamerica-northeast1": 0.5,
+      "northamerica-northeast2": 0.5,
+      "asia-east1": 0.5,
+      "asia-east2": 0.5,
+      "asia-northeast1": 0.5,
+      "asia-northeast2": 0.5,
+      "asia-northeast3": 0.5,
+      "asia-southeast1": 0.5,
+      "asia-southeast2": 0.5,
+      "australia-southeast1": 0.5,
+      "australia-southeast2": 0.5,
+      "southamerica-east1": 0.5,
+      "asia-south1": 0.5,
+      "asia-south2": 0.5,
+      "us": 0.5,
+      "europe": 0.5,
+      "asia": 0.5,
+      "eur4": 0.5,
+      "nam4": 0.5
     },
     "CP-BIGSTORE-ARCHIVE-CLASS-B-REQUEST": {
-      "us-central1": 0.50,
-      "us-east1": 0.50,
-      "us-east4": 0.50,
-      "us-west4": 0.50,
-      "us-west1": 0.50,
-      "us-west2": 0.50,
-      "us-west3": 0.50,
-      "europe-west1": 0.50,
-      "europe-west2": 0.50,
-      "europe-west3": 0.50,
-      "europe-central2": 0.50,
-      "europe-west4": 0.50,
-      "europe-west6": 0.50,
-      "europe-north1": 0.50,
-      "northamerica-northeast1": 0.50,
-      "northamerica-northeast2": 0.50,
-      "asia-east1": 0.50,
-      "asia-east2": 0.50,
-      "asia-northeast1": 0.50,
-      "asia-northeast2": 0.50,
-      "asia-northeast3": 0.50,
-      "asia-southeast1": 0.50,
-      "asia-southeast2": 0.50,
-      "australia-southeast1": 0.50,
-      "australia-southeast2": 0.50,
-      "southamerica-east1": 0.50,
-      "asia-south1": 0.50,
-      "asia-south2": 0.50,
-      "us": 0.50,
-      "europe": 0.50,
-      "asia": 0.50,
-      "eur4": 0.50,
-      "nam4": 0.50
+      "us-central1": 0.5,
+      "us-east1": 0.5,
+      "us-east4": 0.5,
+      "us-west4": 0.5,
+      "us-west1": 0.5,
+      "us-west2": 0.5,
+      "us-west3": 0.5,
+      "europe-west1": 0.5,
+      "europe-west2": 0.5,
+      "europe-west3": 0.5,
+      "europe-central2": 0.5,
+      "europe-west4": 0.5,
+      "europe-west6": 0.5,
+      "europe-north1": 0.5,
+      "northamerica-northeast1": 0.5,
+      "northamerica-northeast2": 0.5,
+      "asia-east1": 0.5,
+      "asia-east2": 0.5,
+      "asia-northeast1": 0.5,
+      "asia-northeast2": 0.5,
+      "asia-northeast3": 0.5,
+      "asia-southeast1": 0.5,
+      "asia-southeast2": 0.5,
+      "australia-southeast1": 0.5,
+      "australia-southeast2": 0.5,
+      "southamerica-east1": 0.5,
+      "asia-south1": 0.5,
+      "asia-south2": 0.5,
+      "us": 0.5,
+      "europe": 0.5,
+      "asia": 0.5,
+      "eur4": 0.5,
+      "nam4": 0.5
     },
     "CP-BIGSTORE-STORAGE": {
       "us-central1": 0.02,
@@ -3841,9 +3313,9 @@
       "europe-west2": 0.023,
       "europe-west3": 0.023,
       "europe-central2": 0.023,
-      "europe-west4": 0.020,
+      "europe-west4": 0.02,
       "europe-west6": 0.025,
-      "europe-north1": 0.020,
+      "europe-north1": 0.02,
       "northamerica-northeast1": 0.023,
       "northamerica-northeast2": 0.023,
       "asia-east1": 0.02,
@@ -3879,9 +3351,9 @@
       "europe-west2": 0.016,
       "europe-west3": 0.016,
       "europe-central2": 0.016,
-      "europe-west4": 0.010,
+      "europe-west4": 0.01,
       "europe-west6": 0.014,
-      "europe-north1": 0.010,
+      "europe-north1": 0.01,
       "northamerica-northeast1": 0.016,
       "northamerica-northeast2": 0.016,
       "asia-east": 0.01,
@@ -3897,7 +3369,7 @@
       "australia-southeast1": 0.016,
       "australia-southeast2": 0.016,
       "australia": 0.016,
-      "southamerica-east1": 0.020,
+      "southamerica-east1": 0.02,
       "asia-south1": 0.016,
       "asia-south2": 0.016
     },
@@ -4016,15 +3488,15 @@
       "us-east4": 0.009,
       "us-west4": 0.009,
       "us-west1": 0.008,
-      "us-west2": 0.010,
-      "us-west3": 0.010,
+      "us-west2": 0.01,
+      "us-west3": 0.01,
       "europe": 0.008,
       "europe-west1": 0.008,
-      "europe-west2": 0.010,
-      "europe-west3": 0.010,
-      "europe-central2": 0.010,
+      "europe-west2": 0.01,
+      "europe-west3": 0.01,
+      "europe-central2": 0.01,
       "europe-west4": 0.009,
-      "europe-west6": 0.010,
+      "europe-west6": 0.01,
       "europe-north1": 0.009,
       "northamerica-northeast1": 0.009,
       "northamerica-northeast2": 0.009,
@@ -4042,8 +3514,8 @@
       "australia-southeast2": 0.011,
       "australia": 0.011,
       "southamerica-east1": 0.012,
-      "asia-south1": 0.010,
-      "asia-south2": 0.010
+      "asia-south1": 0.01,
+      "asia-south2": 0.01
     },
     "CP-APP-ENGINE-INSTANCES-BACKEND": {
       "us": 0.05,
@@ -4433,13 +3905,13 @@
         "asia-northeast2": 0.023,
         "asia-northeast3": 0.023,
         "europe-west2": 0.023,
-        "europe-west4": 0.020,
+        "europe-west4": 0.02,
         "australia-southeast1": 0.023,
         "australia-southeast2": 0.023,
-        "asia-southeast1": 0.020,
-        "asia-east1": 0.020,
-        "europe-west1": 0.020,
-        "europe-north1": 0.020,
+        "asia-southeast1": 0.02,
+        "asia-east1": 0.02,
+        "europe-west1": 0.02,
+        "europe-north1": 0.02,
         "us-east4": 0.023,
         "asia-south1": 0.023,
         "asia-south2": 0.023,
@@ -4468,13 +3940,13 @@
         "asia-northeast2": 0.016,
         "asia-northeast3": 0.016,
         "europe-west2": 0.016,
-        "europe-west4": 0.010,
+        "europe-west4": 0.01,
         "australia-southeast1": 0.016,
         "australia-southeast2": 0.016,
-        "asia-southeast1": 0.010,
-        "asia-east1": 0.010,
-        "europe-west1": 0.010,
-        "europe-north1": 0.010,
+        "asia-southeast1": 0.01,
+        "asia-east1": 0.01,
+        "europe-west1": 0.01,
+        "europe-north1": 0.01,
         "us-east4": 0.016,
         "asia-south1": 0.016,
         "asia-south2": 0.016,
@@ -4498,28 +3970,28 @@
       "interactiveQueries": {
         "us": 5,
         "europe": 5,
-        "asia-northeast1": 6.00,
-        "asia-southeast2": 6.00,
-        "asia-northeast2": 6.00,
-        "asia-northeast3": 6.00,
+        "asia-northeast1": 6.0,
+        "asia-southeast2": 6.0,
+        "asia-northeast2": 6.0,
+        "asia-northeast3": 6.0,
         "europe-west2": 6.25,
         "europe-west4": 6,
         "australia-southeast1": 6.5,
         "australia-southeast2": 6.5,
         "asia-southeast1": 6.75,
         "asia-east1": 5.75,
-        "europe-north1": 6.00,
+        "europe-north1": 6.0,
         "us-east4": 5.0,
         "asia-south1": 6.0,
         "asia-south2": 6.0,
-        "northamerica-northeast1": 5.250,
-        "northamerica-northeast2": 5.250,
-        "asia-east2": 7.00,
+        "northamerica-northeast1": 5.25,
+        "northamerica-northeast2": 5.25,
+        "asia-east2": 7.0,
         "europe-west1": 6,
-        "europe-west3": 6.50,
-        "europe-central2": 6.50,
-        "europe-west6": 7.00,
-        "southamerica-east1": 9.00,
+        "europe-west3": 6.5,
+        "europe-central2": 6.5,
+        "europe-west6": 7.0,
+        "southamerica-east1": 9.0,
         "us-central1": 5,
         "us-east1": 5,
         "us-west1": 5,
@@ -4594,27 +4066,27 @@
     "CP-BIGQUERYML-MODEL-EVALUATION": {
       "us": 5,
       "europe": 5,
-      "asia-northeast1": 6.00,
-      "asia-southeast2": 6.00,
-      "asia-northeast2": 6.00,
-      "asia-northeast3": 6.00,
+      "asia-northeast1": 6.0,
+      "asia-southeast2": 6.0,
+      "asia-northeast2": 6.0,
+      "asia-northeast3": 6.0,
       "europe-west2": 6.25,
       "australia-southeast1": 6.5,
       "australia-southeast2": 6.5,
       "asia-southeast1": 6.75,
       "asia-east1": 5.75,
-      "europe-north1": 6.00,
+      "europe-north1": 6.0,
       "us-east4": 5.0,
       "us-west4": 5.0,
       "asia-south1": 6.0,
       "asia-south2": 6.0,
       "northamerica-northeast1": 5.25,
       "northamerica-northeast2": 5.25,
-      "asia-east2": 7.00,
-      "europe-west3": 6.50,
-      "europe-central2": 6.50,
-      "europe-west6": 7.00,
-      "southamerica-east1": 9.00,
+      "asia-east2": 7.0,
+      "europe-west3": 6.5,
+      "europe-central2": 6.5,
+      "europe-west6": 7.0,
+      "southamerica-east1": 9.0,
       "us-east1": 5,
       "us-west2": 6.75,
       "us-west3": 6.75
@@ -4622,27 +4094,27 @@
     "CP-BIGQUERYML-MODEL-PREDICTION": {
       "us": 5,
       "europe": 5,
-      "asia-northeast1": 6.00,
-      "asia-southeast2": 6.00,
-      "asia-northeast2": 6.00,
-      "asia-northeast3": 6.00,
+      "asia-northeast1": 6.0,
+      "asia-southeast2": 6.0,
+      "asia-northeast2": 6.0,
+      "asia-northeast3": 6.0,
       "europe-west2": 6.25,
       "australia-southeast1": 6.5,
       "australia-southeast2": 6.5,
       "asia-southeast1": 6.75,
       "asia-east1": 5.75,
-      "europe-north1": 6.00,
+      "europe-north1": 6.0,
       "us-east4": 5.0,
       "us-west4": 5.0,
       "asia-south1": 6.0,
       "asia-south2": 6.0,
       "northamerica-northeast1": 5.25,
       "northamerica-northeast2": 5.25,
-      "asia-east2": 7.00,
-      "europe-west3": 6.50,
-      "europe-central2": 6.50,
-      "europe-west6": 7.00,
-      "southamerica-east1": 9.00,
+      "asia-east2": 7.0,
+      "europe-west3": 6.5,
+      "europe-central2": 6.5,
+      "europe-west6": 7.0,
+      "southamerica-east1": 9.0,
       "us-east1": 5,
       "us-west2": 6.75,
       "us-west3": 6.75
@@ -4835,7 +4307,7 @@
       "asia-southeast1": 0.0000675,
       "australia-southeast1": 0.0000729,
       "australia-southeast2": 0.0000729,
-      "southamerica-east1": 0.0000810,
+      "southamerica-east1": 0.000081,
       "asia-south1": 0.0000648,
       "asia-south2": 0.0000648,
       "asia-southeast2": 0.000073575
@@ -4865,7 +4337,7 @@
       "asia-southeast1": 0.0000675,
       "australia-southeast1": 0.0000729,
       "australia-southeast2": 0.0000729,
-      "southamerica-east1": 0.0000810,
+      "southamerica-east1": 0.000081,
       "asia-south1": 0.0000648,
       "asia-south2": 0.0000648,
       "asia-southeast2": 0.000073575
@@ -4978,7 +4450,7 @@
       "us-west3": 0.204,
       "europe": 0.17,
       "europe-west1": 0.17,
-      "europe-west2": 0.20,
+      "europe-west2": 0.2,
       "europe-west3": 0.204,
       "europe-central2": 0.204,
       "europe-west4": 0.19,
@@ -5038,14 +4510,14 @@
       "australia-southeast2": 0.035,
       "australia": 0.035,
       "southamerica-east1": 0.039,
-      "asia-south1": 0.030,
-      "asia-south2": 0.030
+      "asia-south1": 0.03,
+      "asia-south2": 0.03
     },
     "CP-PUB-SUB-OPERATIONS": {
       "tiers": {
-        "250": 0.40,
-        "750": 0.20,
-        "1750": 0.10,
+        "250": 0.4,
+        "750": 0.2,
+        "1750": 0.1,
         "100000": 0.05
       }
     },
@@ -5053,7 +4525,7 @@
       "us": 0.01
     },
     "CP-MICROSOFT-AD": {
-      "us": 0.40
+      "us": 0.4
     },
     "CP-CONTAINER-ENGINE-BASIC": {
       "us": 0,
@@ -6110,7 +5582,7 @@
       "europe-west3": 0.005453,
       "europe-central2": 0.005453,
       "europe-west4": 0.004664,
-      "europe-west6": 0.006220,
+      "europe-west6": 0.00622,
       "europe-north1": 0.004664,
       "northamerica-northeast1": 0.004664,
       "northamerica-northeast2": 0.004664,
@@ -6661,7 +6133,7 @@
       "europe-west3": 0.027559,
       "europe-central2": 0.027559,
       "europe-west4": 0.023569,
-      "europe-west6": 0.0300,
+      "europe-west6": 0.03,
       "europe-north1": 0.023569,
       "northamerica-northeast1": 0.023569,
       "northamerica-northeast2": 0.023569,
@@ -6697,7 +6169,7 @@
       "europe-west3": 0.003693,
       "europe-central2": 0.003693,
       "europe-west4": 0.003158,
-      "europe-west6": 0.0040,
+      "europe-west6": 0.004,
       "europe-north1": 0.003158,
       "northamerica-northeast1": 0.003158,
       "northamerica-northeast2": 0.003158,
@@ -6816,7 +6288,7 @@
       "asia-northeast": 0.010911,
       "asia-northeast1": 0.010911,
       "asia-northeast2": 0.010911,
-      "asia-northeast3": 0.010910,
+      "asia-northeast3": 0.01091,
       "asia-southeast": 0.009638,
       "asia-southeast1": 0.009638,
       "australia-southeast1": 0.011096,
@@ -7239,7 +6711,7 @@
       "us-west1": 0,
       "us-west2": 0.02352,
       "us-west3": 0,
-      "europe": 0.02260,
+      "europe": 0.0226,
       "europe-west1": 0,
       "europe-west2": 0.02521,
       "europe-west3": 0.02521,
@@ -7261,7 +6733,7 @@
       "asia-southeast1": 0,
       "australia-southeast1": 0.0278,
       "australia-southeast2": 0.0278,
-      "australia": 0.02780,
+      "australia": 0.0278,
       "southamerica-east1": 0,
       "asia-south1": 0.02352,
       "asia-south2": 0.02352,
@@ -7271,15 +6743,15 @@
       "us": 0.00302,
       "us-central1": 0.00302,
       "us-east1": 0,
-      "us-east4": 0.00340,
-      "us-west4": 0.00340,
+      "us-east4": 0.0034,
+      "us-west4": 0.0034,
       "us-west1": 0,
       "us-west2": 0.00345,
       "us-west3": 0,
       "europe": 0.00332,
       "europe-west1": 0,
-      "europe-west2": 0.00370,
-      "europe-west3": 0.00370,
+      "europe-west2": 0.0037,
+      "europe-west3": 0.0037,
       "europe-central2": 0,
       "europe-west4": 0.00316,
       "europe-west6": 0,
@@ -7323,9 +6795,9 @@
       "europe-north1": 0,
       "northamerica-northeast1": 0.01096,
       "northamerica-northeast2": 0.01096,
-      "asia": 0.01210,
-      "asia-east": 0.01210,
-      "asia-east1": 0.01210,
+      "asia": 0.0121,
+      "asia-east": 0.0121,
+      "asia-east1": 0.0121,
       "asia-east2": 0,
       "asia-northeast": 0.01279,
       "asia-northeast1": 0.01279,
@@ -8162,8 +7634,8 @@
       "us-east4": 6.9399,
       "us-west4": 6.9399,
       "us-west1": 6.48585,
-      "us-west2": 7.7830,
-      "us-west3": 7.7830,
+      "us-west2": 7.783,
+      "us-west3": 7.783,
       "europe": 6.48585,
       "europe-west1": 6.48585,
       "europe-west2": 7.78302,
@@ -8189,8 +7661,8 @@
       "australia-southeast2": 8.75595,
       "australia": 8.75595,
       "southamerica-east1": 9.728775,
-      "asia-south1": 7.7830,
-      "asia-south2": 7.7830
+      "asia-south1": 7.783,
+      "asia-south2": 7.783
     },
     "CP-DB-N1-HIGHMEM-2": {
       "us": 0.17605,
@@ -8822,16 +8294,16 @@
       "asia-south2": 0.63378
     },
     "CP-DB-N1-HIGHMEM-16-CUD-1-YEAR": {
-      "us": 1.05630,
-      "us-central1": 1.05630,
-      "us-east1": 1.05630,
+      "us": 1.0563,
+      "us-central1": 1.0563,
+      "us-east1": 1.0563,
       "us-east4": 1.13022,
       "us-west4": 1.13022,
-      "us-west1": 1.05630,
+      "us-west1": 1.0563,
       "us-west2": 1.26756,
       "us-west3": 1.26756,
-      "europe": 1.05630,
-      "europe-west1": 1.05630,
+      "europe": 1.0563,
+      "europe-west1": 1.0563,
       "europe-west2": 1.26756,
       "europe-west3": 1.26756,
       "europe-central2": 1.26756,
@@ -8840,9 +8312,9 @@
       "europe-north1": 1.16193,
       "northamerica-northeast1": 1.16193,
       "northamerica-northeast2": 1.16193,
-      "asia": 1.05630,
-      "asia-east": 1.05630,
-      "asia-east1": 1.05630,
+      "asia": 1.0563,
+      "asia-east": 1.0563,
+      "asia-east1": 1.0563,
       "asia-east2": 1.584495,
       "asia-northeast": 1.37319,
       "asia-northeast1": 1.37319,
@@ -8960,11 +8432,11 @@
       "asia-southeast2": 8.2391,
       "asia-northeast2": 8.2391,
       "asia-northeast3": 0,
-      "asia-southeast": 8.8730,
-      "asia-southeast1": 8.8730,
-      "australia-southeast1": 8.5560,
-      "australia-southeast2": 8.5560,
-      "australia": 8.5560,
+      "asia-southeast": 8.873,
+      "asia-southeast1": 8.873,
+      "australia-southeast1": 8.556,
+      "australia-southeast2": 8.556,
+      "australia": 8.556,
       "southamerica-east1": 9.5067,
       "asia-south1": 7.6054,
       "asia-south2": 7.6054
@@ -9464,7 +8936,7 @@
       "europe-west3": 4.8674,
       "europe-central2": 4.8674,
       "europe-west4": 4.4618,
-      "europe-west6": 5.2730,
+      "europe-west6": 5.273,
       "europe-north1": 4.4618,
       "northamerica-northeast1": 4.4618,
       "northamerica-northeast2": 4.4618,
@@ -9472,10 +8944,10 @@
       "asia-east": 4.0562,
       "asia-east1": 4.0562,
       "asia-east2": 6.0843,
-      "asia-northeast": 5.2730,
-      "asia-northeast1": 5.2730,
-      "asia-southeast2": 5.2730,
-      "asia-northeast2": 5.2730,
+      "asia-northeast": 5.273,
+      "asia-northeast1": 5.273,
+      "asia-southeast2": 5.273,
+      "asia-northeast2": 5.273,
       "asia-southeast": 5.6787,
       "asia-southeast1": 5.6787,
       "australia-southeast1": 5.4758,
@@ -9500,7 +8972,7 @@
       "europe-west3": 0.204,
       "europe-central2": 0.204,
       "europe-west4": 0.187,
-      "europe-west6": 0.221000,
+      "europe-west6": 0.221,
       "europe-north1": 0.187,
       "northamerica-northeast1": 0.187,
       "northamerica-northeast2": 0.187,
@@ -9515,9 +8987,9 @@
       "asia-northeast3": 0.22,
       "asia-southeast": 0.238,
       "asia-southeast1": 0.238,
-      "australia-southeast1": 0.230,
-      "australia-southeast2": 0.230,
-      "australia": 0.230,
+      "australia-southeast1": 0.23,
+      "australia-southeast2": 0.23,
+      "australia": 0.23,
       "southamerica-east1": 0.255,
       "asia-south1": 0.204,
       "asia-south2": 0.204
@@ -9537,7 +9009,7 @@
       "europe-west3": 0.108,
       "europe-central2": 0.108,
       "europe-west4": 0.099,
-      "europe-west6": 0.117000,
+      "europe-west6": 0.117,
       "europe-north1": 0.099,
       "northamerica-northeast1": 0.099,
       "northamerica-northeast2": 0.099,
@@ -9574,7 +9046,7 @@
       "europe-west3": 0.096,
       "europe-central2": 0.096,
       "europe-west4": 0.088,
-      "europe-west6": 0.104000,
+      "europe-west6": 0.104,
       "europe-north1": 0.088,
       "northamerica-northeast1": 0.088,
       "northamerica-northeast2": 0.088,
@@ -9582,11 +9054,11 @@
       "asia-east": 0.08,
       "asia-east1": 0.08,
       "asia-east2": 0.12,
-      "asia-northeast": 0.10,
-      "asia-northeast1": 0.10,
-      "asia-southeast2": 0.10,
-      "asia-northeast2": 0.10,
-      "asia-northeast3": 0.10,
+      "asia-northeast": 0.1,
+      "asia-northeast1": 0.1,
+      "asia-southeast2": 0.1,
+      "asia-northeast2": 0.1,
+      "asia-northeast3": 0.1,
       "asia-southeast": 0.112,
       "asia-southeast1": 0.112,
       "australia-southeast1": 0.108,
@@ -9795,17 +9267,17 @@
       "asia-northeast3": 0.004368
     },
     "CP-CLOUDSQLSERVER-STORAGE": {
-      "us-central1": 0.170,
+      "us-central1": 0.17,
       "us-west2": 0.204,
       "us-west3": 0.204,
-      "us-west1": 0.170,
+      "us-west1": 0.17,
       "us-east4": 0.1819,
       "us-west4": 0.1819,
-      "us-east1": 0.170,
+      "us-east1": 0.17,
       "northamerica-northeast1": 0.187,
       "northamerica-northeast2": 0.187,
       "southamerica-east1": 0.255,
-      "europe-west1": 0.170,
+      "europe-west1": 0.17,
       "europe-north1": 0.187,
       "europe-west3": 0.204,
       "europe-central2": 0.204,
@@ -9816,27 +9288,27 @@
       "asia-southeast1": 0.238,
       "asia-south1": 0.204,
       "asia-south2": 0.204,
-      "australia-southeast1": 0.230,
-      "australia-southeast2": 0.230,
+      "australia-southeast1": 0.23,
+      "australia-southeast2": 0.23,
       "asia-east2": 0.255,
-      "asia-east1": 0.170,
+      "asia-east1": 0.17,
       "asia-northeast1": 0.221,
       "asia-southeast2": 0.221,
       "asia-northeast2": 0.221,
       "asia-northeast3": 0.221
     },
     "CP-CLOUDSQLSERVER-BACKUP": {
-      "us-central1": 0.080,
+      "us-central1": 0.08,
       "us-west2": 0.096,
       "us-west3": 0.096,
-      "us-west1": 0.080,
+      "us-west1": 0.08,
       "us-east4": 0.0856,
       "us-west4": 0.0856,
-      "us-east1": 0.080,
+      "us-east1": 0.08,
       "northamerica-northeast1": 0.088,
       "northamerica-northeast2": 0.088,
       "southamerica-east1": 0.12,
-      "europe-west1": 0.080,
+      "europe-west1": 0.08,
       "europe-north1": 0.088,
       "europe-west3": 0.096,
       "europe-central2": 0.096,
@@ -9850,7 +9322,7 @@
       "australia-southeast1": 0.108,
       "australia-southeast2": 0.108,
       "asia-east2": 0.12,
-      "asia-east1": 0.080,
+      "asia-east1": 0.08,
       "asia-northeast1": 0.104,
       "asia-southeast2": 0.104,
       "asia-northeast2": 0.104,
@@ -9867,42 +9339,42 @@
       "tiers": {
         "1000": 0,
         "5000000": 0.0015,
-        "20000000": 0.00060
+        "20000000": 0.0006
       }
     },
     "CP-VISION-EXPLICIT-CONTENT-DETECTION": {
       "tiers": {
         "1000": 0,
         "5000000": 0.0015,
-        "20000000": 0.00060
+        "20000000": 0.0006
       }
     },
     "CP-VISION-FACIAL-DETECTION": {
       "tiers": {
         "1000": 0,
         "5000000": 0.0015,
-        "20000000": 0.00060
+        "20000000": 0.0006
       }
     },
     "CP-VISION-LANDMARK-DETECTION": {
       "tiers": {
         "1000": 0,
         "5000000": 0.0015,
-        "20000000": 0.00060
+        "20000000": 0.0006
       }
     },
     "CP-VISION-LOGO-DETECTION": {
       "tiers": {
         "1000": 0,
         "5000000": 0.0015,
-        "20000000": 0.00060
+        "20000000": 0.0006
       }
     },
     "CP-VISION-IMAGE-PROPERTIES": {
       "tiers": {
         "1000": 0,
         "5000000": 0.0015,
-        "20000000": 0.00060
+        "20000000": 0.0006
       }
     },
     "CP-VISION-IMAGE-WEB-DETECTION": {
@@ -9916,19 +9388,19 @@
       "tiers": {
         "1000": 0,
         "5000000": 0.0015,
-        "20000000": 0.00060
+        "20000000": 0.0006
       }
     },
     "CP-STACKDRIVER-MONITORED-RESOURCES": {
       "us": 8.0
     },
     "CP-STACKDRIVER-LOGS-VOLUME": {
-      "us": 0.50
+      "us": 0.5
     },
     "CP-STACKDRIVER-LOGS-VOLUME-NEW": {
       "tiers": {
         "50": 0.0,
-        "500": 0.50
+        "500": 0.5
       }
     },
     "CP-STACKDRIVER-TRACE-SPANS": {
@@ -9946,13 +9418,13 @@
     "CP-STACKDRIVER-MONITORED-RESOURCES-VOLUME": {
       "tiers": {
         "150": 0.0,
-        "100000": 0.2580,
-        "250000": 0.1510,
-        "2500000": 0.0610
+        "100000": 0.258,
+        "250000": 0.151,
+        "2500000": 0.061
       }
     },
     "CP-STACKDRIVER-TIME-SERIES": {
-      "us": 0.10
+      "us": 0.1
     },
     "CP-CLOUDCDN-CACHE-FILL-INTRA-NA-EU": {
       "us": 0.01
@@ -9973,7 +9445,7 @@
     },
     "CP-CLOUDCDN-CACHE-EGRESS-CN": {
       "tiers": {
-        "10240": 0.20,
+        "10240": 0.2,
         "153600": 0.17,
         "1024000": 0.16,
         "2048000": 0.145
@@ -10163,7 +9635,7 @@
       "asia": 0.071
     },
     "CP-ML-PREDICTION-PROCESSING": {
-      "us": 0.40,
+      "us": 0.4,
       "europe": 0.44,
       "asia": 0.44
     },
@@ -10273,7 +9745,7 @@
       "asia-southeast1": 0.0015,
       "australia-southeast1": 0.0025,
       "australia-southeast2": 0.0025,
-      "southamerica-east1": 0.0030,
+      "southamerica-east1": 0.003,
       "asia-south1": 0.0025,
       "asia-south2": 0.0025,
       "us": 0.004,
@@ -10391,76 +9863,76 @@
       "asia-south2": 0.036
     },
     "CP-BIGSTORE-STORAGE-NEARLINE-MULTI_REGIONAL": {
-      "us": 0.010,
-      "us-central1": 0.010,
-      "us-east1": 0.010,
-      "us-east4": 0.010,
-      "us-west4": 0.010,
-      "us-west1": 0.010,
-      "us-west2": 0.010,
-      "us-west3": 0.010,
-      "europe": 0.010,
-      "europe-west1": 0.010,
-      "europe-west2": 0.010,
-      "europe-west3": 0.010,
-      "europe-central2": 0.010,
-      "europe-west4": 0.010,
-      "europe-west6": 0.010,
-      "europe-north1": 0.010,
-      "northamerica-northeast1": 0.010,
-      "northamerica-northeast2": 0.010,
-      "asia-east": 0.010,
-      "asia-east1": 0.010,
-      "asia-east2": 0.010,
-      "asia-northeast": 0.010,
-      "asia-northeast1": 0.010,
-      "asia-southeast2": 0.010,
-      "asia-northeast2": 0.010,
-      "asia-northeast3": 0.010,
-      "asia-southeast": 0.010,
-      "asia-southeast1": 0.010,
-      "australia-southeast1": 0.010,
-      "australia-southeast2": 0.010,
-      "australia": 0.010,
-      "southamerica-east1": 0.010,
-      "asia-south1": 0.010,
-      "asia-south2": 0.010
+      "us": 0.01,
+      "us-central1": 0.01,
+      "us-east1": 0.01,
+      "us-east4": 0.01,
+      "us-west4": 0.01,
+      "us-west1": 0.01,
+      "us-west2": 0.01,
+      "us-west3": 0.01,
+      "europe": 0.01,
+      "europe-west1": 0.01,
+      "europe-west2": 0.01,
+      "europe-west3": 0.01,
+      "europe-central2": 0.01,
+      "europe-west4": 0.01,
+      "europe-west6": 0.01,
+      "europe-north1": 0.01,
+      "northamerica-northeast1": 0.01,
+      "northamerica-northeast2": 0.01,
+      "asia-east": 0.01,
+      "asia-east1": 0.01,
+      "asia-east2": 0.01,
+      "asia-northeast": 0.01,
+      "asia-northeast1": 0.01,
+      "asia-southeast2": 0.01,
+      "asia-northeast2": 0.01,
+      "asia-northeast3": 0.01,
+      "asia-southeast": 0.01,
+      "asia-southeast1": 0.01,
+      "australia-southeast1": 0.01,
+      "australia-southeast2": 0.01,
+      "australia": 0.01,
+      "southamerica-east1": 0.01,
+      "asia-south1": 0.01,
+      "asia-south2": 0.01
     },
     "CP-BIGSTORE-STORAGE-NEARLINE-DUAL_REGIONAL": {
-      "us": 0.020,
-      "us-central1": 0.020,
-      "us-east1": 0.020,
-      "us-east4": 0.020,
-      "us-west4": 0.020,
-      "us-west1": 0.020,
-      "us-west2": 0.020,
-      "us-west3": 0.020,
-      "europe": 0.020,
-      "europe-west1": 0.020,
-      "europe-west2": 0.020,
-      "europe-west3": 0.020,
-      "europe-central2": 0.020,
-      "europe-west4": 0.020,
-      "europe-west6": 0.020,
-      "europe-north1": 0.020,
-      "northamerica-northeast1": 0.020,
-      "northamerica-northeast2": 0.020,
-      "asia-east": 0.020,
-      "asia-east1": 0.020,
-      "asia-east2": 0.020,
-      "asia-northeast": 0.020,
-      "asia-northeast1": 0.020,
-      "asia-southeast2": 0.020,
-      "asia-northeast2": 0.020,
-      "asia-northeast3": 0.020,
-      "asia-southeast": 0.020,
-      "asia-southeast1": 0.020,
-      "australia-southeast1": 0.020,
-      "australia-southeast2": 0.020,
-      "australia": 0.020,
-      "southamerica-east1": 0.020,
-      "asia-south1": 0.020,
-      "asia-south2": 0.020
+      "us": 0.02,
+      "us-central1": 0.02,
+      "us-east1": 0.02,
+      "us-east4": 0.02,
+      "us-west4": 0.02,
+      "us-west1": 0.02,
+      "us-west2": 0.02,
+      "us-west3": 0.02,
+      "europe": 0.02,
+      "europe-west1": 0.02,
+      "europe-west2": 0.02,
+      "europe-west3": 0.02,
+      "europe-central2": 0.02,
+      "europe-west4": 0.02,
+      "europe-west6": 0.02,
+      "europe-north1": 0.02,
+      "northamerica-northeast1": 0.02,
+      "northamerica-northeast2": 0.02,
+      "asia-east": 0.02,
+      "asia-east1": 0.02,
+      "asia-east2": 0.02,
+      "asia-northeast": 0.02,
+      "asia-northeast1": 0.02,
+      "asia-southeast2": 0.02,
+      "asia-northeast2": 0.02,
+      "asia-northeast3": 0.02,
+      "asia-southeast": 0.02,
+      "asia-southeast1": 0.02,
+      "australia-southeast1": 0.02,
+      "australia-southeast2": 0.02,
+      "australia": 0.02,
+      "southamerica-east1": 0.02,
+      "asia-south1": 0.02,
+      "asia-south2": 0.02
     },
     "CP-BIGSTORE-STORAGE-COLDLINE-MULTI_REGIONAL": {
       "us": 0.007,
@@ -10548,9 +10020,9 @@
       "europe-west2": 0.023,
       "europe-west3": 0.023,
       "europe-central2": 0.023,
-      "europe-west4": 0.020,
+      "europe-west4": 0.02,
       "europe-west6": 0.025,
-      "europe-north1": 0.020,
+      "europe-north1": 0.02,
       "northamerica-northeast1": 0.023,
       "northamerica-northeast2": 0.023,
       "asia-east": 0.02,
@@ -10579,12 +10051,12 @@
       "us-west2": 0.016,
       "us-west3": 0.016,
       "europe-west1": 0.01,
-      "europe-west2": 0.0130,
-      "europe-west3": 0.0130,
-      "europe-central2": 0.0130,
-      "europe-west4": 0.010,
+      "europe-west2": 0.013,
+      "europe-west3": 0.013,
+      "europe-central2": 0.013,
+      "europe-west4": 0.01,
       "europe-west6": 0.014,
-      "europe-north1": 0.010,
+      "europe-north1": 0.01,
       "northamerica-northeast1": 0.013,
       "northamerica-northeast2": 0.013,
       "asia-east1": 0.01,
@@ -10593,12 +10065,12 @@
       "asia-southeast2": 0.016,
       "asia-northeast2": 0.016,
       "asia-northeast3": 0.016,
-      "asia-southeast1": 0.010,
+      "asia-southeast1": 0.01,
       "australia-southeast1": 0.016,
       "australia-southeast2": 0.016,
-      "southamerica-east1": 0.0200,
-      "asia-south1": 0.0160,
-      "asia-south2": 0.0160,
+      "southamerica-east1": 0.02,
+      "asia-south1": 0.016,
+      "asia-south2": 0.016,
       "us": 0.01,
       "europe": 0.01,
       "asia": 0.01,
@@ -10672,7 +10144,7 @@
       "us-east1": 0.04,
       "us-east4": 0.043,
       "us-west4": 0.043,
-      "us-west1": 0.040,
+      "us-west1": 0.04,
       "us-west2": 0.043,
       "us-west3": 0.043,
       "europe-west1": 0.04,
@@ -10680,7 +10152,7 @@
       "europe-west3": 0.048,
       "europe-central2": 0.048,
       "europe-west6": 0.0498,
-      "asia-east1": 0.040,
+      "asia-east1": 0.04,
       "asia-east2": 0.052,
       "asia-southeast1": 0.044,
       "asia-northeast": 0.052,
@@ -10779,8 +10251,8 @@
       "asia-southeast": 0,
       "asia-southeast1": 0,
       "asia-southeast2": 0,
-      "australia-southeast1": 1.60,
-      "australia-southeast2": 1.60,
+      "australia-southeast1": 1.6,
+      "australia-southeast2": 1.6,
       "australia": 0,
       "southamerica-east1": 0,
       "asia-south1": 0,
@@ -10886,7 +10358,7 @@
       "asia-northeast3": 0.37,
       "asia-southeast": 0.37,
       "asia-southeast1": 0.37,
-      "asia-southeast2": 0.40,
+      "asia-southeast2": 0.4,
       "australia-southeast1": 0.44,
       "australia-southeast2": 0.44,
       "australia": 0.44,
@@ -10895,40 +10367,40 @@
       "asia-south2": 0.41
     },
     "GPU_NVIDIA_GRID_LICENSE": {
-      "us": 0.20,
-      "us-central1": 0.20,
-      "us-east1": 0.20,
-      "us-east4": 0.20,
-      "us-west4": 0.20,
-      "us-west1": 0.20,
-      "us-west2": 0.20,
-      "us-west3": 0.20,
-      "europe": 0.20,
-      "europe-west1": 0.20,
-      "europe-west2": 0.20,
-      "europe-west3": 0.20,
-      "europe-central2": 0.20,
-      "europe-west4": 0.20,
+      "us": 0.2,
+      "us-central1": 0.2,
+      "us-east1": 0.2,
+      "us-east4": 0.2,
+      "us-west4": 0.2,
+      "us-west1": 0.2,
+      "us-west2": 0.2,
+      "us-west3": 0.2,
+      "europe": 0.2,
+      "europe-west1": 0.2,
+      "europe-west2": 0.2,
+      "europe-west3": 0.2,
+      "europe-central2": 0.2,
+      "europe-west4": 0.2,
       "europe-west6": 0,
-      "europe-north1": 0.20,
-      "northamerica-northeast1": 0.20,
-      "northamerica-northeast2": 0.20,
-      "asia-east": 0.20,
-      "asia-east1": 0.20,
-      "asia-east2": 0.20,
-      "asia-northeast": 0.20,
-      "asia-northeast1": 0.20,
-      "asia-northeast2": 0.20,
-      "asia-northeast3": 0.20,
-      "asia-southeast": 0.20,
-      "asia-southeast1": 0.20,
-      "asia-southeast2": 0.20,
-      "australia-southeast1": 0.20,
-      "australia-southeast2": 0.20,
-      "australia": 0.20,
-      "southamerica-east1": 0.20,
-      "asia-south1": 0.20,
-      "asia-south2": 0.20
+      "europe-north1": 0.2,
+      "northamerica-northeast1": 0.2,
+      "northamerica-northeast2": 0.2,
+      "asia-east": 0.2,
+      "asia-east1": 0.2,
+      "asia-east2": 0.2,
+      "asia-northeast": 0.2,
+      "asia-northeast1": 0.2,
+      "asia-northeast2": 0.2,
+      "asia-northeast3": 0.2,
+      "asia-southeast": 0.2,
+      "asia-southeast1": 0.2,
+      "asia-southeast2": 0.2,
+      "australia-southeast1": 0.2,
+      "australia-southeast2": 0.2,
+      "australia": 0.2,
+      "southamerica-east1": 0.2,
+      "asia-south1": 0.2,
+      "asia-south2": 0.2
     },
     "GPU_NVIDIA_TESLA_K80-PREEMPTIBLE": {
       "us": 0.135,
@@ -11219,12 +10691,12 @@
       "asia-south2": 0
     },
     "GPU_NVIDIA_TESLA_P4-CUD-3-YEAR": {
-      "us": 0.270,
-      "us-central1": 0.270,
-      "us-east1": 0.270,
-      "us-east4": 0.270,
-      "us-west4": 0.270,
-      "us-west1": 0.270,
+      "us": 0.27,
+      "us-central1": 0.27,
+      "us-east1": 0.27,
+      "us-east4": 0.27,
+      "us-west4": 0.27,
+      "us-west1": 0.27,
       "us-west2": 0.324,
       "us-west3": 0.324,
       "europe": 0,
@@ -11471,25 +10943,25 @@
       "asia-south2": 0
     },
     "CP-SPANNER-NODE": {
-      "us": 0.90,
-      "us-central1": 0.90,
-      "us-west1": 0.90,
+      "us": 0.9,
+      "us-central1": 0.9,
+      "us-west1": 0.9,
       "us-west2": 1.08,
       "us-west3": 1.08,
-      "us-east1": 0.90,
+      "us-east1": 0.9,
       "us-east4": 0.99,
       "us-west4": 0.99,
       "northamerica-northeast1": 0.99,
       "northamerica-northeast2": 0.99,
       "southamerica-east1": 1.35,
-      "europe-west1": 0.90,
+      "europe-west1": 0.9,
       "europe-west2": 1.08,
       "europe-west3": 1.08,
       "europe-central2": 1.08,
       "europe-west4": 1.035,
       "europe-west6": 1.17,
       "europe-north1": 1.035,
-      "asia-east1": 0.90,
+      "asia-east1": 0.9,
       "asia-east2": 1.26,
       "asia-south1": 1.26,
       "asia-south2": 1.26,
@@ -11507,33 +10979,33 @@
       "nam-eur-asia1": 9.0,
       "nam3": 3.0,
       "nam6": 5.0,
-      "nam7": 3.00,
-      "nam8": 3.00,
-      "nam9": 5.00,
-      "nam10": 3.00,
-      "nam11": 3.00,
-      "nam12": 5.00
+      "nam7": 3.0,
+      "nam8": 3.0,
+      "nam9": 5.0,
+      "nam10": 3.0,
+      "nam11": 3.0,
+      "nam12": 5.0
     },
     "CP-SPANNER-STORAGE-SSD": {
-      "us": 0.30,
-      "us-central1": 0.30,
-      "us-west1": 0.30,
+      "us": 0.3,
+      "us-central1": 0.3,
+      "us-west1": 0.3,
       "us-west2": 0.36,
       "us-west3": 0.36,
-      "us-east1": 0.30,
+      "us-east1": 0.3,
       "us-east4": 0.33,
       "us-west4": 0.33,
       "northamerica-northeast1": 0.33,
       "northamerica-northeast2": 0.33,
       "southamerica-east1": 0.45,
-      "europe-west1": 0.30,
+      "europe-west1": 0.3,
       "europe-west2": 0.36,
       "europe-west3": 0.36,
       "europe-central2": 0.36,
       "europe-west4": 0.345,
       "europe-west6": 0.39,
       "europe-north1": 0.345,
-      "asia-east1": 0.30,
+      "asia-east1": 0.3,
       "asia-east2": 0.42,
       "asia-south1": 0.42,
       "asia-south2": 0.42,
@@ -11550,57 +11022,57 @@
       "eur6": 0.5,
       "nam-eur-asia1": 0.9,
       "nam3": 0.5,
-      "nam6": 0.70,
-      "nam7": 0.50,
-      "nam8": 0.50,
-      "nam9": 0.70,
-      "nam10": 0.50,
-      "nam11": 0.50,
-      "nam12": 0.70
+      "nam6": 0.7,
+      "nam7": 0.5,
+      "nam8": 0.5,
+      "nam9": 0.7,
+      "nam10": 0.5,
+      "nam11": 0.5,
+      "nam12": 0.7
     },
     "CP-SPANNER-BACKUP": {
-      "us": 0.10,
-      "us-central1": 0.10,
-      "us-west1": 0.10,
-      "us-west2": 0.10,
-      "us-west3": 0.10,
-      "us-east1": 0.10,
-      "us-east4": 0.10,
-      "us-west4": 0.10,
-      "northamerica-northeast1": 0.10,
-      "northamerica-northeast2": 0.10,
-      "southamerica-east1": 0.10,
-      "europe-west1": 0.10,
-      "europe-west2": 0.10,
-      "europe-west3": 0.10,
-      "europe-central2": 0.10,
-      "europe-west4": 0.10,
-      "europe-west6": 0.10,
-      "europe-north1": 0.10,
-      "asia-east1": 0.10,
-      "asia-east2": 0.10,
-      "asia-south1": 0.10,
-      "asia-south2": 0.10,
-      "asia-northeast1": 0.10,
-      "asia-northeast2": 0.10,
-      "asia-northeast3": 0.10,
-      "asia-southeast1": 0.10,
-      "asia-southeast2": 0.10,
-      "australia-southeast1": 0.10,
-      "australia-southeast2": 0.10,
-      "asia1": 0.30,
-      "eur3": 0.30,
-      "eur5": 0.30,
-      "eur6": 0.30,
-      "nam-eur-asia1": 0.30,
-      "nam3": 0.30,
-      "nam6": 0.30,
-      "nam7": 0.30,
-      "nam8": 0.30,
-      "nam9": 0.30,
-      "nam10": 0.30,
-      "nam11": 0.30,
-      "nam12": 0.30
+      "us": 0.1,
+      "us-central1": 0.1,
+      "us-west1": 0.1,
+      "us-west2": 0.1,
+      "us-west3": 0.1,
+      "us-east1": 0.1,
+      "us-east4": 0.1,
+      "us-west4": 0.1,
+      "northamerica-northeast1": 0.1,
+      "northamerica-northeast2": 0.1,
+      "southamerica-east1": 0.1,
+      "europe-west1": 0.1,
+      "europe-west2": 0.1,
+      "europe-west3": 0.1,
+      "europe-central2": 0.1,
+      "europe-west4": 0.1,
+      "europe-west6": 0.1,
+      "europe-north1": 0.1,
+      "asia-east1": 0.1,
+      "asia-east2": 0.1,
+      "asia-south1": 0.1,
+      "asia-south2": 0.1,
+      "asia-northeast1": 0.1,
+      "asia-northeast2": 0.1,
+      "asia-northeast3": 0.1,
+      "asia-southeast1": 0.1,
+      "asia-southeast2": 0.1,
+      "australia-southeast1": 0.1,
+      "australia-southeast2": 0.1,
+      "asia1": 0.3,
+      "eur3": 0.3,
+      "eur5": 0.3,
+      "eur6": 0.3,
+      "nam-eur-asia1": 0.3,
+      "nam3": 0.3,
+      "nam6": 0.3,
+      "nam7": 0.3,
+      "nam8": 0.3,
+      "nam9": 0.3,
+      "nam10": 0.3,
+      "nam11": 0.3,
+      "nam12": 0.3
     },
     "CP-CLOUD-ENDPOINTS-REQUESTS": {
       "tiers": {
@@ -11618,7 +11090,7 @@
     "CP-FUNCTIONS-GHZ-SECONDS": {
       "tiers": {
         "200000": 0,
-        "200001": 0.0000100
+        "200001": 0.00001
       }
     },
     "CP-FUNCTIONS-EXECUTIONS": {
@@ -11679,24 +11151,24 @@
     "CP-DLP-TRANSFORMATION": {
       "tiers": {
         "1": 0,
-        "1024": 2.00,
-        "1025": 1.00
+        "1024": 2.0,
+        "1025": 1.0
       }
     },
     "CP-DLP-STORAGE-INSPECTION": {
       "tiers": {
         "1": 0,
-        "51200": 1.00,
+        "51200": 1.0,
         "512000": 0.75,
-        "512001": 0.60
+        "512001": 0.6
       }
     },
     "CP-DLP-STORAGE-TRANSFORMATION": {
       "tiers": {
         "1": 0,
-        "51200": 1.00,
+        "51200": 1.0,
         "512000": 0.75,
-        "512001": 0.60
+        "512001": 0.6
       }
     },
     "CP-NEW-SUPPORT-USERS-DEVELOPMENT": {
@@ -12439,32 +11911,32 @@
       "asia-southeast2": 0.001962
     },
     "CP-DATAPREP-UNITS": {
-      "us-central1": 0.60,
-      "us-east1": 0.60,
-      "us-west1": 0.60,
-      "us-west4": 0.60,
-      "us-west3": 0.60,
-      "europe-west1": 0.60,
-      "asia-east1": 0.60,
-      "asia-northeast1": 0.60,
-      "asia-northeast3": 0.60,
-      "asia-southeast1": 0.60,
+      "us-central1": 0.6,
+      "us-east1": 0.6,
+      "us-west1": 0.6,
+      "us-west4": 0.6,
+      "us-west3": 0.6,
+      "europe-west1": 0.6,
+      "asia-east1": 0.6,
+      "asia-northeast1": 0.6,
+      "asia-northeast3": 0.6,
+      "asia-southeast1": 0.6,
       "asia-southeast2": 0.654,
-      "europe-west4": 0.60,
-      "us-east4": 0.60,
-      "europe-west2": 0.60,
-      "europe-west3": 0.60,
-      "europe-central2": 0.60,
-      "australia-southeast1": 0.60,
-      "australia-southeast2": 0.60,
-      "asia-south1": 0.60,
-      "asia-south2": 0.60,
-      "northamerica-northeast1": 0.60,
-      "northamerica-northeast2": 0.60,
-      "southamerica-east1": 0.60,
-      "us-west2": 0.60,
-      "europe-north1": 0.60,
-      "asia-east2": 0.60
+      "europe-west4": 0.6,
+      "us-east4": 0.6,
+      "europe-west2": 0.6,
+      "europe-west3": 0.6,
+      "europe-central2": 0.6,
+      "australia-southeast1": 0.6,
+      "australia-southeast2": 0.6,
+      "asia-south1": 0.6,
+      "asia-south2": 0.6,
+      "northamerica-northeast1": 0.6,
+      "northamerica-northeast2": 0.6,
+      "southamerica-east1": 0.6,
+      "us-west2": 0.6,
+      "europe-north1": 0.6,
+      "asia-east2": 0.6
     },
     "CP-DATAPREP-UNITS-STANDARD": {
       "us": 1500
@@ -12476,7 +11948,7 @@
       "tiers": {
         "250": 0,
         "256000": 0.0045,
-        "5242880": 0.0020,
+        "5242880": 0.002,
         "52428800": 0.00045
       }
     },
@@ -12565,7 +12037,7 @@
       }
     },
     "CP-CLOUD-TPU": {
-      "us-central1": 4.50,
+      "us-central1": 4.5,
       "europe-west4": 4.95,
       "asia-east1": 5.22
     },
@@ -12575,32 +12047,32 @@
       "asia-east1": 1.566
     },
     "CP-CLOUD-TPU-V3": {
-      "us-central1": 8.00,
-      "europe-west4": 8.80
+      "us-central1": 8.0,
+      "europe-west4": 8.8
     },
     "CP-CLOUD-TPU-V3-PREEMPTIBLE": {
-      "us-central1": 2.40,
+      "us-central1": 2.4,
       "europe-west4": 2.64
     },
     "CP-CLOUD-TPU-V2-POD-32": {
-      "us-central1": 24.00,
-      "europe-west4": 26.40
+      "us-central1": 24.0,
+      "europe-west4": 26.4
     },
     "CP-CLOUD-TPU-V2-POD-128": {
-      "us-central1": 96.00,
-      "europe-west4": 105.60
+      "us-central1": 96.0,
+      "europe-west4": 105.6
     },
     "CP-CLOUD-TPU-V2-POD-256": {
-      "us-central1": 192.00,
-      "europe-west4": 211.20
+      "us-central1": 192.0,
+      "europe-west4": 211.2
     },
     "CP-CLOUD-TPU-V2-POD-512": {
-      "us-central1": 384.00,
-      "europe-west4": 422.40
+      "us-central1": 384.0,
+      "europe-west4": 422.4
     },
     "CP-CLOUD-TPU-V3-POD-32": {
-      "us-central1": 32.00,
-      "europe-west4": 32.00
+      "us-central1": 32.0,
+      "europe-west4": 32.0
     },
     "CP-MEMORYSTORE-REDIS-BASIC-M1": {
       "us-central1": 0.049,
@@ -12638,10 +12110,10 @@
       "us-west1": 0.027,
       "europe-west1": 0.032,
       "asia-east1": 0.039,
-      "asia-northeast1": 0.040,
-      "asia-northeast2": 0.040,
-      "asia-northeast3": 0.040,
-      "asia-southeast1": 0.040,
+      "asia-northeast1": 0.04,
+      "asia-northeast2": 0.04,
+      "asia-northeast3": 0.04,
+      "asia-southeast1": 0.04,
       "asia-southeast2": 0.036,
       "europe-west4": 0.032,
       "us-east4": 0.027,
@@ -12649,8 +12121,8 @@
       "europe-west2": 0.034,
       "europe-west3": 0.034,
       "europe-central2": 0.034,
-      "australia-southeast1": 0.040,
-      "australia-southeast2": 0.040,
+      "australia-southeast1": 0.04,
+      "australia-southeast2": 0.04,
       "asia-south1": 0.037,
       "asia-south2": 0.037,
       "northamerica-northeast1": 0.034,
@@ -12681,15 +12153,15 @@
       "europe-central2": 0.027,
       "australia-southeast1": 0.032,
       "australia-southeast2": 0.032,
-      "asia-south1": 0.030,
-      "asia-south2": 0.030,
+      "asia-south1": 0.03,
+      "asia-south2": 0.03,
       "northamerica-northeast1": 0.026,
       "northamerica-northeast2": 0.026,
       "southamerica-east1": 0.042,
       "us-west2": 0.029,
       "us-west3": 0.029,
       "europe-north1": 0.026,
-      "asia-east2": 0.030,
+      "asia-east2": 0.03,
       "europe-west6": 0.029
     },
     "CP-MEMORYSTORE-REDIS-BASIC-M4": {
@@ -12750,7 +12222,7 @@
       "us-west3": 0.017,
       "europe-north1": 0.017,
       "asia-east2": 0.017,
-      "europe-west6": 0.020
+      "europe-west6": 0.02
     },
     "CP-MEMORYSTORE-REDIS-STANDARD-M1": {
       "us-central1": 0.064,
@@ -12766,20 +12238,20 @@
       "europe-west4": 0.086,
       "us-east4": 0.064,
       "us-west4": 0.064,
-      "europe-west2": 0.090,
-      "europe-west3": 0.090,
-      "europe-central2": 0.090,
+      "europe-west2": 0.09,
+      "europe-west3": 0.09,
+      "europe-central2": 0.09,
       "australia-southeast1": 0.114,
       "australia-southeast2": 0.114,
-      "asia-south1": 0.110,
-      "asia-south2": 0.110,
+      "asia-south1": 0.11,
+      "asia-south2": 0.11,
       "northamerica-northeast1": 0.088,
       "northamerica-northeast2": 0.088,
       "southamerica-east1": 0.146,
       "us-west2": 0.098,
       "us-west3": 0.098,
       "europe-north1": 0.086,
-      "asia-east2": 0.110,
+      "asia-east2": 0.11,
       "europe-west6": 0.098
     },
     "CP-MEMORYSTORE-REDIS-STANDARD-M2": {
@@ -12801,29 +12273,29 @@
       "europe-central2": 0.064,
       "australia-southeast1": 0.075,
       "australia-southeast2": 0.075,
-      "asia-south1": 0.070,
-      "asia-south2": 0.070,
+      "asia-south1": 0.07,
+      "asia-south2": 0.07,
       "northamerica-northeast1": 0.064,
       "northamerica-northeast2": 0.064,
       "southamerica-east1": 0.103,
       "us-west2": 0.067,
       "us-west3": 0.067,
       "europe-north1": 0.061,
-      "asia-east2": 0.070,
-      "europe-west6": 0.070
+      "asia-east2": 0.07,
+      "europe-west6": 0.07
     },
     "CP-MEMORYSTORE-REDIS-STANDARD-M3": {
       "us-central1": 0.046,
       "us-east1": 0.046,
       "us-west1": 0.046,
-      "europe-west1": 0.050,
+      "europe-west1": 0.05,
       "asia-east1": 0.046,
       "asia-northeast1": 0.063,
       "asia-northeast2": 0.063,
       "asia-northeast3": 0.063,
       "asia-southeast1": 0.063,
       "asia-southeast2": 0.062,
-      "europe-west4": 0.050,
+      "europe-west4": 0.05,
       "us-east4": 0.046,
       "us-west4": 0.046,
       "europe-west2": 0.052,
@@ -12833,12 +12305,12 @@
       "australia-southeast2": 0.063,
       "asia-south1": 0.058,
       "asia-south2": 0.058,
-      "northamerica-northeast1": 0.050,
-      "northamerica-northeast2": 0.050,
+      "northamerica-northeast1": 0.05,
+      "northamerica-northeast2": 0.05,
       "southamerica-east1": 0.083,
       "us-west2": 0.056,
       "us-west3": 0.056,
-      "europe-north1": 0.050,
+      "europe-north1": 0.05,
       "asia-east2": 0.058,
       "europe-west6": 0.057
     },
@@ -12873,9 +12345,9 @@
       "europe-west6": 0.049
     },
     "CP-MEMORYSTORE-REDIS-STANDARD-M5": {
-      "us-central1": 0.030,
-      "us-east1": 0.030,
-      "us-west1": 0.030,
+      "us-central1": 0.03,
+      "us-east1": 0.03,
+      "us-west1": 0.03,
       "europe-west1": 0.035,
       "asia-east1": 0.031,
       "asia-northeast1": 0.037,
@@ -12884,8 +12356,8 @@
       "asia-southeast1": 0.037,
       "asia-southeast2": 0.04,
       "europe-west4": 0.035,
-      "us-east4": 0.030,
-      "us-west4": 0.030,
+      "us-east4": 0.03,
+      "us-west4": 0.03,
       "europe-west2": 0.036,
       "europe-west3": 0.036,
       "europe-central2": 0.036,
@@ -12906,7 +12378,7 @@
       "tiers": {
         "10240": 0.5,
         "30720": 0.25,
-        "51200": 0.10,
+        "51200": 0.1,
         "51201": 0.05
       }
     },
@@ -12956,17 +12428,7 @@
       "gceu": 264,
       "maxNumberOfPd": 16,
       "maxPdSize": 64,
-      "ssd": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8
-      ],
+      "ssd": [0, 1, 2, 3, 4, 5, 6, 7, 8],
       "asia-southeast2": 8.395915968
     },
     "CP-COMPOSER-WEB-CORE-HOURS": {
@@ -12990,15 +12452,15 @@
       "asia-northeast1": 0.098,
       "asia-northeast2": 0.098,
       "asia-northeast3": 0.098,
-      "australia-southeast1": 0.100,
-      "australia-southeast2": 0.100
+      "australia-southeast1": 0.1,
+      "australia-southeast2": 0.1
     },
     "CP-COMPOSER-DATABASE-CORE-HOURS": {
       "us-central1": 0.125,
       "us-east1": 0.125,
       "us-east4": 0.134,
       "us-west2": 0.151,
-      "us-west3": 0.150,
+      "us-west3": 0.15,
       "us-west4": 0.134,
       "northamerica-northeast1": 0.138,
       "northamerica-northeast2": 0.138,
@@ -13024,9 +12486,9 @@
       "us-west2": 0.273,
       "us-west3": 0.3276,
       "us-west4": 0.292,
-      "northamerica-northeast1": 0.300,
-      "northamerica-northeast2": 0.300,
-      "southamerica-east1": 0.410,
+      "northamerica-northeast1": 0.3,
+      "northamerica-northeast2": 0.3,
+      "southamerica-east1": 0.41,
       "europe-west1": 0.273,
       "europe-west2": 0.328,
       "europe-west3": 0.328,
@@ -13046,7 +12508,7 @@
       "us-east1": 0.156,
       "us-east4": 0.156,
       "us-west2": 0.156,
-      "us-west3": 0.120,
+      "us-west3": 0.12,
       "us-west4": 0.156,
       "northamerica-northeast1": 0.156,
       "northamerica-northeast2": 0.156,
@@ -13087,22 +12549,22 @@
     "CP-HEALTCARE-API-DATASTORE-HOURS-NA": {
       "tiers": {
         "750": 0,
-        "2500": 0.030,
-        "2501": 0.020
+        "2500": 0.03,
+        "2501": 0.02
       }
     },
     "CP-HEALTCARE-API-DATASTORE-HOURS-EUROPE": {
       "tiers": {
         "750": 0,
-        "2500": 0.030,
-        "2501": 0.020
+        "2500": 0.03,
+        "2501": 0.02
       }
     },
     "CP-HEALTCARE-API-DATASTORE-HOURS-APAC": {
       "tiers": {
         "750": 0,
-        "2500": 0.040,
-        "2501": 0.020
+        "2500": 0.04,
+        "2501": 0.02
       }
     },
     "CP-HEALTCARE-API-NOTIFICATIONS-STANDARD": {
@@ -13171,8 +12633,8 @@
     "CP-HEALTCARE-API-STORAGE-BLOB-US-CENTRAL1": {
       "tiers": {
         "1": 0,
-        "1024": 0.020,
-        "1025": 0.020
+        "1024": 0.02,
+        "1025": 0.02
       }
     },
     "CP-HEALTCARE-API-STORAGE-BLOB-SOUTHAMERICA-EAST1": {
@@ -13297,8 +12759,8 @@
     "CP-HEALTCARE-API-STORAGE-BLOB-EUROPE-WEST4": {
       "tiers": {
         "1": 0,
-        "1024": 0.020,
-        "1025": 0.020
+        "1024": 0.02,
+        "1025": 0.02
       }
     },
     "CP-HEALTCARE-API-STORAGE-BLOB-NEARLINE-EUROPE-WEST4": {
@@ -13376,7 +12838,6 @@
         "1": 0,
         "1024": 0.312,
         "1025": 0.247
-
       }
     },
     "CP-HEALTCARE-API-STORAGE-BLOB-ASIA-NORTHEAST3": {
@@ -13410,8 +12871,8 @@
     "CP-HEALTCARE-API-STORAGE-BLOB-ASIA-SOUTHEAST1": {
       "tiers": {
         "1": 0,
-        "1024": 0.020,
-        "1025": 0.020
+        "1024": 0.02,
+        "1025": 0.02
       }
     },
     "CP-HEALTCARE-API-STORAGE-BLOB-NEARLINE-ASIA-SOUTHEAST1": {
@@ -13423,9 +12884,9 @@
     },
     "CP-HEALTCARE-API-STORAGE-BLOB-NEARLINE-SOUTHAMERICA-EAST1": {
       "tiers": {
-        "1": 0.020,
-        "1024": 0.020,
-        "1025": 0.020
+        "1": 0.02,
+        "1024": 0.02,
+        "1025": 0.02
       }
     },
     "CP-HEALTCARE-API-STORAGE-BLOB-NEARLINE-AUSTRALIA-SOUTHEAST1": {
@@ -13871,7 +13332,7 @@
     "CP-FIRESTORE-DATA-STORED-ASIA-SOUTHEAST1": {
       "tiers": {
         "1": 0,
-        "2": 0.1850
+        "2": 0.185
       }
     },
     "CP-FIRESTORE-DOCUMENT-READS-ASIA-NORTHEAST1": {
@@ -13931,7 +13392,7 @@
     "CP-FIRESTORE-DATA-STORED-EUROPE-WEST6": {
       "tiers": {
         "1": 0,
-        "2": 0.210
+        "2": 0.21
       }
     },
     "CP-CLOUD-RUN-CPU-ALLOCATION-TIME-TIER1": {
@@ -13943,7 +13404,7 @@
     "CP-CLOUD-RUN-CPU-ALLOCATION-TIME-TIER2": {
       "tiers": {
         "180000": 0,
-        "180001": 0.000033600
+        "180001": 0.0000336
       }
     },
     "CP-CLOUD-RUN-MEMORY-ALLOCATION-TIME-TIER1": {
@@ -13955,32 +13416,32 @@
     "CP-CLOUD-RUN-MEMORY-ALLOCATION-TIME-TIER2": {
       "tiers": {
         "360000": 0,
-        "360001": 0.00000350
+        "360001": 0.0000035
       }
     },
     "CP-CLOUD-RUN-REQUESTS-TIER1": {
       "tiers": {
         "2000000": 0,
-        "2000001": 0.00000040
+        "2000001": 0.0000004
       }
     },
     "CP-CLOUD-RUN-REQUESTS-TIER2": {
       "tiers": {
         "2000000": 0,
-        "2000001": 0.00000040
+        "2000001": 0.0000004
       }
     },
     "CP-CLOUD-RUN-MINIMUMINSTANCE-CPU-TIER1": {
-      "us": 0.00000250
+      "us": 0.0000025
     },
     "CP-CLOUD-RUN-MINIMUMINSTANCE-CPU-TIER2": {
-      "us": 0.00000350
+      "us": 0.0000035
     },
     "CP-CLOUD-RUN-MINIMUMINSTANCE-MEMORY-TIER1": {
-      "us": 0.00000250
+      "us": 0.0000025
     },
     "CP-CLOUD-RUN-MINIMUMINSTANCE-MEMORY-TIER2": {
-      "us": 0.00000350
+      "us": 0.0000035
     },
     "CP-IDENTITY-PLATFORM-TIER1-ACTIVE-USERS": {
       "tiers": {
@@ -14010,7 +13471,7 @@
       }
     },
     "CP-SECURITY-COMMAND-CENTER-DATA-VOLUME": {
-      "us": 0.30
+      "us": 0.3
     },
     "CP-COMPUTEENGINE-VMIMAGE-E2-HIGHCPU-2-PREEMPTIBLE": {
       "us": 0.01484,
@@ -14506,9 +13967,9 @@
       "asia-northeast1": 0.00677,
       "asia-southeast": 0.00651,
       "asia-southeast1": 0.00651,
-      "europe-west2": 0.00680,
-      "europe-west3": 0.00680,
-      "europe-central2": 0.00680,
+      "europe-west2": 0.0068,
+      "europe-west3": 0.0068,
+      "europe-central2": 0.0068,
       "us-east4": 0.00594,
       "us-west4": 0.00634,
       "europe-west1": 0.00581,
@@ -14654,9 +14115,9 @@
       "asia-northeast1": 0.02708,
       "asia-southeast": 0.02604,
       "asia-southeast1": 0.02604,
-      "europe-west2": 0.02720,
-      "europe-west3": 0.02720,
-      "europe-central2": 0.02720,
+      "europe-west2": 0.0272,
+      "europe-west3": 0.0272,
+      "europe-central2": 0.0272,
       "us-east4": 0.02377,
       "us-west4": 0.02535,
       "europe-west1": 0.02322,
@@ -14670,10 +14131,10 @@
     },
     "CP-COMPUTEENGINE-E2-MEDIUM-CUD-3-YEAR": {
       "us": 0.01508,
-      "asia-east2": 0.02110,
+      "asia-east2": 0.0211,
       "asia-east1": 0.01746,
       "asia": 0.01746,
-      "europe-north1": 0.01660,
+      "europe-north1": 0.0166,
       "us-central1": 0.01508,
       "asia-northeast": 0.01934,
       "australia-southeast1": 0.02139,
@@ -14687,19 +14148,19 @@
       "asia-northeast2": 0.01934,
       "asia-northeast3": 0.01934,
       "asia-northeast1": 0.01934,
-      "asia-southeast": 0.01860,
-      "asia-southeast1": 0.01860,
+      "asia-southeast": 0.0186,
+      "asia-southeast1": 0.0186,
       "europe-west2": 0.01943,
       "europe-west3": 0.01943,
       "europe-central2": 0.01943,
       "us-east4": 0.01698,
       "us-west4": 0.01811,
       "europe-west1": 0.01659,
-      "europe-west6": 0.02110,
-      "europe-west4": 0.01660,
+      "europe-west6": 0.0211,
+      "europe-west4": 0.0166,
       "us-east1": 0.01508,
-      "northamerica-northeast1": 0.01660,
-      "northamerica-northeast2": 0.01660,
+      "northamerica-northeast1": 0.0166,
+      "northamerica-northeast2": 0.0166,
       "southamerica-east1": 0.02393,
       "asia-southeast2": 0.020274
     },
@@ -14763,9 +14224,9 @@
       "asia-northeast1": 0.01354,
       "asia-southeast": 0.01302,
       "asia-southeast1": 0.01302,
-      "europe-west2": 0.01360,
-      "europe-west3": 0.01360,
-      "europe-central2": 0.01360,
+      "europe-west2": 0.0136,
+      "europe-west3": 0.0136,
+      "europe-central2": 0.0136,
       "us-east4": 0.01189,
       "us-west4": 0.01268,
       "europe-west1": 0.01161,
@@ -14782,11 +14243,11 @@
       "asia-east2": 0.01055,
       "asia-east1": 0.00873,
       "asia": 0.00873,
-      "europe-north1": 0.00830,
+      "europe-north1": 0.0083,
       "us-central1": 0.00754,
       "asia-northeast": 0.00967,
-      "australia-southeast1": 0.01070,
-      "australia-southeast2": 0.01070,
+      "australia-southeast1": 0.0107,
+      "australia-southeast2": 0.0107,
       "asia-south1": 0.00905,
       "asia-south2": 0.00905,
       "us-west1": 0.00754,
@@ -14796,8 +14257,8 @@
       "asia-northeast2": 0.00967,
       "asia-northeast3": 0.00967,
       "asia-northeast1": 0.00967,
-      "asia-southeast": 0.00930,
-      "asia-southeast1": 0.00930,
+      "asia-southeast": 0.0093,
+      "asia-southeast1": 0.0093,
       "europe-west2": 0.00971,
       "europe-west3": 0.00971,
       "europe-central2": 0.00971,
@@ -14805,10 +14266,10 @@
       "us-west4": 0.00906,
       "europe-west1": 0.00829,
       "europe-west6": 0.01055,
-      "europe-west4": 0.00830,
+      "europe-west4": 0.0083,
       "us-east1": 0.00754,
-      "northamerica-northeast1": 0.00830,
-      "northamerica-northeast2": 0.00830,
+      "northamerica-northeast1": 0.0083,
+      "northamerica-northeast2": 0.0083,
       "southamerica-east1": 0.01197,
       "asia-southeast2": 0.010137
     },
@@ -15546,7 +15007,7 @@
       "tiers": {
         "1024": 0.19,
         "10240": 0.18,
-          "10241": 0.15
+        "10241": 0.15
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-WORLDWIDE-FROM-ASIA-SOUTH1": {
@@ -15819,105 +15280,105 @@
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-US-EAST1": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-US-EAST4": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-US-WEST1": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-US-WEST2": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-US-WEST3": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-US-WEST4": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-EUROPE-WEST1": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-EUROPE-WEST2": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-EUROPE-WEST3": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-EUROPE-CENTRAL2": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-ASIA-EAST1": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-ASIA-EAST2": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-ASIA-NORTHEAST1": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-ASIA-NORTHEAST2": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-ASIA-NORTHEAST3": {
@@ -15931,84 +15392,84 @@
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-ASIA-SOUTHEAST2": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-ASIA-SOUTH1": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-ASIA-SOUTH2": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-AUSTRALIA-SOUTHEAST1": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-AUSTRALIA-SOUTHEAST2": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-SOUTHAMERICA-EAST1": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-EUROPE-WEST4": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-EUROPE-WEST6": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-EUROPE-NORTH1": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-NORTHAMERICA-NORTHEAST1": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-PREMIUM-TIER-TO-CHINA-FROM-NORTHAMERICA-NORTHEAST2": {
       "tiers": {
         "1024": 0.23,
         "10240": 0.22,
-        "10241": 0.20
+        "10241": 0.2
       }
     },
     "CP-INTERNET-EGRESS-STANDARD-TIER-FROM-NA": {
@@ -16048,9 +15509,9 @@
     },
     "CP-INTERNET-EGRESS-STANDARD-TIER-FROM-SA": {
       "tiers": {
-        "10240": 0.120,
+        "10240": 0.12,
         "153600": 0.085,
-        "153601": 0.080
+        "153601": 0.08
       }
     },
     "CP-VM-EGRESS-TOSAME-REGION-FROM-NA": {
@@ -16957,43 +16418,43 @@
       "us": 13000
     },
     "CP-INTERCONNECTVPN-ATTACHMENT": {
-      "us": 0.10
+      "us": 0.1
     },
     "CP-MEMORYSTORE-MEMCACHED-VCPU-M1": {
-      "asia-east1": 0.0580,
-      "asia-northeast1": 0.0640,
+      "asia-east1": 0.058,
+      "asia-northeast1": 0.064,
       "asia-southeast1": 0.0615,
-      "australia-southeast1": 0.0710,
-      "australia-southeast2": 0.0710,
-      "europe-west1": 0.0550,
+      "australia-southeast1": 0.071,
+      "australia-southeast2": 0.071,
+      "europe-west1": 0.055,
       "europe-west2": 0.0645,
       "europe-west3": 0.0645,
       "europe-central2": 0.0645,
-      "europe-west4": 0.0550,
-      "us-central1": 0.0500,
-      "us-east1": 0.0500,
+      "europe-west4": 0.055,
+      "us-central1": 0.05,
+      "us-east1": 0.05,
       "us-east4": 0.0565,
       "us-west4": 0.0565,
-      "us-west1": 0.0500,
-      "us-west2": 0.0600
+      "us-west1": 0.05,
+      "us-west2": 0.06
     },
     "CP-MEMORYSTORE-MEMCACHED-VCPU-M2": {
-      "asia-east1": 0.0580,
-      "asia-northeast1": 0.0640,
+      "asia-east1": 0.058,
+      "asia-northeast1": 0.064,
       "asia-southeast1": 0.0615,
-      "australia-southeast1": 0.0710,
-      "australia-southeast2": 0.0710,
-      "europe-west1": 0.0550,
+      "australia-southeast1": 0.071,
+      "australia-southeast2": 0.071,
+      "europe-west1": 0.055,
       "europe-west2": 0.0645,
       "europe-west3": 0.0645,
       "europe-central2": 0.0645,
-      "europe-west4": 0.0550,
-      "us-central1": 0.0500,
-      "us-east1": 0.0500,
+      "europe-west4": 0.055,
+      "us-central1": 0.05,
+      "us-east1": 0.05,
       "us-east4": 0.0565,
       "us-west4": 0.0565,
-      "us-west1": 0.0500,
-      "us-west2": 0.0600
+      "us-west1": 0.05,
+      "us-west2": 0.06
     },
     "CP-MEMORYSTORE-MEMCACHED-RAM-M1": {
       "asia-east1": 0.0051,
@@ -17008,8 +16469,8 @@
       "europe-west4": 0.0048,
       "us-central1": 0.0044,
       "us-east1": 0.0044,
-      "us-east4": 0.0050,
-      "us-west4": 0.0050,
+      "us-east4": 0.005,
+      "us-west4": 0.005,
       "us-west1": 0.0044,
       "us-west2": 0.0053
     },
@@ -17034,7 +16495,7 @@
     "CP-ARTIFACT-REGISTRY": {
       "tiers": {
         "0.5": 0,
-        "0.6": 0.10
+        "0.6": 0.1
       }
     },
     "CP-SECRET-MANAGER-ACTIVE-SECRET-VERSION": {
@@ -17651,7 +17112,7 @@
       "asia-northeast1": 10.59,
       "europe-west2": 10.63,
       "australia-southeast1": 10.22,
-      "southamerica-east1": 13.10,
+      "southamerica-east1": 13.1,
       "northamerica-northeast1": 10.22,
       "northamerica-northeast2": 10.22,
       "asia-south1": 10.22,
@@ -17659,7 +17120,7 @@
     },
     "CP-VMWARE-VE1-STANDARD-72-CUD-1-YEAR": {
       "us-central1": 7.02,
-      "us-west2": 7.50,
+      "us-west2": 7.5,
       "us-east4": 7.02,
       "europe-west3": 8.03,
       "europe-west4": 8.03,
@@ -17667,7 +17128,7 @@
       "asia-northeast1": 8.01,
       "europe-west2": 8.03,
       "australia-southeast1": 7.73,
-      "southamerica-east1": 9.90,
+      "southamerica-east1": 9.9,
       "northamerica-northeast1": 7.73,
       "northamerica-northeast2": 7.73,
       "asia-south1": 7.73,
@@ -17675,7 +17136,7 @@
     },
     "CP-VMWARE-VE1-STANDARD-72-CUD-3-YEAR": {
       "us-central1": 5.34,
-      "us-west2": 5.70,
+      "us-west2": 5.7,
       "us-east4": 5.34,
       "europe-west3": 6.11,
       "asia-southeast1": 5.88,
@@ -17690,9 +17151,9 @@
       "asia-south2": 5.88
     },
     "CP-VMWARE-VE1-STANDARD-72-PREPAID-1-YEAR": {
-      "us-central1": 6.50,
+      "us-central1": 6.5,
       "us-west2": 6.94,
-      "us-east4": 6.50,
+      "us-east4": 6.5,
       "europe-west3": 7.44,
       "europe-west4": 7.44,
       "asia-southeast1": 7.15,
@@ -17711,7 +17172,7 @@
       "europe-west3": 5.31,
       "asia-southeast1": 5.11,
       "europe-west4": 5.31,
-      "asia-northeast1": 5.30,
+      "asia-northeast1": 5.3,
       "europe-west2": 5.31,
       "australia-southeast1": 5.11,
       "southamerica-east1": 6.55,
@@ -17737,7 +17198,7 @@
     "CP-DATAFUSION-BASIC": {
       "tiers": {
         "120": 0,
-        "121": 1.80
+        "121": 1.8
       }
     },
     "CP-GKE-AUTOPILOT-CORE-HOURS": {
@@ -17801,66 +17262,66 @@
       "europe-west6": 0.0068861
     },
     "CP-GKE-AUTOPILOT-STORAGE-GIB-HOURS": {
-      "us-central1": 5.48e-05,
-      "us-east1": 5.48e-05,
-      "us-west1": 5.48e-05,
-      "us-east4": 6.17e-05,
-      "us-west4": 6.17e-05,
-      "us-west2": 6.59e-05,
-      "us-west3": 6.59e-05,
-      "northamerica-northeast1": 6.03e-05,
-      "northamerica-northeast2": 6.03e-05,
-      "southamerica-east1": 8.7e-05,
-      "asia-southeast2": 7.37e-05,
-      "asia-east2": 7.67e-05,
-      "asia-northeast1": 7.04e-05,
-      "asia-northeast2": 7.04e-05,
-      "asia-northeast3": 7.04e-05,
-      "asia-south1": 6.58e-05,
-      "asia-south2": 6.58e-05,
-      "asia-southeast1": 6.76e-05,
-      "asia-east1": 6.35e-05,
-      "australia-southeast1": 7.78e-05,
-      "australia-southeast2": 7.78e-05,
-      "europe-north1": 6.03e-05,
-      "europe-west1": 6.03e-05,
-      "europe-west4": 6.03e-05,
-      "europe-west2": 7.06e-05,
-      "europe-west3": 7.06e-05,
-      "europe-central2": 7.06e-05,
-      "europe-west6": 7.67e-05
+      "us-central1": 5.48e-5,
+      "us-east1": 5.48e-5,
+      "us-west1": 5.48e-5,
+      "us-east4": 6.17e-5,
+      "us-west4": 6.17e-5,
+      "us-west2": 6.59e-5,
+      "us-west3": 6.59e-5,
+      "northamerica-northeast1": 6.03e-5,
+      "northamerica-northeast2": 6.03e-5,
+      "southamerica-east1": 8.7e-5,
+      "asia-southeast2": 7.37e-5,
+      "asia-east2": 7.67e-5,
+      "asia-northeast1": 7.04e-5,
+      "asia-northeast2": 7.04e-5,
+      "asia-northeast3": 7.04e-5,
+      "asia-south1": 6.58e-5,
+      "asia-south2": 6.58e-5,
+      "asia-southeast1": 6.76e-5,
+      "asia-east1": 6.35e-5,
+      "australia-southeast1": 7.78e-5,
+      "australia-southeast2": 7.78e-5,
+      "europe-north1": 6.03e-5,
+      "europe-west1": 6.03e-5,
+      "europe-west4": 6.03e-5,
+      "europe-west2": 7.06e-5,
+      "europe-west3": 7.06e-5,
+      "europe-central2": 7.06e-5,
+      "europe-west6": 7.67e-5
     },
     "CP-DATAFUSION-ENTERPRISE": {
-      "us": 4.20
+      "us": 4.2
     },
     "DATAFLOWGPU_NVIDIA_TESLA_K80": {
       "us": 0.54,
       "us-central1": 0.54,
       "us-east1": 0.54,
-      "us-east4": 0.5760,
-      "us-west4": 0.5760,
+      "us-east4": 0.576,
+      "us-west4": 0.576,
       "us-west1": 0.54,
-      "us-west2": 0.6480,
-      "us-west3": 0.6480,
+      "us-west2": 0.648,
+      "us-west3": 0.648,
       "europe": 0.49,
-      "europe-west1": 0.5880,
+      "europe-west1": 0.588,
       "europe-west2": 0,
       "europe-west3": 0,
       "europe-central2": 0,
       "europe-west4": 0,
-      "europe-west6": 0.7560,
-      "europe-north1": 0.5940,
-      "northamerica-northeast1": 0.5880,
-      "northamerica-northeast2": 0.5880,
-      "asia-east": 0.5880,
-      "asia-east1": 0.5880,
-      "asia-east2": 0.7560,
+      "europe-west6": 0.756,
+      "europe-north1": 0.594,
+      "northamerica-northeast1": 0.588,
+      "northamerica-northeast2": 0.588,
+      "asia-east": 0.588,
+      "asia-east1": 0.588,
+      "asia-east2": 0.756,
       "asia-northeast": 0,
       "asia-northeast1": 0,
       "asia-northeast2": 0,
       "asia-northeast3": 0,
-      "asia-southeast": 0.6120,
-      "asia-southeast1": 0.6120,
+      "asia-southeast": 0.612,
+      "asia-southeast1": 0.612,
       "asia-southeast2": 0.6671,
       "australia-southeast1": 0,
       "australia-southeast2": 0,
@@ -17870,12 +17331,12 @@
       "asia-south2": 0
     },
     "DATAFLOWGPU_NVIDIA_TESLA_P100": {
-      "us": 1.7520,
-      "us-central1": 1.7520,
-      "us-east1": 1.7520,
-      "us-east4": 1.7520,
-      "us-west4": 1.7520,
-      "us-west1": 1.7520,
+      "us": 1.752,
+      "us-central1": 1.752,
+      "us-east1": 1.752,
+      "us-east4": 1.752,
+      "us-west4": 1.752,
+      "us-west1": 1.752,
       "us-west2": 2.1024,
       "us-west3": 2.1024,
       "europe": 1.92,
@@ -17907,12 +17368,12 @@
       "asia-south2": 2.1
     },
     "DATAFLOWGPU_NVIDIA_TESLA_V100": {
-      "us": 2.9760,
-      "us-central1": 2.9760,
-      "us-east1": 2.9760,
-      "us-east4": 2.9760,
-      "us-west4": 2.9760,
-      "us-west1": 2.9760,
+      "us": 2.976,
+      "us-central1": 2.976,
+      "us-east1": 2.976,
+      "us-east4": 2.976,
+      "us-west4": 2.976,
+      "us-west1": 2.976,
       "us-west2": 3.5712,
       "us-west3": 3.5712,
       "europe": 0,
@@ -17925,8 +17386,8 @@
       "europe-north1": 0,
       "northamerica-northeast1": 0,
       "northamerica-northeast2": 0,
-      "asia-east": 2.9760,
-      "asia-east1": 2.9760,
+      "asia-east": 2.976,
+      "asia-east1": 2.976,
       "asia-east2": 4.1664,
       "asia-northeast": 0,
       "asia-northeast1": 0,
@@ -17958,12 +17419,12 @@
       "europe-central2": 0.78,
       "europe-west4": 0.78,
       "europe-west5": 0.78,
-      "europe-west6": 1.0080,
-      "europe-north1": 0.7920,
+      "europe-west6": 1.008,
+      "europe-north1": 0.792,
       "northamerica-northeast1": 0.78,
       "northamerica-northeast2": 0.78,
-      "asia-east": 0.780,
-      "asia-east1": 0.780,
+      "asia-east": 0.78,
+      "asia-east1": 0.78,
       "asia-east2": 1.008,
       "asia-northeast": 0.78,
       "asia-northeast1": 0.78,
@@ -17971,50 +17432,50 @@
       "asia-northeast3": 0.78,
       "asia-southeast": 0.78,
       "asia-southeast1": 0.78,
-      "asia-southeast2": 0.8520,
+      "asia-southeast2": 0.852,
       "australia-southeast1": 0.78,
       "australia-southeast2": 0.78,
       "australia": 0,
       "southamerica-east1": 0.78,
-      "asia-south1": 0.8520,
-      "asia-south2": 0.8520
+      "asia-south1": 0.852,
+      "asia-south2": 0.852
     },
     "DATAFLOWGPU_NVIDIA_TESLA_T4": {
-      "us": 0.4200,
-      "us-central1": 0.4200,
-      "us-east1": 0.4200,
-      "us-east4": 0.4440,
-      "us-west4": 0.4440,
-      "us-west1": 0.4200,
-      "us-west2": 0.4920,
-      "us-west3": 0.4920,
-      "europe": 0.4200,
-      "europe-west1": 0.4200,
-      "europe-west2": 0.4920,
-      "europe-west3": 0.4920,
-      "europe-central2": 0.4920,
-      "europe-west4": 0.4200,
-      "europe-west5": 0.4920,
-      "europe-west6": 0.5400,
-      "europe-north1": 0.4200,
-      "northamerica-northeast1": 0.4440,
-      "northamerica-northeast2": 0.4440,
+      "us": 0.42,
+      "us-central1": 0.42,
+      "us-east1": 0.42,
+      "us-east4": 0.444,
+      "us-west4": 0.444,
+      "us-west1": 0.42,
+      "us-west2": 0.492,
+      "us-west3": 0.492,
+      "europe": 0.42,
+      "europe-west1": 0.42,
+      "europe-west2": 0.492,
+      "europe-west3": 0.492,
+      "europe-central2": 0.492,
+      "europe-west4": 0.42,
+      "europe-west5": 0.492,
+      "europe-west6": 0.54,
+      "europe-north1": 0.42,
+      "northamerica-northeast1": 0.444,
+      "northamerica-northeast2": 0.444,
       "asia-east": 0.42,
       "asia-east1": 0.42,
-      "asia-east2": 0.5280,
-      "asia-northeast": 0.4440,
-      "asia-northeast1": 0.4440,
-      "asia-northeast2": 0.4440,
-      "asia-northeast3": 0.4440,
-      "asia-southeast": 0.4440,
-      "asia-southeast1": 0.4440,
-      "asia-southeast2": 0.4840,
-      "australia-southeast1": 0.5280,
-      "australia-southeast2": 0.5280,
+      "asia-east2": 0.528,
+      "asia-northeast": 0.444,
+      "asia-northeast1": 0.444,
+      "asia-northeast2": 0.444,
+      "asia-northeast3": 0.444,
+      "asia-southeast": 0.444,
+      "asia-southeast1": 0.444,
+      "asia-southeast2": 0.484,
+      "australia-southeast1": 0.528,
+      "australia-southeast2": 0.528,
       "australia": 0,
-      "southamerica-east1": 0.5760,
-      "asia-south1": 0.4920,
-      "asia-south2": 0.4920
+      "southamerica-east1": 0.576,
+      "asia-south1": 0.492,
+      "asia-south2": 0.492
     },
     "CP-WORKFLOWS-INTERNAL-STEPS": {
       "tiers": {
@@ -18045,18 +17506,18 @@
       "tiers": {
         "50000": 0.5,
         "100000": 0.05,
-        "100001": 0.0010
+        "100001": 0.001
       }
     },
     "CP-RECOMMENDATIONS-AI-PREDICTIONS": {
       "tiers": {
         "20000": 0.27,
         "300000": 0.18,
-        "600001": 0.10
+        "600001": 0.1
       }
     },
     "CP-RECOMMENDATIONS-AI-TRAINING": {
-      "us": 2.50
+      "us": 2.5
     }
   }
 }

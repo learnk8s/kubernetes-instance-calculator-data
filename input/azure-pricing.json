@@ -1,1 +1,3327 @@
-{"header":[["VM name","# Cores","Memory (GiB)","Linux $","Windows $","ACUs","Best price region / Diff"]],"data":[{"VM name":"Basic_A0","# Cores":1,"Memory (GiB)":0.75,"Linux $":0.018,"Windows $":0.018,"ACUs":50,"Best price region / Diff":"Korea South / -11.1%"},{"VM name":"Basic_A1","# Cores":1,"Memory (GiB)":1.75,"Linux $":0.023,"Windows $":0.032,"ACUs":100,"Best price region / Diff":"East US / 0%"},{"VM name":"Basic_A2","# Cores":2,"Memory (GiB)":3.5,"Linux $":0.079,"Windows $":0.133,"ACUs":100,"Best price region / Diff":"East US 2 / -13.9%"},{"VM name":"Basic_A3","# Cores":4,"Memory (GiB)":7,"Linux $":0.176,"Windows $":0.296,"ACUs":100,"Best price region / Diff":"South Central US / 0%"},{"VM name":"Basic_A4","# Cores":8,"Memory (GiB)":14,"Linux $":0.352,"Windows $":0.592,"ACUs":100,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_A0","# Cores":1,"Memory (GiB)":0.75,"Linux $":0.02,"Windows $":0.02,"ACUs":50,"Best price region / Diff":"Korea South / -10%"},{"VM name":"Standard_A1","# Cores":1,"Memory (GiB)":1.75,"Linux $":0.06,"Windows $":0.09,"ACUs":100,"Best price region / Diff":"West Central US / -15%"},{"VM name":"Standard_A1_v2","# Cores":1,"Memory (GiB)":2,"Linux $":0.043,"Windows $":0.065,"ACUs":100,"Best price region / Diff":"West US 2 / -16.3%"},{"VM name":"Standard_A2","# Cores":2,"Memory (GiB)":3.5,"Linux $":0.12,"Windows $":0.18,"ACUs":100,"Best price region / Diff":"West Central US / -15.8%"},{"VM name":"Standard_A2_v2","# Cores":2,"Memory (GiB)":4,"Linux $":0.091,"Windows $":0.136,"ACUs":100,"Best price region / Diff":"West US 2 / -16.5%"},{"VM name":"Standard_A2m_v2","# Cores":2,"Memory (GiB)":16,"Linux $":0.119,"Windows $":0.18,"ACUs":100,"Best price region / Diff":"West US 2 / -16.8%"},{"VM name":"Standard_A3","# Cores":4,"Memory (GiB)":7,"Linux $":0.24,"Windows $":0.36,"ACUs":100,"Best price region / Diff":"West Central US / -15.8%"},{"VM name":"Standard_A4","# Cores":8,"Memory (GiB)":14,"Linux $":0.48,"Windows $":0.72,"ACUs":100,"Best price region / Diff":"West Central US / -15.6%"},{"VM name":"Standard_A4_v2","# Cores":4,"Memory (GiB)":8,"Linux $":0.191,"Windows $":0.286,"ACUs":100,"Best price region / Diff":"West US 2 / -16.8%"},{"VM name":"Standard_A4m_v2","# Cores":4,"Memory (GiB)":32,"Linux $":0.238,"Windows $":0.36,"ACUs":100,"Best price region / Diff":"West US 2 / -12.6%"},{"VM name":"Standard_A5","# Cores":2,"Memory (GiB)":14,"Linux $":0.25,"Windows $":0.33,"ACUs":100,"Best price region / Diff":"Korea South / -38%"},{"VM name":"Standard_A6","# Cores":4,"Memory (GiB)":28,"Linux $":0.5,"Windows $":0.66,"ACUs":100,"Best price region / Diff":"Korea South / -38.2%"},{"VM name":"Standard_A7","# Cores":8,"Memory (GiB)":56,"Linux $":1,"Windows $":1.32,"ACUs":100,"Best price region / Diff":"Korea South / -38.2%"},{"VM name":"Standard_A8_v2","# Cores":8,"Memory (GiB)":16,"Linux $":0.4,"Windows $":0.6,"ACUs":100,"Best price region / Diff":"West US 2 / -16.8%"},{"VM name":"Standard_A8m_v2","# Cores":8,"Memory (GiB)":64,"Linux $":0.475,"Windows $":0.72,"ACUs":100,"Best price region / Diff":"West US 2 / -8%"},{"VM name":"Standard_B1ls","# Cores":1,"Memory (GiB)":0.5,"Linux $":0.0052,"Windows $":0.0098,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_B1ms","# Cores":1,"Memory (GiB)":2,"Linux $":0.0207,"Windows $":0.0246,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_B1s","# Cores":1,"Memory (GiB)":1,"Linux $":0.0104,"Windows $":0.014,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_B12ms","# Cores":12,"Memory (GiB)":48,"Linux $":0.499,"Windows $":0.547,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_B16ms","# Cores":16,"Memory (GiB)":64,"Linux $":0.666,"Windows $":0.73,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_B2ms","# Cores":2,"Memory (GiB)":8,"Linux $":0.0832,"Windows $":0.0912,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_B2s","# Cores":2,"Memory (GiB)":4,"Linux $":0.0416,"Windows $":0.0496,"ACUs":0,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_B20ms","# Cores":20,"Memory (GiB)":80,"Linux $":0.832,"Windows $":0.912,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_B4ms","# Cores":4,"Memory (GiB)":16,"Linux $":0.166,"Windows $":0.182,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_B8ms","# Cores":8,"Memory (GiB)":32,"Linux $":0.333,"Windows $":0.365,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_D1","# Cores":1,"Memory (GiB)":3.5,"Linux $":0.077,"Windows $":0.14,"ACUs":160,"Best price region / Diff":"South Central US / -13%"},{"VM name":"Standard_D1_v2","# Cores":1,"Memory (GiB)":3.5,"Linux $":0.073,"Windows $":0.126,"ACUs":210,"Best price region / Diff":"West US 2 / -21.9%"},{"VM name":"Standard_D11","# Cores":2,"Memory (GiB)":14,"Linux $":0.193,"Windows $":0.264,"ACUs":160,"Best price region / Diff":"South Central US / -10.4%"},{"VM name":"Standard_D11_v2","# Cores":2,"Memory (GiB)":14,"Linux $":0.185,"Windows $":0.264,"ACUs":210,"Best price region / Diff":"East US 2 / -19.5%"},{"VM name":"Standard_D12","# Cores":4,"Memory (GiB)":28,"Linux $":0.386,"Windows $":0.528,"ACUs":160,"Best price region / Diff":"East US 2 / -10.1%"},{"VM name":"Standard_D12_v2","# Cores":4,"Memory (GiB)":28,"Linux $":0.371,"Windows $":0.528,"ACUs":210,"Best price region / Diff":"West US 2 / -19.4%"},{"VM name":"Standard_D13","# Cores":8,"Memory (GiB)":56,"Linux $":0.771,"Windows $":1.056,"ACUs":160,"Best price region / Diff":"East US 2 / -10%"},{"VM name":"Standard_D13_v2","# Cores":8,"Memory (GiB)":56,"Linux $":0.741,"Windows $":1.056,"ACUs":210,"Best price region / Diff":"West US 2 / -19.3%"},{"VM name":"Standard_D14","# Cores":16,"Memory (GiB)":112,"Linux $":1.542,"Windows $":2.111,"ACUs":160,"Best price region / Diff":"South Central US / -10.1%"},{"VM name":"Standard_D14_v2","# Cores":16,"Memory (GiB)":112,"Linux $":1.482,"Windows $":2.111,"ACUs":210,"Best price region / Diff":"East US 2 / -19.3%"},{"VM name":"Standard_D15_v2","# Cores":20,"Memory (GiB)":140,"Linux $":1.853,"Windows $":2.639,"ACUs":210,"Best price region / Diff":"East US 2 / -19.3%"},{"VM name":"Standard_D16_v3","# Cores":16,"Memory (GiB)":64,"Linux $":0.768,"Windows $":1.504,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D16_v4","# Cores":16,"Memory (GiB)":64,"Linux $":0.768,"Windows $":1.504,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_D16a_v4","# Cores":16,"Memory (GiB)":64,"Linux $":0.768,"Windows $":1.504,"ACUs":0,"Best price region / Diff":"Central India / -35.8%"},{"VM name":"Standard_D16as_v4","# Cores":16,"Memory (GiB)":64,"Linux $":0.768,"Windows $":1.504,"ACUs":0,"Best price region / Diff":"Central India / -35.8%"},{"VM name":"Standard_D16d_v4","# Cores":16,"Memory (GiB)":64,"Linux $":0.904,"Windows $":1.64,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_D16ds_v4","# Cores":16,"Memory (GiB)":64,"Linux $":0.904,"Windows $":1.64,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_D16s_v3","# Cores":16,"Memory (GiB)":64,"Linux $":0.768,"Windows $":1.504,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D16s_v4","# Cores":16,"Memory (GiB)":64,"Linux $":0.768,"Windows $":1.504,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_D2","# Cores":2,"Memory (GiB)":7,"Linux $":0.154,"Windows $":0.28,"ACUs":160,"Best price region / Diff":"East US 2 / -13%"},{"VM name":"Standard_D2_v2","# Cores":2,"Memory (GiB)":7,"Linux $":0.146,"Windows $":0.252,"ACUs":210,"Best price region / Diff":"East US 2 / -21.9%"},{"VM name":"Standard_D2_v3","# Cores":2,"Memory (GiB)":8,"Linux $":0.096,"Windows $":0.188,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D2_v4","# Cores":2,"Memory (GiB)":8,"Linux $":0.096,"Windows $":0.188,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_D2a_v4","# Cores":2,"Memory (GiB)":8,"Linux $":0.096,"Windows $":0.188,"ACUs":0,"Best price region / Diff":"Central India / -35.2%"},{"VM name":"Standard_D2as_v4","# Cores":2,"Memory (GiB)":8,"Linux $":0.096,"Windows $":0.188,"ACUs":0,"Best price region / Diff":"Central India / -35.2%"},{"VM name":"Standard_D2d_v4","# Cores":2,"Memory (GiB)":8,"Linux $":0.113,"Windows $":0.205,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_D2ds_v4","# Cores":2,"Memory (GiB)":8,"Linux $":0.113,"Windows $":0.205,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_D2s_v3","# Cores":2,"Memory (GiB)":8,"Linux $":0.096,"Windows $":0.188,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D2s_v4","# Cores":2,"Memory (GiB)":8,"Linux $":0.096,"Windows $":0.188,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_D3","# Cores":4,"Memory (GiB)":14,"Linux $":0.308,"Windows $":0.56,"ACUs":160,"Best price region / Diff":"East US 2 / -13%"},{"VM name":"Standard_D3_v2","# Cores":4,"Memory (GiB)":14,"Linux $":0.293,"Windows $":0.504,"ACUs":210,"Best price region / Diff":"West US 2 / -21.8%"},{"VM name":"Standard_D32_v3","# Cores":32,"Memory (GiB)":128,"Linux $":1.536,"Windows $":3.008,"ACUs":160,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_D32_v4","# Cores":32,"Memory (GiB)":128,"Linux $":1.536,"Windows $":3.008,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_D32a_v4","# Cores":32,"Memory (GiB)":128,"Linux $":1.536,"Windows $":3.008,"ACUs":0,"Best price region / Diff":"Central India / -35.7%"},{"VM name":"Standard_D32as_v4","# Cores":32,"Memory (GiB)":128,"Linux $":1.536,"Windows $":3.008,"ACUs":0,"Best price region / Diff":"Central India / -35.7%"},{"VM name":"Standard_D32d_v4","# Cores":32,"Memory (GiB)":128,"Linux $":1.808,"Windows $":3.28,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_D32ds_v4","# Cores":32,"Memory (GiB)":128,"Linux $":1.808,"Windows $":3.28,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D32s_v3","# Cores":32,"Memory (GiB)":128,"Linux $":1.536,"Windows $":3.008,"ACUs":160,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_D32s_v4","# Cores":32,"Memory (GiB)":128,"Linux $":1.536,"Windows $":3.008,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_D4","# Cores":8,"Memory (GiB)":28,"Linux $":0.616,"Windows $":1.12,"ACUs":160,"Best price region / Diff":"South Central US / -13%"},{"VM name":"Standard_D4_v2","# Cores":8,"Memory (GiB)":28,"Linux $":0.585,"Windows $":1.008,"ACUs":210,"Best price region / Diff":"East US 2 / -21.7%"},{"VM name":"Standard_D4_v3","# Cores":4,"Memory (GiB)":16,"Linux $":0.192,"Windows $":0.376,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_D4_v4","# Cores":4,"Memory (GiB)":16,"Linux $":0.192,"Windows $":0.376,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D4a_v4","# Cores":4,"Memory (GiB)":16,"Linux $":0.192,"Windows $":0.376,"ACUs":0,"Best price region / Diff":"Central India / -35.8%"},{"VM name":"Standard_D4as_v4","# Cores":4,"Memory (GiB)":16,"Linux $":0.192,"Windows $":0.376,"ACUs":0,"Best price region / Diff":"Central India / -35.8%"},{"VM name":"Standard_D4d_v4","# Cores":4,"Memory (GiB)":16,"Linux $":0.226,"Windows $":0.41,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_D4ds_v4","# Cores":4,"Memory (GiB)":16,"Linux $":0.226,"Windows $":0.41,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_D4s_v3","# Cores":4,"Memory (GiB)":16,"Linux $":0.192,"Windows $":0.376,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_D4s_v4","# Cores":4,"Memory (GiB)":16,"Linux $":0.192,"Windows $":0.376,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_D48_v3","# Cores":48,"Memory (GiB)":192,"Linux $":2.304,"Windows $":4.512,"ACUs":160,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_D48_v4","# Cores":48,"Memory (GiB)":192,"Linux $":2.304,"Windows $":4.512,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D48a_v4","# Cores":48,"Memory (GiB)":192,"Linux $":2.304,"Windows $":4.512,"ACUs":0,"Best price region / Diff":"Central India / -35.7%"},{"VM name":"Standard_D48as_v4","# Cores":48,"Memory (GiB)":192,"Linux $":2.304,"Windows $":4.512,"ACUs":0,"Best price region / Diff":"Central India / -35.7%"},{"VM name":"Standard_D48d_v4","# Cores":48,"Memory (GiB)":192,"Linux $":2.712,"Windows $":4.92,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D48ds_v4","# Cores":48,"Memory (GiB)":192,"Linux $":2.712,"Windows $":4.92,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_D48s_v3","# Cores":48,"Memory (GiB)":192,"Linux $":2.304,"Windows $":4.512,"ACUs":160,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_D48s_v4","# Cores":48,"Memory (GiB)":192,"Linux $":2.304,"Windows $":4.512,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_D5_v2","# Cores":16,"Memory (GiB)":56,"Linux $":1.17,"Windows $":2.016,"ACUs":210,"Best price region / Diff":"West US 2 / -21.7%"},{"VM name":"Standard_D64_v3","# Cores":64,"Memory (GiB)":256,"Linux $":3.072,"Windows $":6.016,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D64_v4","# Cores":64,"Memory (GiB)":256,"Linux $":3.072,"Windows $":6.016,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D64a_v4","# Cores":64,"Memory (GiB)":256,"Linux $":3.072,"Windows $":6.016,"ACUs":0,"Best price region / Diff":"Central India / -35.7%"},{"VM name":"Standard_D64as_v4","# Cores":64,"Memory (GiB)":256,"Linux $":3.072,"Windows $":6.016,"ACUs":0,"Best price region / Diff":"Central India / -35.7%"},{"VM name":"Standard_D64d_v4","# Cores":64,"Memory (GiB)":256,"Linux $":3.616,"Windows $":6.56,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D64ds_v4","# Cores":64,"Memory (GiB)":256,"Linux $":3.616,"Windows $":6.56,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_D64s_v3","# Cores":64,"Memory (GiB)":256,"Linux $":3.072,"Windows $":6.016,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D64s_v4","# Cores":64,"Memory (GiB)":256,"Linux $":3.072,"Windows $":6.016,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_D8_v3","# Cores":8,"Memory (GiB)":32,"Linux $":0.384,"Windows $":0.752,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D8_v4","# Cores":8,"Memory (GiB)":32,"Linux $":0.384,"Windows $":0.752,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_D8a_v4","# Cores":8,"Memory (GiB)":32,"Linux $":0.384,"Windows $":0.752,"ACUs":0,"Best price region / Diff":"Central India / -35.8%"},{"VM name":"Standard_D8as_v4","# Cores":8,"Memory (GiB)":32,"Linux $":0.384,"Windows $":0.752,"ACUs":0,"Best price region / Diff":"Central India / -35.8%"},{"VM name":"Standard_D8d_v4","# Cores":8,"Memory (GiB)":32,"Linux $":0.452,"Windows $":0.82,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D8ds_v4","# Cores":8,"Memory (GiB)":32,"Linux $":0.452,"Windows $":0.82,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_D8s_v3","# Cores":8,"Memory (GiB)":32,"Linux $":0.384,"Windows $":0.752,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_D8s_v4","# Cores":8,"Memory (GiB)":32,"Linux $":0.384,"Windows $":0.752,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_D96a_v4","# Cores":96,"Memory (GiB)":384,"Linux $":4.608,"Windows $":9.024,"ACUs":0,"Best price region / Diff":"Central India / -35.7%"},{"VM name":"Standard_D96as_v4","# Cores":96,"Memory (GiB)":384,"Linux $":4.608,"Windows $":9.024,"ACUs":0,"Best price region / Diff":"Central India / -35.7%"},{"VM name":"Standard_DC1s_v2","# Cores":1,"Memory (GiB)":4,"Linux $":0.125,"Windows $":0.171,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_DC2s","# Cores":2,"Memory (GiB)":8,"Linux $":0.198,"Windows $":0.244,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_DC2s_v2","# Cores":2,"Memory (GiB)":8,"Linux $":0.249,"Windows $":0.341,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_DC4s","# Cores":4,"Memory (GiB)":16,"Linux $":0.395,"Windows $":0.487,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_DC4s_v2","# Cores":4,"Memory (GiB)":16,"Linux $":0.498,"Windows $":0.682,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_DC8_v2","# Cores":8,"Memory (GiB)":32,"Linux $":0.997,"Windows $":1.365,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_DS1","# Cores":1,"Memory (GiB)":3.5,"Linux $":0.077,"Windows $":0.14,"ACUs":160,"Best price region / Diff":"South Central US / -13%"},{"VM name":"Standard_DS1_v2","# Cores":1,"Memory (GiB)":3.5,"Linux $":0.073,"Windows $":0.126,"ACUs":210,"Best price region / Diff":"West US 2 / -21.9%"},{"VM name":"Standard_DS11","# Cores":2,"Memory (GiB)":14,"Linux $":0.193,"Windows $":0.264,"ACUs":160,"Best price region / Diff":"South Central US / -10.4%"},{"VM name":"Standard_DS11-1_v2","# Cores":1,"Memory (GiB)":14,"Linux $":0.185,"Windows $":0.264,"ACUs":210,"Best price region / Diff":"East US 2 / -19.5%"},{"VM name":"Standard_DS11_v2","# Cores":2,"Memory (GiB)":14,"Linux $":0.185,"Windows $":0.264,"ACUs":210,"Best price region / Diff":"East US 2 / -19.5%"},{"VM name":"Standard_DS12","# Cores":4,"Memory (GiB)":28,"Linux $":0.386,"Windows $":0.528,"ACUs":160,"Best price region / Diff":"East US 2 / -10.1%"},{"VM name":"Standard_DS12-1_v2","# Cores":1,"Memory (GiB)":28,"Linux $":0.371,"Windows $":0.528,"ACUs":210,"Best price region / Diff":"West US 2 / -19.4%"},{"VM name":"Standard_DS12-2_v2","# Cores":2,"Memory (GiB)":28,"Linux $":0.371,"Windows $":0.528,"ACUs":210,"Best price region / Diff":"East US 2 / -19.4%"},{"VM name":"Standard_DS12_v2","# Cores":4,"Memory (GiB)":28,"Linux $":0.371,"Windows $":0.528,"ACUs":210,"Best price region / Diff":"West US 2 / -19.4%"},{"VM name":"Standard_DS13","# Cores":8,"Memory (GiB)":56,"Linux $":0.771,"Windows $":1.056,"ACUs":160,"Best price region / Diff":"East US 2 / -10%"},{"VM name":"Standard_DS13-2_v2","# Cores":2,"Memory (GiB)":56,"Linux $":0.741,"Windows $":1.056,"ACUs":210,"Best price region / Diff":"West US 2 / -19.3%"},{"VM name":"Standard_DS13-4_v2","# Cores":4,"Memory (GiB)":56,"Linux $":0.741,"Windows $":1.056,"ACUs":210,"Best price region / Diff":"West US 2 / -19.3%"},{"VM name":"Standard_DS13_v2","# Cores":8,"Memory (GiB)":56,"Linux $":0.741,"Windows $":1.056,"ACUs":210,"Best price region / Diff":"West US 2 / -19.3%"},{"VM name":"Standard_DS14","# Cores":8,"Memory (GiB)":112,"Linux $":1.542,"Windows $":2.111,"ACUs":160,"Best price region / Diff":"South Central US / -10.1%"},{"VM name":"Standard_DS14-4_v2","# Cores":4,"Memory (GiB)":112,"Linux $":1.482,"Windows $":2.111,"ACUs":210,"Best price region / Diff":"East US 2 / -19.3%"},{"VM name":"Standard_DS14-8_v2","# Cores":8,"Memory (GiB)":112,"Linux $":1.482,"Windows $":2.111,"ACUs":210,"Best price region / Diff":"East US 2 / -19.3%"},{"VM name":"Standard_DS14_v2","# Cores":16,"Memory (GiB)":112,"Linux $":1.482,"Windows $":2.111,"ACUs":210,"Best price region / Diff":"East US 2 / -19.3%"},{"VM name":"Standard_DS15_v2","# Cores":20,"Memory (GiB)":140,"Linux $":1.853,"Windows $":2.639,"ACUs":210,"Best price region / Diff":"East US 2 / -19.3%"},{"VM name":"Standard_DS2","# Cores":2,"Memory (GiB)":7,"Linux $":0.154,"Windows $":0.28,"ACUs":160,"Best price region / Diff":"East US 2 / -13%"},{"VM name":"Standard_DS2_v2","# Cores":2,"Memory (GiB)":7,"Linux $":0.146,"Windows $":0.252,"ACUs":210,"Best price region / Diff":"East US 2 / -21.9%"},{"VM name":"Standard_DS3","# Cores":4,"Memory (GiB)":14,"Linux $":0.308,"Windows $":0.56,"ACUs":160,"Best price region / Diff":"East US 2 / -13%"},{"VM name":"Standard_DS3_v2","# Cores":4,"Memory (GiB)":14,"Linux $":0.293,"Windows $":0.504,"ACUs":210,"Best price region / Diff":"West US 2 / -21.8%"},{"VM name":"Standard_DS4","# Cores":8,"Memory (GiB)":28,"Linux $":0.616,"Windows $":1.12,"ACUs":160,"Best price region / Diff":"South Central US / -13%"},{"VM name":"Standard_DS4_v2","# Cores":8,"Memory (GiB)":28,"Linux $":0.585,"Windows $":1.008,"ACUs":210,"Best price region / Diff":"East US 2 / -21.7%"},{"VM name":"Standard_DS5_v2","# Cores":16,"Memory (GiB)":56,"Linux $":1.17,"Windows $":2.016,"ACUs":210,"Best price region / Diff":"West US 2 / -21.7%"},{"VM name":"Standard_E16-4as_v4","# Cores":4,"Memory (GiB)":128,"Linux $":1.008,"Windows $":1.744,"ACUs":230,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E16-4ds_v4","# Cores":4,"Memory (GiB)":128,"Linux $":1.152,"Windows $":1.888,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_E16-4s_v3","# Cores":4,"Memory (GiB)":128,"Linux $":1.008,"Windows $":1.744,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E16-4s_v4","# Cores":4,"Memory (GiB)":128,"Linux $":1.008,"Windows $":1.744,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E16-8as_v4","# Cores":8,"Memory (GiB)":128,"Linux $":1.008,"Windows $":1.744,"ACUs":230,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E16-8ds_v4","# Cores":8,"Memory (GiB)":128,"Linux $":1.152,"Windows $":1.888,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E16-8s_v3","# Cores":8,"Memory (GiB)":128,"Linux $":1.008,"Windows $":1.744,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E16-8s_v4","# Cores":8,"Memory (GiB)":128,"Linux $":1.008,"Windows $":1.744,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E16_v3","# Cores":16,"Memory (GiB)":128,"Linux $":1.008,"Windows $":1.744,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E16_v4","# Cores":16,"Memory (GiB)":128,"Linux $":1.008,"Windows $":1.744,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_E16a_v4","# Cores":16,"Memory (GiB)":128,"Linux $":1.008,"Windows $":1.744,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E16as_v4","# Cores":16,"Memory (GiB)":128,"Linux $":1.008,"Windows $":1.744,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E16d_v4","# Cores":16,"Memory (GiB)":128,"Linux $":1.152,"Windows $":1.888,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E16ds_v4","# Cores":16,"Memory (GiB)":128,"Linux $":1.152,"Windows $":1.888,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E16s_v3","# Cores":16,"Memory (GiB)":128,"Linux $":1.008,"Windows $":1.744,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E16s_v4","# Cores":16,"Memory (GiB)":128,"Linux $":1.008,"Windows $":1.744,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E2_v3","# Cores":2,"Memory (GiB)":16,"Linux $":0.126,"Windows $":0.218,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E2_v4","# Cores":2,"Memory (GiB)":16,"Linux $":0.126,"Windows $":0.218,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E2a_v4","# Cores":2,"Memory (GiB)":16,"Linux $":0.126,"Windows $":0.218,"ACUs":0,"Best price region / Diff":"Central India / -36.5%"},{"VM name":"Standard_E2as_v4","# Cores":2,"Memory (GiB)":16,"Linux $":0.126,"Windows $":0.218,"ACUs":0,"Best price region / Diff":"Central India / -36.5%"},{"VM name":"Standard_E2d_v4","# Cores":2,"Memory (GiB)":16,"Linux $":0.144,"Windows $":0.236,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E2ds_v4","# Cores":2,"Memory (GiB)":16,"Linux $":0.144,"Windows $":0.236,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E2s_v3","# Cores":2,"Memory (GiB)":16,"Linux $":0.126,"Windows $":0.218,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E2s_v4","# Cores":2,"Memory (GiB)":16,"Linux $":0.126,"Windows $":0.218,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E20_v3","# Cores":20,"Memory (GiB)":160,"Linux $":1.26,"Windows $":2.18,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E20_v4","# Cores":20,"Memory (GiB)":160,"Linux $":1.26,"Windows $":2.18,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E20a_v4","# Cores":20,"Memory (GiB)":160,"Linux $":1.26,"Windows $":2.18,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E20as_v4","# Cores":20,"Memory (GiB)":160,"Linux $":1.26,"Windows $":2.18,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E20d_v4","# Cores":20,"Memory (GiB)":160,"Linux $":1.44,"Windows $":2.36,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_E20ds_v4","# Cores":20,"Memory (GiB)":160,"Linux $":1.44,"Windows $":2.36,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E20s_v3","# Cores":20,"Memory (GiB)":160,"Linux $":1.26,"Windows $":2.18,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E20s_v4","# Cores":20,"Memory (GiB)":160,"Linux $":1.26,"Windows $":2.18,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E32-16as_v4","# Cores":16,"Memory (GiB)":256,"Linux $":2.016,"Windows $":3.488,"ACUs":230,"Best price region / Diff":"Brazil Southeast / 0%"},{"VM name":"Standard_E32-16ds_v4","# Cores":16,"Memory (GiB)":256,"Linux $":2.304,"Windows $":3.776,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E32-16s_v3","# Cores":16,"Memory (GiB)":256,"Linux $":2.016,"Windows $":3.488,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E32-16s_v4","# Cores":16,"Memory (GiB)":256,"Linux $":2.016,"Windows $":3.488,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E32-8as_v4","# Cores":8,"Memory (GiB)":256,"Linux $":2.016,"Windows $":3.488,"ACUs":230,"Best price region / Diff":"Brazil Southeast / 0%"},{"VM name":"Standard_E32-8ds_v4","# Cores":8,"Memory (GiB)":256,"Linux $":2.304,"Windows $":3.776,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E32-8s_v3","# Cores":8,"Memory (GiB)":256,"Linux $":2.016,"Windows $":3.488,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E32-8s_v4","# Cores":8,"Memory (GiB)":256,"Linux $":2.016,"Windows $":3.488,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E32_v3","# Cores":32,"Memory (GiB)":256,"Linux $":2.016,"Windows $":3.488,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E32_v4","# Cores":32,"Memory (GiB)":256,"Linux $":2.016,"Windows $":3.488,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E32a_v4","# Cores":32,"Memory (GiB)":256,"Linux $":2.016,"Windows $":3.488,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E32as_v4","# Cores":32,"Memory (GiB)":256,"Linux $":2.016,"Windows $":3.488,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E32d_v4","# Cores":32,"Memory (GiB)":256,"Linux $":2.304,"Windows $":3.776,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E32ds_v4","# Cores":32,"Memory (GiB)":256,"Linux $":2.304,"Windows $":3.776,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_E32s_v3","# Cores":32,"Memory (GiB)":256,"Linux $":2.016,"Windows $":3.488,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E32s_v4","# Cores":32,"Memory (GiB)":256,"Linux $":2.016,"Windows $":3.488,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E4-2as_v4","# Cores":2,"Memory (GiB)":32,"Linux $":0.252,"Windows $":0.436,"ACUs":230,"Best price region / Diff":"Brazil Southeast / 0%"},{"VM name":"Standard_E4-2ds_v4","# Cores":2,"Memory (GiB)":32,"Linux $":0.288,"Windows $":0.472,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E4-2s_v3","# Cores":2,"Memory (GiB)":32,"Linux $":0.252,"Windows $":0.436,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E4-2s_v4","# Cores":2,"Memory (GiB)":32,"Linux $":0.252,"Windows $":0.436,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_E4_v3","# Cores":4,"Memory (GiB)":32,"Linux $":0.252,"Windows $":0.436,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E4_v4","# Cores":4,"Memory (GiB)":32,"Linux $":0.252,"Windows $":0.436,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_E4a_v4","# Cores":4,"Memory (GiB)":32,"Linux $":0.252,"Windows $":0.436,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E4as_v4","# Cores":4,"Memory (GiB)":32,"Linux $":0.252,"Windows $":0.436,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E4d_v4","# Cores":4,"Memory (GiB)":32,"Linux $":0.288,"Windows $":0.472,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E4ds_v4","# Cores":4,"Memory (GiB)":32,"Linux $":0.288,"Windows $":0.472,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E4s_v3","# Cores":4,"Memory (GiB)":32,"Linux $":0.252,"Windows $":0.436,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E4s_v4","# Cores":4,"Memory (GiB)":32,"Linux $":0.252,"Windows $":0.436,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E48_v3","# Cores":48,"Memory (GiB)":384,"Linux $":3.024,"Windows $":5.232,"ACUs":160,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E48_v4","# Cores":48,"Memory (GiB)":384,"Linux $":3.024,"Windows $":5.232,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E48a_v4","# Cores":48,"Memory (GiB)":384,"Linux $":3.024,"Windows $":5.232,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E48as_v4","# Cores":48,"Memory (GiB)":384,"Linux $":3.024,"Windows $":5.232,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E48d_v4","# Cores":48,"Memory (GiB)":384,"Linux $":3.456,"Windows $":5.664,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E48ds_v4","# Cores":48,"Memory (GiB)":384,"Linux $":3.456,"Windows $":5.664,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E48s_v3","# Cores":48,"Memory (GiB)":384,"Linux $":3.024,"Windows $":5.232,"ACUs":160,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E48s_v4","# Cores":48,"Memory (GiB)":384,"Linux $":3.024,"Windows $":5.232,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E64-16as_v4","# Cores":16,"Memory (GiB)":512,"Linux $":4.032,"Windows $":6.976,"ACUs":230,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E64-16ds_v4","# Cores":16,"Memory (GiB)":504,"Linux $":4.608,"Windows $":7.552,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E64-16s_v3","# Cores":16,"Memory (GiB)":432,"Linux $":3.629,"Windows $":6.573,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E64-16s_v4","# Cores":16,"Memory (GiB)":504,"Linux $":4.032,"Windows $":6.976,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E64-32as_v4","# Cores":32,"Memory (GiB)":512,"Linux $":4.032,"Windows $":6.976,"ACUs":230,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E64-32ds_v4","# Cores":32,"Memory (GiB)":504,"Linux $":4.608,"Windows $":7.552,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E64-32s_v3","# Cores":32,"Memory (GiB)":432,"Linux $":3.629,"Windows $":6.573,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E64-32s_v4","# Cores":32,"Memory (GiB)":504,"Linux $":4.032,"Windows $":6.976,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E64_v3","# Cores":64,"Memory (GiB)":432,"Linux $":3.629,"Windows $":6.573,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E64_v4","# Cores":64,"Memory (GiB)":504,"Linux $":4.032,"Windows $":6.976,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E64a_v4","# Cores":64,"Memory (GiB)":512,"Linux $":4.032,"Windows $":6.976,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E64as_v4","# Cores":64,"Memory (GiB)":512,"Linux $":4.032,"Windows $":6.976,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E64d_v4","# Cores":64,"Memory (GiB)":504,"Linux $":4.608,"Windows $":7.552,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_E64ds_v4","# Cores":64,"Memory (GiB)":504,"Linux $":4.608,"Windows $":7.552,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E64i_v3","# Cores":64,"Memory (GiB)":432,"Linux $":3.629,"Windows $":6.573,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E64is_v3","# Cores":64,"Memory (GiB)":432,"Linux $":3.629,"Windows $":6.573,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E64s_v3","# Cores":64,"Memory (GiB)":432,"Linux $":3.629,"Windows $":6.573,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E64s_v4","# Cores":64,"Memory (GiB)":504,"Linux $":4.032,"Windows $":6.976,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_E8-2as_v4","# Cores":2,"Memory (GiB)":64,"Linux $":0.504,"Windows $":0.872,"ACUs":230,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E8-2ds_v4","# Cores":2,"Memory (GiB)":64,"Linux $":0.576,"Windows $":0.944,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E8-2s_v3","# Cores":2,"Memory (GiB)":64,"Linux $":0.504,"Windows $":0.872,"ACUs":160,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_E8-2s_v4","# Cores":2,"Memory (GiB)":64,"Linux $":0.504,"Windows $":0.872,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_E8-4as_v4","# Cores":4,"Memory (GiB)":64,"Linux $":0.504,"Windows $":0.872,"ACUs":230,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E8-4ds_v4","# Cores":4,"Memory (GiB)":64,"Linux $":0.576,"Windows $":0.944,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E8-4s_v3","# Cores":4,"Memory (GiB)":64,"Linux $":0.504,"Windows $":0.872,"ACUs":160,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_E8-4s_v4","# Cores":4,"Memory (GiB)":64,"Linux $":0.504,"Windows $":0.872,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E8_v3","# Cores":8,"Memory (GiB)":64,"Linux $":0.504,"Windows $":0.872,"ACUs":160,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_E8_v4","# Cores":8,"Memory (GiB)":64,"Linux $":0.504,"Windows $":0.872,"ACUs":195,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_E8a_v4","# Cores":8,"Memory (GiB)":64,"Linux $":0.504,"Windows $":0.872,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E8as_v4","# Cores":8,"Memory (GiB)":64,"Linux $":0.504,"Windows $":0.872,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E8d_v4","# Cores":8,"Memory (GiB)":64,"Linux $":0.576,"Windows $":0.944,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E8ds_v4","# Cores":8,"Memory (GiB)":64,"Linux $":0.576,"Windows $":0.944,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E8s_v3","# Cores":8,"Memory (GiB)":64,"Linux $":0.504,"Windows $":0.872,"ACUs":160,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_E8s_v4","# Cores":8,"Memory (GiB)":64,"Linux $":0.504,"Windows $":0.872,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E80ids_v4","# Cores":80,"Memory (GiB)":504,"Linux $":5.76,"Windows $":9.44,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_E80is_v4","# Cores":80,"Memory (GiB)":504,"Linux $":5.04,"Windows $":8.72,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_E96-24as_v4","# Cores":24,"Memory (GiB)":672,"Linux $":6.048,"Windows $":10.464,"ACUs":230,"Best price region / Diff":"Brazil Southeast / 0%"},{"VM name":"Standard_E96-48as_v4","# Cores":48,"Memory (GiB)":672,"Linux $":6.048,"Windows $":10.464,"ACUs":230,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_E96a_v4","# Cores":96,"Memory (GiB)":672,"Linux $":6.048,"Windows $":10.464,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_E96as_v4","# Cores":96,"Memory (GiB)":672,"Linux $":6.048,"Windows $":10.464,"ACUs":0,"Best price region / Diff":"Central India / -36.9%"},{"VM name":"Standard_F1","# Cores":1,"Memory (GiB)":2,"Linux $":0.0497,"Windows $":0.0957,"ACUs":210,"Best price region / Diff":"Jio India West / -1.4%"},{"VM name":"Standard_F1s","# Cores":1,"Memory (GiB)":2,"Linux $":0.0497,"Windows $":0.0957,"ACUs":210,"Best price region / Diff":"Jio India West / -1.4%"},{"VM name":"Standard_F16","# Cores":16,"Memory (GiB)":32,"Linux $":0.796,"Windows $":1.532,"ACUs":210,"Best price region / Diff":"Central India / -0.8%"},{"VM name":"Standard_F16s","# Cores":16,"Memory (GiB)":32,"Linux $":0.796,"Windows $":1.532,"ACUs":210,"Best price region / Diff":"Central India / -0.8%"},{"VM name":"Standard_F16s_v2","# Cores":16,"Memory (GiB)":32,"Linux $":0.677,"Windows $":1.302,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_F2","# Cores":2,"Memory (GiB)":4,"Linux $":0.099,"Windows $":0.192,"ACUs":210,"Best price region / Diff":"Central India / -0.2%"},{"VM name":"Standard_F2s","# Cores":2,"Memory (GiB)":4,"Linux $":0.099,"Windows $":0.192,"ACUs":210,"Best price region / Diff":"Central India / -0.2%"},{"VM name":"Standard_F2s_v2","# Cores":2,"Memory (GiB)":4,"Linux $":0.0846,"Windows $":0.163,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_F32s_v2","# Cores":32,"Memory (GiB)":64,"Linux $":1.353,"Windows $":2.604,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_F4","# Cores":4,"Memory (GiB)":8,"Linux $":0.199,"Windows $":0.383,"ACUs":210,"Best price region / Diff":"Jio India West / -0.5%"},{"VM name":"Standard_F4s","# Cores":4,"Memory (GiB)":8,"Linux $":0.199,"Windows $":0.383,"ACUs":210,"Best price region / Diff":"Jio India West / -0.5%"},{"VM name":"Standard_F4s_v2","# Cores":4,"Memory (GiB)":8,"Linux $":0.169,"Windows $":0.326,"ACUs":195,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_F48s_v2","# Cores":48,"Memory (GiB)":96,"Linux $":2.03,"Windows $":4.24,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_F64s_v2","# Cores":64,"Memory (GiB)":128,"Linux $":2.706,"Windows $":5.209,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_F72s_v2","# Cores":72,"Memory (GiB)":144,"Linux $":3.045,"Windows $":5.86,"ACUs":195,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_F8","# Cores":8,"Memory (GiB)":16,"Linux $":0.398,"Windows $":0.766,"ACUs":210,"Best price region / Diff":"Jio India West / -0.8%"},{"VM name":"Standard_F8s","# Cores":8,"Memory (GiB)":16,"Linux $":0.398,"Windows $":0.766,"ACUs":210,"Best price region / Diff":"Jio India West / -0.8%"},{"VM name":"Standard_F8s_v2","# Cores":8,"Memory (GiB)":16,"Linux $":0.338,"Windows $":0.651,"ACUs":195,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_FX12mds","# Cores":12,"Memory (GiB)":252,"Linux $":1.116,"Windows $":1.668,"ACUs":310,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_FX24mds","# Cores":24,"Memory (GiB)":504,"Linux $":2.232,"Windows $":3.336,"ACUs":310,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_FX36mds","# Cores":36,"Memory (GiB)":756,"Linux $":3.348,"Windows $":5.004,"ACUs":310,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_FX4mds","# Cores":4,"Memory (GiB)":84,"Linux $":0.372,"Windows $":0.556,"ACUs":310,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_FX48mds","# Cores":48,"Memory (GiB)":1008,"Linux $":4.464,"Windows $":6.672,"ACUs":310,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_H16","# Cores":16,"Memory (GiB)":112,"Linux $":1.807,"Windows $":3.508,"ACUs":290,"Best price region / Diff":"West US 2 / -12%"},{"VM name":"Standard_H16m","# Cores":16,"Memory (GiB)":224,"Linux $":2.422,"Windows $":4.699,"ACUs":290,"Best price region / Diff":"West US 2 / -12%"},{"VM name":"Standard_H16mr","# Cores":16,"Memory (GiB)":224,"Linux $":2.664,"Windows $":5.169,"ACUs":290,"Best price region / Diff":"West US 2 / -12%"},{"VM name":"Standard_H16r","# Cores":16,"Memory (GiB)":112,"Linux $":1.988,"Windows $":3.858,"ACUs":290,"Best price region / Diff":"West US 2 / -12%"},{"VM name":"Standard_H8","# Cores":8,"Memory (GiB)":56,"Linux $":0.904,"Windows $":1.754,"ACUs":290,"Best price region / Diff":"West US 2 / -11.9%"},{"VM name":"Standard_H8m","# Cores":8,"Memory (GiB)":112,"Linux $":1.211,"Windows $":2.35,"ACUs":290,"Best price region / Diff":"West US 2 / -12%"},{"VM name":"Standard_HB120-16rs_v3","# Cores":16,"Memory (GiB)":448,"Linux $":3.6,"Windows $":9.12,"ACUs":330,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_HB120-32rs_v3","# Cores":32,"Memory (GiB)":448,"Linux $":3.6,"Windows $":9.12,"ACUs":330,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_HB120-64rs_v3","# Cores":64,"Memory (GiB)":448,"Linux $":3.6,"Windows $":9.12,"ACUs":330,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_HB120-96rs_v3","# Cores":96,"Memory (GiB)":448,"Linux $":3.6,"Windows $":9.12,"ACUs":330,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_HB120rs_v2","# Cores":120,"Memory (GiB)":456,"Linux $":3.6,"Windows $":9.12,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_HB120rs_v3","# Cores":120,"Memory (GiB)":448,"Linux $":3.6,"Windows $":9.12,"ACUs":330,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_HB60rs","# Cores":60,"Memory (GiB)":228,"Linux $":2.28,"Windows $":5.04,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_HC44rs","# Cores":44,"Memory (GiB)":352,"Linux $":3.168,"Windows $":5.192,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_L16s_v2","# Cores":16,"Memory (GiB)":128,"Linux $":1.248,"Windows $":1.984,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_L32s_v2","# Cores":32,"Memory (GiB)":256,"Linux $":2.496,"Windows $":3.968,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_L48s_v2","# Cores":48,"Memory (GiB)":384,"Linux $":3.744,"Windows $":5.952,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_L64s_v2","# Cores":64,"Memory (GiB)":512,"Linux $":4.992,"Windows $":7.936,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_L8s_v2","# Cores":8,"Memory (GiB)":64,"Linux $":0.624,"Windows $":0.992,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_L80s_v2","# Cores":80,"Memory (GiB)":640,"Linux $":6.24,"Windows $":9.92,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_M128","# Cores":128,"Memory (GiB)":2000,"Linux $":13.338,"Windows $":0,"ACUs":160,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_M128-32ms","# Cores":32,"Memory (GiB)":3800,"Linux $":26.688,"Windows $":35.814,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_M128-64ms","# Cores":64,"Memory (GiB)":3800,"Linux $":26.688,"Windows $":35.814,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_M128dms_v2","# Cores":128,"Memory (GiB)":3892,"Linux $":26.69,"Windows $":32.578,"ACUs":0,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_M128ds_v2","# Cores":128,"Memory (GiB)":2048,"Linux $":13.34,"Windows $":19.228,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_M128m","# Cores":128,"Memory (GiB)":3800,"Linux $":26.688,"Windows $":35.814,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_M128ms","# Cores":128,"Memory (GiB)":3800,"Linux $":26.688,"Windows $":35.814,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_M128ms_v2","# Cores":128,"Memory (GiB)":3892,"Linux $":26.269,"Windows $":32.157,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_M128s","# Cores":128,"Memory (GiB)":2000,"Linux $":13.338,"Windows $":19.226,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_M128s_v2","# Cores":128,"Memory (GiB)":2048,"Linux $":12.919,"Windows $":18.807,"ACUs":0,"Best price region / Diff":"West US 3 / 0%"},{"VM name":"Standard_M16-4ms","# Cores":4,"Memory (GiB)":437.5,"Linux $":3.073,"Windows $":4.2138,"ACUs":160,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_M16-8ms","# Cores":8,"Memory (GiB)":437.5,"Linux $":3.073,"Windows $":4.2138,"ACUs":160,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_M16ms","# Cores":16,"Memory (GiB)":437.5,"Linux $":3.073,"Windows $":4.2138,"ACUs":160,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_M192idms_v2","# Cores":192,"Memory (GiB)":4096,"Linux $":32.064,"Windows $":40.896,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_M192ids_v2","# Cores":192,"Memory (GiB)":2048,"Linux $":16.032,"Windows $":24.864,"ACUs":0,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_M192ims_v2","# Cores":192,"Memory (GiB)":4096,"Linux $":31.643,"Windows $":40.476,"ACUs":0,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_M192is_v2","# Cores":192,"Memory (GiB)":2048,"Linux $":15.611,"Windows $":24.444,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_M208ms_v2","# Cores":208,"Memory (GiB)":5700,"Linux $":44.62,"Windows $":54.188,"ACUs":0,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_M208s_v2","# Cores":208,"Memory (GiB)":2850,"Linux $":22.31,"Windows $":31.878,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_M32-16ms","# Cores":16,"Memory (GiB)":875,"Linux $":6.146,"Windows $":8.4276,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_M32-8ms","# Cores":8,"Memory (GiB)":875,"Linux $":6.146,"Windows $":8.4276,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_M32dms_v2","# Cores":32,"Memory (GiB)":875,"Linux $":6.146,"Windows $":7.618,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_M32ls","# Cores":32,"Memory (GiB)":256,"Linux $":2.873,"Windows $":4.345,"ACUs":160,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_M32ms","# Cores":32,"Memory (GiB)":875,"Linux $":6.146,"Windows $":8.4276,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_M32ms_v2","# Cores":32,"Memory (GiB)":875,"Linux $":6.041,"Windows $":7.513,"ACUs":0,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_M32ts","# Cores":32,"Memory (GiB)":192,"Linux $":2.707,"Windows $":4.179,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_M416-208ms_v2","# Cores":208,"Memory (GiB)":11400,"Linux $":99.15,"Windows $":118.29,"ACUs":0,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_M416-208s_v2","# Cores":208,"Memory (GiB)":5700,"Linux $":49.58,"Windows $":68.716,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_M416ms_v2","# Cores":416,"Memory (GiB)":11400,"Linux $":99.15,"Windows $":118.29,"ACUs":0,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_M416s_v2","# Cores":416,"Memory (GiB)":5700,"Linux $":49.58,"Windows $":68.716,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_M64-16ms","# Cores":16,"Memory (GiB)":1750,"Linux $":10.337,"Windows $":14.641,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_M64ds_v2","# Cores":64,"Memory (GiB)":1024,"Linux $":6.669,"Windows $":9.613,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_M64ls","# Cores":64,"Memory (GiB)":512,"Linux $":5.415,"Windows $":8.359,"ACUs":160,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_M64m","# Cores":64,"Memory (GiB)":1750,"Linux $":10.337,"Windows $":14.641,"ACUs":160,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_M64ms","# Cores":64,"Memory (GiB)":1750,"Linux $":10.337,"Windows $":14.641,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_M64s","# Cores":64,"Memory (GiB)":1000,"Linux $":6.669,"Windows $":9.613,"ACUs":160,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_M64","# Cores":64,"Memory (GiB)":1000,"Linux $":6.669,"Windows $":0,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_M64-32ms","# Cores":32,"Memory (GiB)":1750,"Linux $":10.337,"Windows $":14.641,"ACUs":160,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_M64dms_v2","# Cores":64,"Memory (GiB)":1792,"Linux $":10.34,"Windows $":13.284,"ACUs":0,"Best price region / Diff":"West US 3 / 0%"},{"VM name":"Standard_M64ms_v2","# Cores":64,"Memory (GiB)":1792,"Linux $":10.13,"Windows $":13.073,"ACUs":0,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_M64s_v2","# Cores":64,"Memory (GiB)":1024,"Linux $":6.459,"Windows $":9.403,"ACUs":0,"Best price region / Diff":"West US 3 / 0%"},{"VM name":"Standard_M8-2ms","# Cores":2,"Memory (GiB)":218.75,"Linux $":1.5365,"Windows $":2.1069,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_M8-4ms","# Cores":4,"Memory (GiB)":218.75,"Linux $":1.5365,"Windows $":2.1069,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_M8ms","# Cores":8,"Memory (GiB)":218.75,"Linux $":1.5365,"Windows $":2.1069,"ACUs":160,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_NC12","# Cores":12,"Memory (GiB)":112,"Linux $":1.8,"Windows $":2.168,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_NC12s_v2","# Cores":12,"Memory (GiB)":224,"Linux $":4.14,"Windows $":4.986,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_NC12s_v3","# Cores":12,"Memory (GiB)":224,"Linux $":6.12,"Windows $":6.856,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_NC16as_T4_v3","# Cores":16,"Memory (GiB)":110,"Linux $":1.204,"Windows $":1.94,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_NC24r","# Cores":24,"Memory (GiB)":224,"Linux $":3.96,"Windows $":4.77,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_NC24","# Cores":24,"Memory (GiB)":224,"Linux $":3.6,"Windows $":4.336,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_NC24rs_v2","# Cores":24,"Memory (GiB)":448,"Linux $":9.108,"Windows $":10.971,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_NC24rs_v3","# Cores":24,"Memory (GiB)":448,"Linux $":13.464,"Windows $":15.083,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_NC24s_v2","# Cores":24,"Memory (GiB)":448,"Linux $":8.28,"Windows $":9.972,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_NC24s_v3","# Cores":24,"Memory (GiB)":448,"Linux $":12.24,"Windows $":13.712,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_NC4as_T4_v3","# Cores":4,"Memory (GiB)":28,"Linux $":0.526,"Windows $":0.71,"ACUs":0,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_NC6","# Cores":6,"Memory (GiB)":56,"Linux $":0.9,"Windows $":1.084,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_NC6s_v2","# Cores":6,"Memory (GiB)":112,"Linux $":2.07,"Windows $":2.493,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_NC6s_v3","# Cores":6,"Memory (GiB)":112,"Linux $":3.06,"Windows $":3.428,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_NC64as_T4_v3","# Cores":64,"Memory (GiB)":440,"Linux $":4.352,"Windows $":7.296,"ACUs":0,"Best price region / Diff":"North Central US / 0%"},{"VM name":"Standard_NC8as_T4_v3","# Cores":8,"Memory (GiB)":56,"Linux $":0.752,"Windows $":1.12,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_ND12s","# Cores":12,"Memory (GiB)":224,"Linux $":4.14,"Windows $":4.986,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_ND24rs","# Cores":24,"Memory (GiB)":448,"Linux $":9.108,"Windows $":10.971,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_ND24s","# Cores":24,"Memory (GiB)":448,"Linux $":8.28,"Windows $":9.972,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_ND40rs_v2","# Cores":40,"Memory (GiB)":672,"Linux $":22.032,"Windows $":23.872,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_ND6s","# Cores":6,"Memory (GiB)":112,"Linux $":2.07,"Windows $":2.493,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_ND96asr_v4","# Cores":96,"Memory (GiB)":900,"Linux $":27.197,"Windows $":31.613,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_NP10s","# Cores":10,"Memory (GiB)":168,"Linux $":1.65,"Windows $":2.11,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_NP20s","# Cores":20,"Memory (GiB)":336,"Linux $":3.3,"Windows $":4.22,"ACUs":0,"Best price region / Diff":"East US / 0%"},{"VM name":"Standard_NP40s","# Cores":40,"Memory (GiB)":672,"Linux $":6.6,"Windows $":8.44,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_NV12","# Cores":12,"Memory (GiB)":112,"Linux $":2.28,"Windows $":2.88,"ACUs":0,"Best price region / Diff":"West US 2 / -4.2%"},{"VM name":"Standard_NV12s_v3","# Cores":12,"Memory (GiB)":112,"Linux $":1.14,"Windows $":1.692,"ACUs":0,"Best price region / Diff":"West US / 0%"},{"VM name":"Standard_NV16as_v4","# Cores":16,"Memory (GiB)":56,"Linux $":0.932,"Windows $":1.668,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_NV24","# Cores":24,"Memory (GiB)":224,"Linux $":4.56,"Windows $":5.761,"ACUs":0,"Best price region / Diff":"West US 2 / -4.2%"},{"VM name":"Standard_NV24s_v3","# Cores":24,"Memory (GiB)":224,"Linux $":2.28,"Windows $":3.384,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_NV32as_v4","# Cores":32,"Memory (GiB)":112,"Linux $":1.864,"Windows $":3.336,"ACUs":0,"Best price region / Diff":"West US 2 / 0%"},{"VM name":"Standard_NV4as_v4","# Cores":4,"Memory (GiB)":14,"Linux $":0.233,"Windows $":0.417,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_NV48s_v3","# Cores":48,"Memory (GiB)":448,"Linux $":4.56,"Windows $":6.768,"ACUs":0,"Best price region / Diff":"West US / 0%"},{"VM name":"Standard_NV6","# Cores":6,"Memory (GiB)":56,"Linux $":1.14,"Windows $":1.44,"ACUs":0,"Best price region / Diff":"West US 2 / -4.2%"},{"VM name":"Standard_NV8as_v4","# Cores":8,"Memory (GiB)":28,"Linux $":0.466,"Windows $":0.834,"ACUs":0,"Best price region / Diff":"East US 2 / 0%"},{"VM name":"Standard_PB6s","# Cores":6,"Memory (GiB)":112,"Linux $":0.83,"Windows $":1.106,"ACUs":0,"Best price region / Diff":"East US / 0%"}]}
+{
+  "header": [
+    [
+      "VM name",
+      "# Cores",
+      "Memory (GiB)",
+      "Linux $",
+      "Windows $",
+      "ACUs",
+      "Best price region / Diff"
+    ]
+  ],
+  "data": [
+    {
+      "VM name": "Basic_A0",
+      "# Cores": 1,
+      "Memory (GiB)": 0.75,
+      "Linux $": 0.018,
+      "Windows $": 0.018,
+      "ACUs": 50,
+      "Best price region / Diff": "Korea South / -11.1%"
+    },
+    {
+      "VM name": "Basic_A1",
+      "# Cores": 1,
+      "Memory (GiB)": 1.75,
+      "Linux $": 0.023,
+      "Windows $": 0.032,
+      "ACUs": 100,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Basic_A2",
+      "# Cores": 2,
+      "Memory (GiB)": 3.5,
+      "Linux $": 0.079,
+      "Windows $": 0.133,
+      "ACUs": 100,
+      "Best price region / Diff": "East US 2 / -13.9%"
+    },
+    {
+      "VM name": "Basic_A3",
+      "# Cores": 4,
+      "Memory (GiB)": 7,
+      "Linux $": 0.176,
+      "Windows $": 0.296,
+      "ACUs": 100,
+      "Best price region / Diff": "South Central US / 0%"
+    },
+    {
+      "VM name": "Basic_A4",
+      "# Cores": 8,
+      "Memory (GiB)": 14,
+      "Linux $": 0.352,
+      "Windows $": 0.592,
+      "ACUs": 100,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_A0",
+      "# Cores": 1,
+      "Memory (GiB)": 0.75,
+      "Linux $": 0.02,
+      "Windows $": 0.02,
+      "ACUs": 50,
+      "Best price region / Diff": "Korea South / -10%"
+    },
+    {
+      "VM name": "Standard_A1",
+      "# Cores": 1,
+      "Memory (GiB)": 1.75,
+      "Linux $": 0.06,
+      "Windows $": 0.09,
+      "ACUs": 100,
+      "Best price region / Diff": "West Central US / -15%"
+    },
+    {
+      "VM name": "Standard_A1_v2",
+      "# Cores": 1,
+      "Memory (GiB)": 2,
+      "Linux $": 0.043,
+      "Windows $": 0.065,
+      "ACUs": 100,
+      "Best price region / Diff": "West US 2 / -16.3%"
+    },
+    {
+      "VM name": "Standard_A2",
+      "# Cores": 2,
+      "Memory (GiB)": 3.5,
+      "Linux $": 0.12,
+      "Windows $": 0.18,
+      "ACUs": 100,
+      "Best price region / Diff": "West Central US / -15.8%"
+    },
+    {
+      "VM name": "Standard_A2_v2",
+      "# Cores": 2,
+      "Memory (GiB)": 4,
+      "Linux $": 0.091,
+      "Windows $": 0.136,
+      "ACUs": 100,
+      "Best price region / Diff": "West US 2 / -16.5%"
+    },
+    {
+      "VM name": "Standard_A2m_v2",
+      "# Cores": 2,
+      "Memory (GiB)": 16,
+      "Linux $": 0.119,
+      "Windows $": 0.18,
+      "ACUs": 100,
+      "Best price region / Diff": "West US 2 / -16.8%"
+    },
+    {
+      "VM name": "Standard_A3",
+      "# Cores": 4,
+      "Memory (GiB)": 7,
+      "Linux $": 0.24,
+      "Windows $": 0.36,
+      "ACUs": 100,
+      "Best price region / Diff": "West Central US / -15.8%"
+    },
+    {
+      "VM name": "Standard_A4",
+      "# Cores": 8,
+      "Memory (GiB)": 14,
+      "Linux $": 0.48,
+      "Windows $": 0.72,
+      "ACUs": 100,
+      "Best price region / Diff": "West Central US / -15.6%"
+    },
+    {
+      "VM name": "Standard_A4_v2",
+      "# Cores": 4,
+      "Memory (GiB)": 8,
+      "Linux $": 0.191,
+      "Windows $": 0.286,
+      "ACUs": 100,
+      "Best price region / Diff": "West US 2 / -16.8%"
+    },
+    {
+      "VM name": "Standard_A4m_v2",
+      "# Cores": 4,
+      "Memory (GiB)": 32,
+      "Linux $": 0.238,
+      "Windows $": 0.36,
+      "ACUs": 100,
+      "Best price region / Diff": "West US 2 / -12.6%"
+    },
+    {
+      "VM name": "Standard_A5",
+      "# Cores": 2,
+      "Memory (GiB)": 14,
+      "Linux $": 0.25,
+      "Windows $": 0.33,
+      "ACUs": 100,
+      "Best price region / Diff": "Korea South / -38%"
+    },
+    {
+      "VM name": "Standard_A6",
+      "# Cores": 4,
+      "Memory (GiB)": 28,
+      "Linux $": 0.5,
+      "Windows $": 0.66,
+      "ACUs": 100,
+      "Best price region / Diff": "Korea South / -38.2%"
+    },
+    {
+      "VM name": "Standard_A7",
+      "# Cores": 8,
+      "Memory (GiB)": 56,
+      "Linux $": 1,
+      "Windows $": 1.32,
+      "ACUs": 100,
+      "Best price region / Diff": "Korea South / -38.2%"
+    },
+    {
+      "VM name": "Standard_A8_v2",
+      "# Cores": 8,
+      "Memory (GiB)": 16,
+      "Linux $": 0.4,
+      "Windows $": 0.6,
+      "ACUs": 100,
+      "Best price region / Diff": "West US 2 / -16.8%"
+    },
+    {
+      "VM name": "Standard_A8m_v2",
+      "# Cores": 8,
+      "Memory (GiB)": 64,
+      "Linux $": 0.475,
+      "Windows $": 0.72,
+      "ACUs": 100,
+      "Best price region / Diff": "West US 2 / -8%"
+    },
+    {
+      "VM name": "Standard_B1ls",
+      "# Cores": 1,
+      "Memory (GiB)": 0.5,
+      "Linux $": 0.0052,
+      "Windows $": 0.0098,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_B1ms",
+      "# Cores": 1,
+      "Memory (GiB)": 2,
+      "Linux $": 0.0207,
+      "Windows $": 0.0246,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_B1s",
+      "# Cores": 1,
+      "Memory (GiB)": 1,
+      "Linux $": 0.0104,
+      "Windows $": 0.014,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_B12ms",
+      "# Cores": 12,
+      "Memory (GiB)": 48,
+      "Linux $": 0.499,
+      "Windows $": 0.547,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_B16ms",
+      "# Cores": 16,
+      "Memory (GiB)": 64,
+      "Linux $": 0.666,
+      "Windows $": 0.73,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_B2ms",
+      "# Cores": 2,
+      "Memory (GiB)": 8,
+      "Linux $": 0.0832,
+      "Windows $": 0.0912,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_B2s",
+      "# Cores": 2,
+      "Memory (GiB)": 4,
+      "Linux $": 0.0416,
+      "Windows $": 0.0496,
+      "ACUs": 0,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_B20ms",
+      "# Cores": 20,
+      "Memory (GiB)": 80,
+      "Linux $": 0.832,
+      "Windows $": 0.912,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_B4ms",
+      "# Cores": 4,
+      "Memory (GiB)": 16,
+      "Linux $": 0.166,
+      "Windows $": 0.182,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_B8ms",
+      "# Cores": 8,
+      "Memory (GiB)": 32,
+      "Linux $": 0.333,
+      "Windows $": 0.365,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_D1",
+      "# Cores": 1,
+      "Memory (GiB)": 3.5,
+      "Linux $": 0.077,
+      "Windows $": 0.14,
+      "ACUs": 160,
+      "Best price region / Diff": "South Central US / -13%"
+    },
+    {
+      "VM name": "Standard_D1_v2",
+      "# Cores": 1,
+      "Memory (GiB)": 3.5,
+      "Linux $": 0.073,
+      "Windows $": 0.126,
+      "ACUs": 210,
+      "Best price region / Diff": "West US 2 / -21.9%"
+    },
+    {
+      "VM name": "Standard_D11",
+      "# Cores": 2,
+      "Memory (GiB)": 14,
+      "Linux $": 0.193,
+      "Windows $": 0.264,
+      "ACUs": 160,
+      "Best price region / Diff": "South Central US / -10.4%"
+    },
+    {
+      "VM name": "Standard_D11_v2",
+      "# Cores": 2,
+      "Memory (GiB)": 14,
+      "Linux $": 0.185,
+      "Windows $": 0.264,
+      "ACUs": 210,
+      "Best price region / Diff": "East US 2 / -19.5%"
+    },
+    {
+      "VM name": "Standard_D12",
+      "# Cores": 4,
+      "Memory (GiB)": 28,
+      "Linux $": 0.386,
+      "Windows $": 0.528,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / -10.1%"
+    },
+    {
+      "VM name": "Standard_D12_v2",
+      "# Cores": 4,
+      "Memory (GiB)": 28,
+      "Linux $": 0.371,
+      "Windows $": 0.528,
+      "ACUs": 210,
+      "Best price region / Diff": "West US 2 / -19.4%"
+    },
+    {
+      "VM name": "Standard_D13",
+      "# Cores": 8,
+      "Memory (GiB)": 56,
+      "Linux $": 0.771,
+      "Windows $": 1.056,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / -10%"
+    },
+    {
+      "VM name": "Standard_D13_v2",
+      "# Cores": 8,
+      "Memory (GiB)": 56,
+      "Linux $": 0.741,
+      "Windows $": 1.056,
+      "ACUs": 210,
+      "Best price region / Diff": "West US 2 / -19.3%"
+    },
+    {
+      "VM name": "Standard_D14",
+      "# Cores": 16,
+      "Memory (GiB)": 112,
+      "Linux $": 1.542,
+      "Windows $": 2.111,
+      "ACUs": 160,
+      "Best price region / Diff": "South Central US / -10.1%"
+    },
+    {
+      "VM name": "Standard_D14_v2",
+      "# Cores": 16,
+      "Memory (GiB)": 112,
+      "Linux $": 1.482,
+      "Windows $": 2.111,
+      "ACUs": 210,
+      "Best price region / Diff": "East US 2 / -19.3%"
+    },
+    {
+      "VM name": "Standard_D15_v2",
+      "# Cores": 20,
+      "Memory (GiB)": 140,
+      "Linux $": 1.853,
+      "Windows $": 2.639,
+      "ACUs": 210,
+      "Best price region / Diff": "East US 2 / -19.3%"
+    },
+    {
+      "VM name": "Standard_D16_v3",
+      "# Cores": 16,
+      "Memory (GiB)": 64,
+      "Linux $": 0.768,
+      "Windows $": 1.504,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D16_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 64,
+      "Linux $": 0.768,
+      "Windows $": 1.504,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_D16a_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 64,
+      "Linux $": 0.768,
+      "Windows $": 1.504,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.8%"
+    },
+    {
+      "VM name": "Standard_D16as_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 64,
+      "Linux $": 0.768,
+      "Windows $": 1.504,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.8%"
+    },
+    {
+      "VM name": "Standard_D16d_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 64,
+      "Linux $": 0.904,
+      "Windows $": 1.64,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D16ds_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 64,
+      "Linux $": 0.904,
+      "Windows $": 1.64,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D16s_v3",
+      "# Cores": 16,
+      "Memory (GiB)": 64,
+      "Linux $": 0.768,
+      "Windows $": 1.504,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D16s_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 64,
+      "Linux $": 0.768,
+      "Windows $": 1.504,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D2",
+      "# Cores": 2,
+      "Memory (GiB)": 7,
+      "Linux $": 0.154,
+      "Windows $": 0.28,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / -13%"
+    },
+    {
+      "VM name": "Standard_D2_v2",
+      "# Cores": 2,
+      "Memory (GiB)": 7,
+      "Linux $": 0.146,
+      "Windows $": 0.252,
+      "ACUs": 210,
+      "Best price region / Diff": "East US 2 / -21.9%"
+    },
+    {
+      "VM name": "Standard_D2_v3",
+      "# Cores": 2,
+      "Memory (GiB)": 8,
+      "Linux $": 0.096,
+      "Windows $": 0.188,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D2_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 8,
+      "Linux $": 0.096,
+      "Windows $": 0.188,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_D2a_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 8,
+      "Linux $": 0.096,
+      "Windows $": 0.188,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.2%"
+    },
+    {
+      "VM name": "Standard_D2as_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 8,
+      "Linux $": 0.096,
+      "Windows $": 0.188,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.2%"
+    },
+    {
+      "VM name": "Standard_D2d_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 8,
+      "Linux $": 0.113,
+      "Windows $": 0.205,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_D2ds_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 8,
+      "Linux $": 0.113,
+      "Windows $": 0.205,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D2s_v3",
+      "# Cores": 2,
+      "Memory (GiB)": 8,
+      "Linux $": 0.096,
+      "Windows $": 0.188,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D2s_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 8,
+      "Linux $": 0.096,
+      "Windows $": 0.188,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D3",
+      "# Cores": 4,
+      "Memory (GiB)": 14,
+      "Linux $": 0.308,
+      "Windows $": 0.56,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / -13%"
+    },
+    {
+      "VM name": "Standard_D3_v2",
+      "# Cores": 4,
+      "Memory (GiB)": 14,
+      "Linux $": 0.293,
+      "Windows $": 0.504,
+      "ACUs": 210,
+      "Best price region / Diff": "West US 2 / -21.8%"
+    },
+    {
+      "VM name": "Standard_D32_v3",
+      "# Cores": 32,
+      "Memory (GiB)": 128,
+      "Linux $": 1.536,
+      "Windows $": 3.008,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D32_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 128,
+      "Linux $": 1.536,
+      "Windows $": 3.008,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_D32a_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 128,
+      "Linux $": 1.536,
+      "Windows $": 3.008,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.7%"
+    },
+    {
+      "VM name": "Standard_D32as_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 128,
+      "Linux $": 1.536,
+      "Windows $": 3.008,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.7%"
+    },
+    {
+      "VM name": "Standard_D32d_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 128,
+      "Linux $": 1.808,
+      "Windows $": 3.28,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_D32ds_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 128,
+      "Linux $": 1.808,
+      "Windows $": 3.28,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D32s_v3",
+      "# Cores": 32,
+      "Memory (GiB)": 128,
+      "Linux $": 1.536,
+      "Windows $": 3.008,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D32s_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 128,
+      "Linux $": 1.536,
+      "Windows $": 3.008,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_D4",
+      "# Cores": 8,
+      "Memory (GiB)": 28,
+      "Linux $": 0.616,
+      "Windows $": 1.12,
+      "ACUs": 160,
+      "Best price region / Diff": "South Central US / -13%"
+    },
+    {
+      "VM name": "Standard_D4_v2",
+      "# Cores": 8,
+      "Memory (GiB)": 28,
+      "Linux $": 0.585,
+      "Windows $": 1.008,
+      "ACUs": 210,
+      "Best price region / Diff": "East US 2 / -21.7%"
+    },
+    {
+      "VM name": "Standard_D4_v3",
+      "# Cores": 4,
+      "Memory (GiB)": 16,
+      "Linux $": 0.192,
+      "Windows $": 0.376,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_D4_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 16,
+      "Linux $": 0.192,
+      "Windows $": 0.376,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D4a_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 16,
+      "Linux $": 0.192,
+      "Windows $": 0.376,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.8%"
+    },
+    {
+      "VM name": "Standard_D4as_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 16,
+      "Linux $": 0.192,
+      "Windows $": 0.376,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.8%"
+    },
+    {
+      "VM name": "Standard_D4d_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 16,
+      "Linux $": 0.226,
+      "Windows $": 0.41,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_D4ds_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 16,
+      "Linux $": 0.226,
+      "Windows $": 0.41,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_D4s_v3",
+      "# Cores": 4,
+      "Memory (GiB)": 16,
+      "Linux $": 0.192,
+      "Windows $": 0.376,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_D4s_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 16,
+      "Linux $": 0.192,
+      "Windows $": 0.376,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_D48_v3",
+      "# Cores": 48,
+      "Memory (GiB)": 192,
+      "Linux $": 2.304,
+      "Windows $": 4.512,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D48_v4",
+      "# Cores": 48,
+      "Memory (GiB)": 192,
+      "Linux $": 2.304,
+      "Windows $": 4.512,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D48a_v4",
+      "# Cores": 48,
+      "Memory (GiB)": 192,
+      "Linux $": 2.304,
+      "Windows $": 4.512,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.7%"
+    },
+    {
+      "VM name": "Standard_D48as_v4",
+      "# Cores": 48,
+      "Memory (GiB)": 192,
+      "Linux $": 2.304,
+      "Windows $": 4.512,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.7%"
+    },
+    {
+      "VM name": "Standard_D48d_v4",
+      "# Cores": 48,
+      "Memory (GiB)": 192,
+      "Linux $": 2.712,
+      "Windows $": 4.92,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D48ds_v4",
+      "# Cores": 48,
+      "Memory (GiB)": 192,
+      "Linux $": 2.712,
+      "Windows $": 4.92,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_D48s_v3",
+      "# Cores": 48,
+      "Memory (GiB)": 192,
+      "Linux $": 2.304,
+      "Windows $": 4.512,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D48s_v4",
+      "# Cores": 48,
+      "Memory (GiB)": 192,
+      "Linux $": 2.304,
+      "Windows $": 4.512,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_D5_v2",
+      "# Cores": 16,
+      "Memory (GiB)": 56,
+      "Linux $": 1.17,
+      "Windows $": 2.016,
+      "ACUs": 210,
+      "Best price region / Diff": "West US 2 / -21.7%"
+    },
+    {
+      "VM name": "Standard_D64_v3",
+      "# Cores": 64,
+      "Memory (GiB)": 256,
+      "Linux $": 3.072,
+      "Windows $": 6.016,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D64_v4",
+      "# Cores": 64,
+      "Memory (GiB)": 256,
+      "Linux $": 3.072,
+      "Windows $": 6.016,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D64a_v4",
+      "# Cores": 64,
+      "Memory (GiB)": 256,
+      "Linux $": 3.072,
+      "Windows $": 6.016,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.7%"
+    },
+    {
+      "VM name": "Standard_D64as_v4",
+      "# Cores": 64,
+      "Memory (GiB)": 256,
+      "Linux $": 3.072,
+      "Windows $": 6.016,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.7%"
+    },
+    {
+      "VM name": "Standard_D64d_v4",
+      "# Cores": 64,
+      "Memory (GiB)": 256,
+      "Linux $": 3.616,
+      "Windows $": 6.56,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D64ds_v4",
+      "# Cores": 64,
+      "Memory (GiB)": 256,
+      "Linux $": 3.616,
+      "Windows $": 6.56,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D64s_v3",
+      "# Cores": 64,
+      "Memory (GiB)": 256,
+      "Linux $": 3.072,
+      "Windows $": 6.016,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D64s_v4",
+      "# Cores": 64,
+      "Memory (GiB)": 256,
+      "Linux $": 3.072,
+      "Windows $": 6.016,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_D8_v3",
+      "# Cores": 8,
+      "Memory (GiB)": 32,
+      "Linux $": 0.384,
+      "Windows $": 0.752,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D8_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 32,
+      "Linux $": 0.384,
+      "Windows $": 0.752,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_D8a_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 32,
+      "Linux $": 0.384,
+      "Windows $": 0.752,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.8%"
+    },
+    {
+      "VM name": "Standard_D8as_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 32,
+      "Linux $": 0.384,
+      "Windows $": 0.752,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.8%"
+    },
+    {
+      "VM name": "Standard_D8d_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 32,
+      "Linux $": 0.452,
+      "Windows $": 0.82,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D8ds_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 32,
+      "Linux $": 0.452,
+      "Windows $": 0.82,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_D8s_v3",
+      "# Cores": 8,
+      "Memory (GiB)": 32,
+      "Linux $": 0.384,
+      "Windows $": 0.752,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_D8s_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 32,
+      "Linux $": 0.384,
+      "Windows $": 0.752,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_D96a_v4",
+      "# Cores": 96,
+      "Memory (GiB)": 384,
+      "Linux $": 4.608,
+      "Windows $": 9.024,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.7%"
+    },
+    {
+      "VM name": "Standard_D96as_v4",
+      "# Cores": 96,
+      "Memory (GiB)": 384,
+      "Linux $": 4.608,
+      "Windows $": 9.024,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -35.7%"
+    },
+    {
+      "VM name": "Standard_DC1s_v2",
+      "# Cores": 1,
+      "Memory (GiB)": 4,
+      "Linux $": 0.125,
+      "Windows $": 0.171,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_DC2s",
+      "# Cores": 2,
+      "Memory (GiB)": 8,
+      "Linux $": 0.198,
+      "Windows $": 0.244,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_DC2s_v2",
+      "# Cores": 2,
+      "Memory (GiB)": 8,
+      "Linux $": 0.249,
+      "Windows $": 0.341,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_DC4s",
+      "# Cores": 4,
+      "Memory (GiB)": 16,
+      "Linux $": 0.395,
+      "Windows $": 0.487,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_DC4s_v2",
+      "# Cores": 4,
+      "Memory (GiB)": 16,
+      "Linux $": 0.498,
+      "Windows $": 0.682,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_DC8_v2",
+      "# Cores": 8,
+      "Memory (GiB)": 32,
+      "Linux $": 0.997,
+      "Windows $": 1.365,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_DS1",
+      "# Cores": 1,
+      "Memory (GiB)": 3.5,
+      "Linux $": 0.077,
+      "Windows $": 0.14,
+      "ACUs": 160,
+      "Best price region / Diff": "South Central US / -13%"
+    },
+    {
+      "VM name": "Standard_DS1_v2",
+      "# Cores": 1,
+      "Memory (GiB)": 3.5,
+      "Linux $": 0.073,
+      "Windows $": 0.126,
+      "ACUs": 210,
+      "Best price region / Diff": "West US 2 / -21.9%"
+    },
+    {
+      "VM name": "Standard_DS11",
+      "# Cores": 2,
+      "Memory (GiB)": 14,
+      "Linux $": 0.193,
+      "Windows $": 0.264,
+      "ACUs": 160,
+      "Best price region / Diff": "South Central US / -10.4%"
+    },
+    {
+      "VM name": "Standard_DS11-1_v2",
+      "# Cores": 1,
+      "Memory (GiB)": 14,
+      "Linux $": 0.185,
+      "Windows $": 0.264,
+      "ACUs": 210,
+      "Best price region / Diff": "East US 2 / -19.5%"
+    },
+    {
+      "VM name": "Standard_DS11_v2",
+      "# Cores": 2,
+      "Memory (GiB)": 14,
+      "Linux $": 0.185,
+      "Windows $": 0.264,
+      "ACUs": 210,
+      "Best price region / Diff": "East US 2 / -19.5%"
+    },
+    {
+      "VM name": "Standard_DS12",
+      "# Cores": 4,
+      "Memory (GiB)": 28,
+      "Linux $": 0.386,
+      "Windows $": 0.528,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / -10.1%"
+    },
+    {
+      "VM name": "Standard_DS12-1_v2",
+      "# Cores": 1,
+      "Memory (GiB)": 28,
+      "Linux $": 0.371,
+      "Windows $": 0.528,
+      "ACUs": 210,
+      "Best price region / Diff": "West US 2 / -19.4%"
+    },
+    {
+      "VM name": "Standard_DS12-2_v2",
+      "# Cores": 2,
+      "Memory (GiB)": 28,
+      "Linux $": 0.371,
+      "Windows $": 0.528,
+      "ACUs": 210,
+      "Best price region / Diff": "East US 2 / -19.4%"
+    },
+    {
+      "VM name": "Standard_DS12_v2",
+      "# Cores": 4,
+      "Memory (GiB)": 28,
+      "Linux $": 0.371,
+      "Windows $": 0.528,
+      "ACUs": 210,
+      "Best price region / Diff": "West US 2 / -19.4%"
+    },
+    {
+      "VM name": "Standard_DS13",
+      "# Cores": 8,
+      "Memory (GiB)": 56,
+      "Linux $": 0.771,
+      "Windows $": 1.056,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / -10%"
+    },
+    {
+      "VM name": "Standard_DS13-2_v2",
+      "# Cores": 2,
+      "Memory (GiB)": 56,
+      "Linux $": 0.741,
+      "Windows $": 1.056,
+      "ACUs": 210,
+      "Best price region / Diff": "West US 2 / -19.3%"
+    },
+    {
+      "VM name": "Standard_DS13-4_v2",
+      "# Cores": 4,
+      "Memory (GiB)": 56,
+      "Linux $": 0.741,
+      "Windows $": 1.056,
+      "ACUs": 210,
+      "Best price region / Diff": "West US 2 / -19.3%"
+    },
+    {
+      "VM name": "Standard_DS13_v2",
+      "# Cores": 8,
+      "Memory (GiB)": 56,
+      "Linux $": 0.741,
+      "Windows $": 1.056,
+      "ACUs": 210,
+      "Best price region / Diff": "West US 2 / -19.3%"
+    },
+    {
+      "VM name": "Standard_DS14",
+      "# Cores": 8,
+      "Memory (GiB)": 112,
+      "Linux $": 1.542,
+      "Windows $": 2.111,
+      "ACUs": 160,
+      "Best price region / Diff": "South Central US / -10.1%"
+    },
+    {
+      "VM name": "Standard_DS14-4_v2",
+      "# Cores": 4,
+      "Memory (GiB)": 112,
+      "Linux $": 1.482,
+      "Windows $": 2.111,
+      "ACUs": 210,
+      "Best price region / Diff": "East US 2 / -19.3%"
+    },
+    {
+      "VM name": "Standard_DS14-8_v2",
+      "# Cores": 8,
+      "Memory (GiB)": 112,
+      "Linux $": 1.482,
+      "Windows $": 2.111,
+      "ACUs": 210,
+      "Best price region / Diff": "East US 2 / -19.3%"
+    },
+    {
+      "VM name": "Standard_DS14_v2",
+      "# Cores": 16,
+      "Memory (GiB)": 112,
+      "Linux $": 1.482,
+      "Windows $": 2.111,
+      "ACUs": 210,
+      "Best price region / Diff": "East US 2 / -19.3%"
+    },
+    {
+      "VM name": "Standard_DS15_v2",
+      "# Cores": 20,
+      "Memory (GiB)": 140,
+      "Linux $": 1.853,
+      "Windows $": 2.639,
+      "ACUs": 210,
+      "Best price region / Diff": "East US 2 / -19.3%"
+    },
+    {
+      "VM name": "Standard_DS2",
+      "# Cores": 2,
+      "Memory (GiB)": 7,
+      "Linux $": 0.154,
+      "Windows $": 0.28,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / -13%"
+    },
+    {
+      "VM name": "Standard_DS2_v2",
+      "# Cores": 2,
+      "Memory (GiB)": 7,
+      "Linux $": 0.146,
+      "Windows $": 0.252,
+      "ACUs": 210,
+      "Best price region / Diff": "East US 2 / -21.9%"
+    },
+    {
+      "VM name": "Standard_DS3",
+      "# Cores": 4,
+      "Memory (GiB)": 14,
+      "Linux $": 0.308,
+      "Windows $": 0.56,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / -13%"
+    },
+    {
+      "VM name": "Standard_DS3_v2",
+      "# Cores": 4,
+      "Memory (GiB)": 14,
+      "Linux $": 0.293,
+      "Windows $": 0.504,
+      "ACUs": 210,
+      "Best price region / Diff": "West US 2 / -21.8%"
+    },
+    {
+      "VM name": "Standard_DS4",
+      "# Cores": 8,
+      "Memory (GiB)": 28,
+      "Linux $": 0.616,
+      "Windows $": 1.12,
+      "ACUs": 160,
+      "Best price region / Diff": "South Central US / -13%"
+    },
+    {
+      "VM name": "Standard_DS4_v2",
+      "# Cores": 8,
+      "Memory (GiB)": 28,
+      "Linux $": 0.585,
+      "Windows $": 1.008,
+      "ACUs": 210,
+      "Best price region / Diff": "East US 2 / -21.7%"
+    },
+    {
+      "VM name": "Standard_DS5_v2",
+      "# Cores": 16,
+      "Memory (GiB)": 56,
+      "Linux $": 1.17,
+      "Windows $": 2.016,
+      "ACUs": 210,
+      "Best price region / Diff": "West US 2 / -21.7%"
+    },
+    {
+      "VM name": "Standard_E16-4as_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 128,
+      "Linux $": 1.008,
+      "Windows $": 1.744,
+      "ACUs": 230,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E16-4ds_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 128,
+      "Linux $": 1.152,
+      "Windows $": 1.888,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_E16-4s_v3",
+      "# Cores": 4,
+      "Memory (GiB)": 128,
+      "Linux $": 1.008,
+      "Windows $": 1.744,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E16-4s_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 128,
+      "Linux $": 1.008,
+      "Windows $": 1.744,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E16-8as_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 128,
+      "Linux $": 1.008,
+      "Windows $": 1.744,
+      "ACUs": 230,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E16-8ds_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 128,
+      "Linux $": 1.152,
+      "Windows $": 1.888,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E16-8s_v3",
+      "# Cores": 8,
+      "Memory (GiB)": 128,
+      "Linux $": 1.008,
+      "Windows $": 1.744,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E16-8s_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 128,
+      "Linux $": 1.008,
+      "Windows $": 1.744,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E16_v3",
+      "# Cores": 16,
+      "Memory (GiB)": 128,
+      "Linux $": 1.008,
+      "Windows $": 1.744,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E16_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 128,
+      "Linux $": 1.008,
+      "Windows $": 1.744,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_E16a_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 128,
+      "Linux $": 1.008,
+      "Windows $": 1.744,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E16as_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 128,
+      "Linux $": 1.008,
+      "Windows $": 1.744,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E16d_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 128,
+      "Linux $": 1.152,
+      "Windows $": 1.888,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E16ds_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 128,
+      "Linux $": 1.152,
+      "Windows $": 1.888,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E16s_v3",
+      "# Cores": 16,
+      "Memory (GiB)": 128,
+      "Linux $": 1.008,
+      "Windows $": 1.744,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E16s_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 128,
+      "Linux $": 1.008,
+      "Windows $": 1.744,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E2_v3",
+      "# Cores": 2,
+      "Memory (GiB)": 16,
+      "Linux $": 0.126,
+      "Windows $": 0.218,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E2_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 16,
+      "Linux $": 0.126,
+      "Windows $": 0.218,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E2a_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 16,
+      "Linux $": 0.126,
+      "Windows $": 0.218,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.5%"
+    },
+    {
+      "VM name": "Standard_E2as_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 16,
+      "Linux $": 0.126,
+      "Windows $": 0.218,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.5%"
+    },
+    {
+      "VM name": "Standard_E2d_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 16,
+      "Linux $": 0.144,
+      "Windows $": 0.236,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E2ds_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 16,
+      "Linux $": 0.144,
+      "Windows $": 0.236,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E2s_v3",
+      "# Cores": 2,
+      "Memory (GiB)": 16,
+      "Linux $": 0.126,
+      "Windows $": 0.218,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E2s_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 16,
+      "Linux $": 0.126,
+      "Windows $": 0.218,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E20_v3",
+      "# Cores": 20,
+      "Memory (GiB)": 160,
+      "Linux $": 1.26,
+      "Windows $": 2.18,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E20_v4",
+      "# Cores": 20,
+      "Memory (GiB)": 160,
+      "Linux $": 1.26,
+      "Windows $": 2.18,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E20a_v4",
+      "# Cores": 20,
+      "Memory (GiB)": 160,
+      "Linux $": 1.26,
+      "Windows $": 2.18,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E20as_v4",
+      "# Cores": 20,
+      "Memory (GiB)": 160,
+      "Linux $": 1.26,
+      "Windows $": 2.18,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E20d_v4",
+      "# Cores": 20,
+      "Memory (GiB)": 160,
+      "Linux $": 1.44,
+      "Windows $": 2.36,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_E20ds_v4",
+      "# Cores": 20,
+      "Memory (GiB)": 160,
+      "Linux $": 1.44,
+      "Windows $": 2.36,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E20s_v3",
+      "# Cores": 20,
+      "Memory (GiB)": 160,
+      "Linux $": 1.26,
+      "Windows $": 2.18,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E20s_v4",
+      "# Cores": 20,
+      "Memory (GiB)": 160,
+      "Linux $": 1.26,
+      "Windows $": 2.18,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E32-16as_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 256,
+      "Linux $": 2.016,
+      "Windows $": 3.488,
+      "ACUs": 230,
+      "Best price region / Diff": "Brazil Southeast / 0%"
+    },
+    {
+      "VM name": "Standard_E32-16ds_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 256,
+      "Linux $": 2.304,
+      "Windows $": 3.776,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E32-16s_v3",
+      "# Cores": 16,
+      "Memory (GiB)": 256,
+      "Linux $": 2.016,
+      "Windows $": 3.488,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E32-16s_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 256,
+      "Linux $": 2.016,
+      "Windows $": 3.488,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E32-8as_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 256,
+      "Linux $": 2.016,
+      "Windows $": 3.488,
+      "ACUs": 230,
+      "Best price region / Diff": "Brazil Southeast / 0%"
+    },
+    {
+      "VM name": "Standard_E32-8ds_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 256,
+      "Linux $": 2.304,
+      "Windows $": 3.776,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E32-8s_v3",
+      "# Cores": 8,
+      "Memory (GiB)": 256,
+      "Linux $": 2.016,
+      "Windows $": 3.488,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E32-8s_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 256,
+      "Linux $": 2.016,
+      "Windows $": 3.488,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E32_v3",
+      "# Cores": 32,
+      "Memory (GiB)": 256,
+      "Linux $": 2.016,
+      "Windows $": 3.488,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E32_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 256,
+      "Linux $": 2.016,
+      "Windows $": 3.488,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E32a_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 256,
+      "Linux $": 2.016,
+      "Windows $": 3.488,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E32as_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 256,
+      "Linux $": 2.016,
+      "Windows $": 3.488,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E32d_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 256,
+      "Linux $": 2.304,
+      "Windows $": 3.776,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E32ds_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 256,
+      "Linux $": 2.304,
+      "Windows $": 3.776,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_E32s_v3",
+      "# Cores": 32,
+      "Memory (GiB)": 256,
+      "Linux $": 2.016,
+      "Windows $": 3.488,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E32s_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 256,
+      "Linux $": 2.016,
+      "Windows $": 3.488,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E4-2as_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 32,
+      "Linux $": 0.252,
+      "Windows $": 0.436,
+      "ACUs": 230,
+      "Best price region / Diff": "Brazil Southeast / 0%"
+    },
+    {
+      "VM name": "Standard_E4-2ds_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 32,
+      "Linux $": 0.288,
+      "Windows $": 0.472,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E4-2s_v3",
+      "# Cores": 2,
+      "Memory (GiB)": 32,
+      "Linux $": 0.252,
+      "Windows $": 0.436,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E4-2s_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 32,
+      "Linux $": 0.252,
+      "Windows $": 0.436,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_E4_v3",
+      "# Cores": 4,
+      "Memory (GiB)": 32,
+      "Linux $": 0.252,
+      "Windows $": 0.436,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E4_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 32,
+      "Linux $": 0.252,
+      "Windows $": 0.436,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_E4a_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 32,
+      "Linux $": 0.252,
+      "Windows $": 0.436,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E4as_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 32,
+      "Linux $": 0.252,
+      "Windows $": 0.436,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E4d_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 32,
+      "Linux $": 0.288,
+      "Windows $": 0.472,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E4ds_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 32,
+      "Linux $": 0.288,
+      "Windows $": 0.472,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E4s_v3",
+      "# Cores": 4,
+      "Memory (GiB)": 32,
+      "Linux $": 0.252,
+      "Windows $": 0.436,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E4s_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 32,
+      "Linux $": 0.252,
+      "Windows $": 0.436,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E48_v3",
+      "# Cores": 48,
+      "Memory (GiB)": 384,
+      "Linux $": 3.024,
+      "Windows $": 5.232,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E48_v4",
+      "# Cores": 48,
+      "Memory (GiB)": 384,
+      "Linux $": 3.024,
+      "Windows $": 5.232,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E48a_v4",
+      "# Cores": 48,
+      "Memory (GiB)": 384,
+      "Linux $": 3.024,
+      "Windows $": 5.232,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E48as_v4",
+      "# Cores": 48,
+      "Memory (GiB)": 384,
+      "Linux $": 3.024,
+      "Windows $": 5.232,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E48d_v4",
+      "# Cores": 48,
+      "Memory (GiB)": 384,
+      "Linux $": 3.456,
+      "Windows $": 5.664,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E48ds_v4",
+      "# Cores": 48,
+      "Memory (GiB)": 384,
+      "Linux $": 3.456,
+      "Windows $": 5.664,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E48s_v3",
+      "# Cores": 48,
+      "Memory (GiB)": 384,
+      "Linux $": 3.024,
+      "Windows $": 5.232,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E48s_v4",
+      "# Cores": 48,
+      "Memory (GiB)": 384,
+      "Linux $": 3.024,
+      "Windows $": 5.232,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E64-16as_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 512,
+      "Linux $": 4.032,
+      "Windows $": 6.976,
+      "ACUs": 230,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E64-16ds_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 504,
+      "Linux $": 4.608,
+      "Windows $": 7.552,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E64-16s_v3",
+      "# Cores": 16,
+      "Memory (GiB)": 432,
+      "Linux $": 3.629,
+      "Windows $": 6.573,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E64-16s_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 504,
+      "Linux $": 4.032,
+      "Windows $": 6.976,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E64-32as_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 512,
+      "Linux $": 4.032,
+      "Windows $": 6.976,
+      "ACUs": 230,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E64-32ds_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 504,
+      "Linux $": 4.608,
+      "Windows $": 7.552,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E64-32s_v3",
+      "# Cores": 32,
+      "Memory (GiB)": 432,
+      "Linux $": 3.629,
+      "Windows $": 6.573,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E64-32s_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 504,
+      "Linux $": 4.032,
+      "Windows $": 6.976,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E64_v3",
+      "# Cores": 64,
+      "Memory (GiB)": 432,
+      "Linux $": 3.629,
+      "Windows $": 6.573,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E64_v4",
+      "# Cores": 64,
+      "Memory (GiB)": 504,
+      "Linux $": 4.032,
+      "Windows $": 6.976,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E64a_v4",
+      "# Cores": 64,
+      "Memory (GiB)": 512,
+      "Linux $": 4.032,
+      "Windows $": 6.976,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E64as_v4",
+      "# Cores": 64,
+      "Memory (GiB)": 512,
+      "Linux $": 4.032,
+      "Windows $": 6.976,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E64d_v4",
+      "# Cores": 64,
+      "Memory (GiB)": 504,
+      "Linux $": 4.608,
+      "Windows $": 7.552,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_E64ds_v4",
+      "# Cores": 64,
+      "Memory (GiB)": 504,
+      "Linux $": 4.608,
+      "Windows $": 7.552,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E64i_v3",
+      "# Cores": 64,
+      "Memory (GiB)": 432,
+      "Linux $": 3.629,
+      "Windows $": 6.573,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E64is_v3",
+      "# Cores": 64,
+      "Memory (GiB)": 432,
+      "Linux $": 3.629,
+      "Windows $": 6.573,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E64s_v3",
+      "# Cores": 64,
+      "Memory (GiB)": 432,
+      "Linux $": 3.629,
+      "Windows $": 6.573,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E64s_v4",
+      "# Cores": 64,
+      "Memory (GiB)": 504,
+      "Linux $": 4.032,
+      "Windows $": 6.976,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_E8-2as_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 64,
+      "Linux $": 0.504,
+      "Windows $": 0.872,
+      "ACUs": 230,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E8-2ds_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 64,
+      "Linux $": 0.576,
+      "Windows $": 0.944,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E8-2s_v3",
+      "# Cores": 2,
+      "Memory (GiB)": 64,
+      "Linux $": 0.504,
+      "Windows $": 0.872,
+      "ACUs": 160,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_E8-2s_v4",
+      "# Cores": 2,
+      "Memory (GiB)": 64,
+      "Linux $": 0.504,
+      "Windows $": 0.872,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_E8-4as_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 64,
+      "Linux $": 0.504,
+      "Windows $": 0.872,
+      "ACUs": 230,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E8-4ds_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 64,
+      "Linux $": 0.576,
+      "Windows $": 0.944,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E8-4s_v3",
+      "# Cores": 4,
+      "Memory (GiB)": 64,
+      "Linux $": 0.504,
+      "Windows $": 0.872,
+      "ACUs": 160,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_E8-4s_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 64,
+      "Linux $": 0.504,
+      "Windows $": 0.872,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E8_v3",
+      "# Cores": 8,
+      "Memory (GiB)": 64,
+      "Linux $": 0.504,
+      "Windows $": 0.872,
+      "ACUs": 160,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_E8_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 64,
+      "Linux $": 0.504,
+      "Windows $": 0.872,
+      "ACUs": 195,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_E8a_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 64,
+      "Linux $": 0.504,
+      "Windows $": 0.872,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E8as_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 64,
+      "Linux $": 0.504,
+      "Windows $": 0.872,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E8d_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 64,
+      "Linux $": 0.576,
+      "Windows $": 0.944,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E8ds_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 64,
+      "Linux $": 0.576,
+      "Windows $": 0.944,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E8s_v3",
+      "# Cores": 8,
+      "Memory (GiB)": 64,
+      "Linux $": 0.504,
+      "Windows $": 0.872,
+      "ACUs": 160,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_E8s_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 64,
+      "Linux $": 0.504,
+      "Windows $": 0.872,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E80ids_v4",
+      "# Cores": 80,
+      "Memory (GiB)": 504,
+      "Linux $": 5.76,
+      "Windows $": 9.44,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_E80is_v4",
+      "# Cores": 80,
+      "Memory (GiB)": 504,
+      "Linux $": 5.04,
+      "Windows $": 8.72,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E96-24as_v4",
+      "# Cores": 24,
+      "Memory (GiB)": 672,
+      "Linux $": 6.048,
+      "Windows $": 10.464,
+      "ACUs": 230,
+      "Best price region / Diff": "Brazil Southeast / 0%"
+    },
+    {
+      "VM name": "Standard_E96-48as_v4",
+      "# Cores": 48,
+      "Memory (GiB)": 672,
+      "Linux $": 6.048,
+      "Windows $": 10.464,
+      "ACUs": 230,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_E96a_v4",
+      "# Cores": 96,
+      "Memory (GiB)": 672,
+      "Linux $": 6.048,
+      "Windows $": 10.464,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_E96as_v4",
+      "# Cores": 96,
+      "Memory (GiB)": 672,
+      "Linux $": 6.048,
+      "Windows $": 10.464,
+      "ACUs": 0,
+      "Best price region / Diff": "Central India / -36.9%"
+    },
+    {
+      "VM name": "Standard_F1",
+      "# Cores": 1,
+      "Memory (GiB)": 2,
+      "Linux $": 0.0497,
+      "Windows $": 0.0957,
+      "ACUs": 210,
+      "Best price region / Diff": "Jio India West / -1.4%"
+    },
+    {
+      "VM name": "Standard_F1s",
+      "# Cores": 1,
+      "Memory (GiB)": 2,
+      "Linux $": 0.0497,
+      "Windows $": 0.0957,
+      "ACUs": 210,
+      "Best price region / Diff": "Jio India West / -1.4%"
+    },
+    {
+      "VM name": "Standard_F16",
+      "# Cores": 16,
+      "Memory (GiB)": 32,
+      "Linux $": 0.796,
+      "Windows $": 1.532,
+      "ACUs": 210,
+      "Best price region / Diff": "Central India / -0.8%"
+    },
+    {
+      "VM name": "Standard_F16s",
+      "# Cores": 16,
+      "Memory (GiB)": 32,
+      "Linux $": 0.796,
+      "Windows $": 1.532,
+      "ACUs": 210,
+      "Best price region / Diff": "Central India / -0.8%"
+    },
+    {
+      "VM name": "Standard_F16s_v2",
+      "# Cores": 16,
+      "Memory (GiB)": 32,
+      "Linux $": 0.677,
+      "Windows $": 1.302,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_F2",
+      "# Cores": 2,
+      "Memory (GiB)": 4,
+      "Linux $": 0.099,
+      "Windows $": 0.192,
+      "ACUs": 210,
+      "Best price region / Diff": "Central India / -0.2%"
+    },
+    {
+      "VM name": "Standard_F2s",
+      "# Cores": 2,
+      "Memory (GiB)": 4,
+      "Linux $": 0.099,
+      "Windows $": 0.192,
+      "ACUs": 210,
+      "Best price region / Diff": "Central India / -0.2%"
+    },
+    {
+      "VM name": "Standard_F2s_v2",
+      "# Cores": 2,
+      "Memory (GiB)": 4,
+      "Linux $": 0.0846,
+      "Windows $": 0.163,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_F32s_v2",
+      "# Cores": 32,
+      "Memory (GiB)": 64,
+      "Linux $": 1.353,
+      "Windows $": 2.604,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_F4",
+      "# Cores": 4,
+      "Memory (GiB)": 8,
+      "Linux $": 0.199,
+      "Windows $": 0.383,
+      "ACUs": 210,
+      "Best price region / Diff": "Jio India West / -0.5%"
+    },
+    {
+      "VM name": "Standard_F4s",
+      "# Cores": 4,
+      "Memory (GiB)": 8,
+      "Linux $": 0.199,
+      "Windows $": 0.383,
+      "ACUs": 210,
+      "Best price region / Diff": "Jio India West / -0.5%"
+    },
+    {
+      "VM name": "Standard_F4s_v2",
+      "# Cores": 4,
+      "Memory (GiB)": 8,
+      "Linux $": 0.169,
+      "Windows $": 0.326,
+      "ACUs": 195,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_F48s_v2",
+      "# Cores": 48,
+      "Memory (GiB)": 96,
+      "Linux $": 2.03,
+      "Windows $": 4.24,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_F64s_v2",
+      "# Cores": 64,
+      "Memory (GiB)": 128,
+      "Linux $": 2.706,
+      "Windows $": 5.209,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_F72s_v2",
+      "# Cores": 72,
+      "Memory (GiB)": 144,
+      "Linux $": 3.045,
+      "Windows $": 5.86,
+      "ACUs": 195,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_F8",
+      "# Cores": 8,
+      "Memory (GiB)": 16,
+      "Linux $": 0.398,
+      "Windows $": 0.766,
+      "ACUs": 210,
+      "Best price region / Diff": "Jio India West / -0.8%"
+    },
+    {
+      "VM name": "Standard_F8s",
+      "# Cores": 8,
+      "Memory (GiB)": 16,
+      "Linux $": 0.398,
+      "Windows $": 0.766,
+      "ACUs": 210,
+      "Best price region / Diff": "Jio India West / -0.8%"
+    },
+    {
+      "VM name": "Standard_F8s_v2",
+      "# Cores": 8,
+      "Memory (GiB)": 16,
+      "Linux $": 0.338,
+      "Windows $": 0.651,
+      "ACUs": 195,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_FX12mds",
+      "# Cores": 12,
+      "Memory (GiB)": 252,
+      "Linux $": 1.116,
+      "Windows $": 1.668,
+      "ACUs": 310,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_FX24mds",
+      "# Cores": 24,
+      "Memory (GiB)": 504,
+      "Linux $": 2.232,
+      "Windows $": 3.336,
+      "ACUs": 310,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_FX36mds",
+      "# Cores": 36,
+      "Memory (GiB)": 756,
+      "Linux $": 3.348,
+      "Windows $": 5.004,
+      "ACUs": 310,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_FX4mds",
+      "# Cores": 4,
+      "Memory (GiB)": 84,
+      "Linux $": 0.372,
+      "Windows $": 0.556,
+      "ACUs": 310,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_FX48mds",
+      "# Cores": 48,
+      "Memory (GiB)": 1008,
+      "Linux $": 4.464,
+      "Windows $": 6.672,
+      "ACUs": 310,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_H16",
+      "# Cores": 16,
+      "Memory (GiB)": 112,
+      "Linux $": 1.807,
+      "Windows $": 3.508,
+      "ACUs": 290,
+      "Best price region / Diff": "West US 2 / -12%"
+    },
+    {
+      "VM name": "Standard_H16m",
+      "# Cores": 16,
+      "Memory (GiB)": 224,
+      "Linux $": 2.422,
+      "Windows $": 4.699,
+      "ACUs": 290,
+      "Best price region / Diff": "West US 2 / -12%"
+    },
+    {
+      "VM name": "Standard_H16mr",
+      "# Cores": 16,
+      "Memory (GiB)": 224,
+      "Linux $": 2.664,
+      "Windows $": 5.169,
+      "ACUs": 290,
+      "Best price region / Diff": "West US 2 / -12%"
+    },
+    {
+      "VM name": "Standard_H16r",
+      "# Cores": 16,
+      "Memory (GiB)": 112,
+      "Linux $": 1.988,
+      "Windows $": 3.858,
+      "ACUs": 290,
+      "Best price region / Diff": "West US 2 / -12%"
+    },
+    {
+      "VM name": "Standard_H8",
+      "# Cores": 8,
+      "Memory (GiB)": 56,
+      "Linux $": 0.904,
+      "Windows $": 1.754,
+      "ACUs": 290,
+      "Best price region / Diff": "West US 2 / -11.9%"
+    },
+    {
+      "VM name": "Standard_H8m",
+      "# Cores": 8,
+      "Memory (GiB)": 112,
+      "Linux $": 1.211,
+      "Windows $": 2.35,
+      "ACUs": 290,
+      "Best price region / Diff": "West US 2 / -12%"
+    },
+    {
+      "VM name": "Standard_HB120-16rs_v3",
+      "# Cores": 16,
+      "Memory (GiB)": 448,
+      "Linux $": 3.6,
+      "Windows $": 9.12,
+      "ACUs": 330,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_HB120-32rs_v3",
+      "# Cores": 32,
+      "Memory (GiB)": 448,
+      "Linux $": 3.6,
+      "Windows $": 9.12,
+      "ACUs": 330,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_HB120-64rs_v3",
+      "# Cores": 64,
+      "Memory (GiB)": 448,
+      "Linux $": 3.6,
+      "Windows $": 9.12,
+      "ACUs": 330,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_HB120-96rs_v3",
+      "# Cores": 96,
+      "Memory (GiB)": 448,
+      "Linux $": 3.6,
+      "Windows $": 9.12,
+      "ACUs": 330,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_HB120rs_v2",
+      "# Cores": 120,
+      "Memory (GiB)": 456,
+      "Linux $": 3.6,
+      "Windows $": 9.12,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_HB120rs_v3",
+      "# Cores": 120,
+      "Memory (GiB)": 448,
+      "Linux $": 3.6,
+      "Windows $": 9.12,
+      "ACUs": 330,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_HB60rs",
+      "# Cores": 60,
+      "Memory (GiB)": 228,
+      "Linux $": 2.28,
+      "Windows $": 5.04,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_HC44rs",
+      "# Cores": 44,
+      "Memory (GiB)": 352,
+      "Linux $": 3.168,
+      "Windows $": 5.192,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_L16s_v2",
+      "# Cores": 16,
+      "Memory (GiB)": 128,
+      "Linux $": 1.248,
+      "Windows $": 1.984,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_L32s_v2",
+      "# Cores": 32,
+      "Memory (GiB)": 256,
+      "Linux $": 2.496,
+      "Windows $": 3.968,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_L48s_v2",
+      "# Cores": 48,
+      "Memory (GiB)": 384,
+      "Linux $": 3.744,
+      "Windows $": 5.952,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_L64s_v2",
+      "# Cores": 64,
+      "Memory (GiB)": 512,
+      "Linux $": 4.992,
+      "Windows $": 7.936,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_L8s_v2",
+      "# Cores": 8,
+      "Memory (GiB)": 64,
+      "Linux $": 0.624,
+      "Windows $": 0.992,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_L80s_v2",
+      "# Cores": 80,
+      "Memory (GiB)": 640,
+      "Linux $": 6.24,
+      "Windows $": 9.92,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M128",
+      "# Cores": 128,
+      "Memory (GiB)": 2000,
+      "Linux $": 13.338,
+      "Windows $": 0,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M128-32ms",
+      "# Cores": 32,
+      "Memory (GiB)": 3800,
+      "Linux $": 26.688,
+      "Windows $": 35.814,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_M128-64ms",
+      "# Cores": 64,
+      "Memory (GiB)": 3800,
+      "Linux $": 26.688,
+      "Windows $": 35.814,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_M128dms_v2",
+      "# Cores": 128,
+      "Memory (GiB)": 3892,
+      "Linux $": 26.69,
+      "Windows $": 32.578,
+      "ACUs": 0,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_M128ds_v2",
+      "# Cores": 128,
+      "Memory (GiB)": 2048,
+      "Linux $": 13.34,
+      "Windows $": 19.228,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M128m",
+      "# Cores": 128,
+      "Memory (GiB)": 3800,
+      "Linux $": 26.688,
+      "Windows $": 35.814,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M128ms",
+      "# Cores": 128,
+      "Memory (GiB)": 3800,
+      "Linux $": 26.688,
+      "Windows $": 35.814,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_M128ms_v2",
+      "# Cores": 128,
+      "Memory (GiB)": 3892,
+      "Linux $": 26.269,
+      "Windows $": 32.157,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_M128s",
+      "# Cores": 128,
+      "Memory (GiB)": 2000,
+      "Linux $": 13.338,
+      "Windows $": 19.226,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M128s_v2",
+      "# Cores": 128,
+      "Memory (GiB)": 2048,
+      "Linux $": 12.919,
+      "Windows $": 18.807,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 3 / 0%"
+    },
+    {
+      "VM name": "Standard_M16-4ms",
+      "# Cores": 4,
+      "Memory (GiB)": 437.5,
+      "Linux $": 3.073,
+      "Windows $": 4.2138,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M16-8ms",
+      "# Cores": 8,
+      "Memory (GiB)": 437.5,
+      "Linux $": 3.073,
+      "Windows $": 4.2138,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M16ms",
+      "# Cores": 16,
+      "Memory (GiB)": 437.5,
+      "Linux $": 3.073,
+      "Windows $": 4.2138,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M192idms_v2",
+      "# Cores": 192,
+      "Memory (GiB)": 4096,
+      "Linux $": 32.064,
+      "Windows $": 40.896,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M192ids_v2",
+      "# Cores": 192,
+      "Memory (GiB)": 2048,
+      "Linux $": 16.032,
+      "Windows $": 24.864,
+      "ACUs": 0,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_M192ims_v2",
+      "# Cores": 192,
+      "Memory (GiB)": 4096,
+      "Linux $": 31.643,
+      "Windows $": 40.476,
+      "ACUs": 0,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_M192is_v2",
+      "# Cores": 192,
+      "Memory (GiB)": 2048,
+      "Linux $": 15.611,
+      "Windows $": 24.444,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_M208ms_v2",
+      "# Cores": 208,
+      "Memory (GiB)": 5700,
+      "Linux $": 44.62,
+      "Windows $": 54.188,
+      "ACUs": 0,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_M208s_v2",
+      "# Cores": 208,
+      "Memory (GiB)": 2850,
+      "Linux $": 22.31,
+      "Windows $": 31.878,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_M32-16ms",
+      "# Cores": 16,
+      "Memory (GiB)": 875,
+      "Linux $": 6.146,
+      "Windows $": 8.4276,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M32-8ms",
+      "# Cores": 8,
+      "Memory (GiB)": 875,
+      "Linux $": 6.146,
+      "Windows $": 8.4276,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M32dms_v2",
+      "# Cores": 32,
+      "Memory (GiB)": 875,
+      "Linux $": 6.146,
+      "Windows $": 7.618,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_M32ls",
+      "# Cores": 32,
+      "Memory (GiB)": 256,
+      "Linux $": 2.873,
+      "Windows $": 4.345,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M32ms",
+      "# Cores": 32,
+      "Memory (GiB)": 875,
+      "Linux $": 6.146,
+      "Windows $": 8.4276,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M32ms_v2",
+      "# Cores": 32,
+      "Memory (GiB)": 875,
+      "Linux $": 6.041,
+      "Windows $": 7.513,
+      "ACUs": 0,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_M32ts",
+      "# Cores": 32,
+      "Memory (GiB)": 192,
+      "Linux $": 2.707,
+      "Windows $": 4.179,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M416-208ms_v2",
+      "# Cores": 208,
+      "Memory (GiB)": 11400,
+      "Linux $": 99.15,
+      "Windows $": 118.29,
+      "ACUs": 0,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_M416-208s_v2",
+      "# Cores": 208,
+      "Memory (GiB)": 5700,
+      "Linux $": 49.58,
+      "Windows $": 68.716,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_M416ms_v2",
+      "# Cores": 416,
+      "Memory (GiB)": 11400,
+      "Linux $": 99.15,
+      "Windows $": 118.29,
+      "ACUs": 0,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_M416s_v2",
+      "# Cores": 416,
+      "Memory (GiB)": 5700,
+      "Linux $": 49.58,
+      "Windows $": 68.716,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_M64-16ms",
+      "# Cores": 16,
+      "Memory (GiB)": 1750,
+      "Linux $": 10.337,
+      "Windows $": 14.641,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M64ds_v2",
+      "# Cores": 64,
+      "Memory (GiB)": 1024,
+      "Linux $": 6.669,
+      "Windows $": 9.613,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M64ls",
+      "# Cores": 64,
+      "Memory (GiB)": 512,
+      "Linux $": 5.415,
+      "Windows $": 8.359,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M64m",
+      "# Cores": 64,
+      "Memory (GiB)": 1750,
+      "Linux $": 10.337,
+      "Windows $": 14.641,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M64ms",
+      "# Cores": 64,
+      "Memory (GiB)": 1750,
+      "Linux $": 10.337,
+      "Windows $": 14.641,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M64s",
+      "# Cores": 64,
+      "Memory (GiB)": 1000,
+      "Linux $": 6.669,
+      "Windows $": 9.613,
+      "ACUs": 160,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M64",
+      "# Cores": 64,
+      "Memory (GiB)": 1000,
+      "Linux $": 6.669,
+      "Windows $": 0,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M64-32ms",
+      "# Cores": 32,
+      "Memory (GiB)": 1750,
+      "Linux $": 10.337,
+      "Windows $": 14.641,
+      "ACUs": 160,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_M64dms_v2",
+      "# Cores": 64,
+      "Memory (GiB)": 1792,
+      "Linux $": 10.34,
+      "Windows $": 13.284,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 3 / 0%"
+    },
+    {
+      "VM name": "Standard_M64ms_v2",
+      "# Cores": 64,
+      "Memory (GiB)": 1792,
+      "Linux $": 10.13,
+      "Windows $": 13.073,
+      "ACUs": 0,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_M64s_v2",
+      "# Cores": 64,
+      "Memory (GiB)": 1024,
+      "Linux $": 6.459,
+      "Windows $": 9.403,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 3 / 0%"
+    },
+    {
+      "VM name": "Standard_M8-2ms",
+      "# Cores": 2,
+      "Memory (GiB)": 218.75,
+      "Linux $": 1.5365,
+      "Windows $": 2.1069,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_M8-4ms",
+      "# Cores": 4,
+      "Memory (GiB)": 218.75,
+      "Linux $": 1.5365,
+      "Windows $": 2.1069,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_M8ms",
+      "# Cores": 8,
+      "Memory (GiB)": 218.75,
+      "Linux $": 1.5365,
+      "Windows $": 2.1069,
+      "ACUs": 160,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_NC12",
+      "# Cores": 12,
+      "Memory (GiB)": 112,
+      "Linux $": 1.8,
+      "Windows $": 2.168,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NC12s_v2",
+      "# Cores": 12,
+      "Memory (GiB)": 224,
+      "Linux $": 4.14,
+      "Windows $": 4.986,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NC12s_v3",
+      "# Cores": 12,
+      "Memory (GiB)": 224,
+      "Linux $": 6.12,
+      "Windows $": 6.856,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_NC16as_T4_v3",
+      "# Cores": 16,
+      "Memory (GiB)": 110,
+      "Linux $": 1.204,
+      "Windows $": 1.94,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_NC24r",
+      "# Cores": 24,
+      "Memory (GiB)": 224,
+      "Linux $": 3.96,
+      "Windows $": 4.77,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NC24",
+      "# Cores": 24,
+      "Memory (GiB)": 224,
+      "Linux $": 3.6,
+      "Windows $": 4.336,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NC24rs_v2",
+      "# Cores": 24,
+      "Memory (GiB)": 448,
+      "Linux $": 9.108,
+      "Windows $": 10.971,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_NC24rs_v3",
+      "# Cores": 24,
+      "Memory (GiB)": 448,
+      "Linux $": 13.464,
+      "Windows $": 15.083,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NC24s_v2",
+      "# Cores": 24,
+      "Memory (GiB)": 448,
+      "Linux $": 8.28,
+      "Windows $": 9.972,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_NC24s_v3",
+      "# Cores": 24,
+      "Memory (GiB)": 448,
+      "Linux $": 12.24,
+      "Windows $": 13.712,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NC4as_T4_v3",
+      "# Cores": 4,
+      "Memory (GiB)": 28,
+      "Linux $": 0.526,
+      "Windows $": 0.71,
+      "ACUs": 0,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_NC6",
+      "# Cores": 6,
+      "Memory (GiB)": 56,
+      "Linux $": 0.9,
+      "Windows $": 1.084,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NC6s_v2",
+      "# Cores": 6,
+      "Memory (GiB)": 112,
+      "Linux $": 2.07,
+      "Windows $": 2.493,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_NC6s_v3",
+      "# Cores": 6,
+      "Memory (GiB)": 112,
+      "Linux $": 3.06,
+      "Windows $": 3.428,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NC64as_T4_v3",
+      "# Cores": 64,
+      "Memory (GiB)": 440,
+      "Linux $": 4.352,
+      "Windows $": 7.296,
+      "ACUs": 0,
+      "Best price region / Diff": "North Central US / 0%"
+    },
+    {
+      "VM name": "Standard_NC8as_T4_v3",
+      "# Cores": 8,
+      "Memory (GiB)": 56,
+      "Linux $": 0.752,
+      "Windows $": 1.12,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_ND12s",
+      "# Cores": 12,
+      "Memory (GiB)": 224,
+      "Linux $": 4.14,
+      "Windows $": 4.986,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_ND24rs",
+      "# Cores": 24,
+      "Memory (GiB)": 448,
+      "Linux $": 9.108,
+      "Windows $": 10.971,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_ND24s",
+      "# Cores": 24,
+      "Memory (GiB)": 448,
+      "Linux $": 8.28,
+      "Windows $": 9.972,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_ND40rs_v2",
+      "# Cores": 40,
+      "Memory (GiB)": 672,
+      "Linux $": 22.032,
+      "Windows $": 23.872,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_ND6s",
+      "# Cores": 6,
+      "Memory (GiB)": 112,
+      "Linux $": 2.07,
+      "Windows $": 2.493,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_ND96asr_v4",
+      "# Cores": 96,
+      "Memory (GiB)": 900,
+      "Linux $": 27.197,
+      "Windows $": 31.613,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NP10s",
+      "# Cores": 10,
+      "Memory (GiB)": 168,
+      "Linux $": 1.65,
+      "Windows $": 2.11,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NP20s",
+      "# Cores": 20,
+      "Memory (GiB)": 336,
+      "Linux $": 3.3,
+      "Windows $": 4.22,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    },
+    {
+      "VM name": "Standard_NP40s",
+      "# Cores": 40,
+      "Memory (GiB)": 672,
+      "Linux $": 6.6,
+      "Windows $": 8.44,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NV12",
+      "# Cores": 12,
+      "Memory (GiB)": 112,
+      "Linux $": 2.28,
+      "Windows $": 2.88,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / -4.2%"
+    },
+    {
+      "VM name": "Standard_NV12s_v3",
+      "# Cores": 12,
+      "Memory (GiB)": 112,
+      "Linux $": 1.14,
+      "Windows $": 1.692,
+      "ACUs": 0,
+      "Best price region / Diff": "West US / 0%"
+    },
+    {
+      "VM name": "Standard_NV16as_v4",
+      "# Cores": 16,
+      "Memory (GiB)": 56,
+      "Linux $": 0.932,
+      "Windows $": 1.668,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NV24",
+      "# Cores": 24,
+      "Memory (GiB)": 224,
+      "Linux $": 4.56,
+      "Windows $": 5.761,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / -4.2%"
+    },
+    {
+      "VM name": "Standard_NV24s_v3",
+      "# Cores": 24,
+      "Memory (GiB)": 224,
+      "Linux $": 2.28,
+      "Windows $": 3.384,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NV32as_v4",
+      "# Cores": 32,
+      "Memory (GiB)": 112,
+      "Linux $": 1.864,
+      "Windows $": 3.336,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NV4as_v4",
+      "# Cores": 4,
+      "Memory (GiB)": 14,
+      "Linux $": 0.233,
+      "Windows $": 0.417,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_NV48s_v3",
+      "# Cores": 48,
+      "Memory (GiB)": 448,
+      "Linux $": 4.56,
+      "Windows $": 6.768,
+      "ACUs": 0,
+      "Best price region / Diff": "West US / 0%"
+    },
+    {
+      "VM name": "Standard_NV6",
+      "# Cores": 6,
+      "Memory (GiB)": 56,
+      "Linux $": 1.14,
+      "Windows $": 1.44,
+      "ACUs": 0,
+      "Best price region / Diff": "West US 2 / -4.2%"
+    },
+    {
+      "VM name": "Standard_NV8as_v4",
+      "# Cores": 8,
+      "Memory (GiB)": 28,
+      "Linux $": 0.466,
+      "Windows $": 0.834,
+      "ACUs": 0,
+      "Best price region / Diff": "East US 2 / 0%"
+    },
+    {
+      "VM name": "Standard_PB6s",
+      "# Cores": 6,
+      "Memory (GiB)": 112,
+      "Linux $": 0.83,
+      "Windows $": 1.106,
+      "ACUs": 0,
+      "Best price region / Diff": "East US / 0%"
+    }
+  ]
+}
